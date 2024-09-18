@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cblue</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e6f3ff 35%, #ffffff 35% 85%, #d0f0c0 85%);
+            height: 100%;
+        }
+
+        .home-page-container {
+            margin-left: 100px auto;
+            width: 75%;
+        }
+
+        .home-page-container pre {
+            font-family: Arial;
+            font-size: 17;
+        }
+        
+        .contact pre {
+            font-size: 17px;
+            font-family: Arial;
+            margin-top: 0px;
+            margin-right: 130px;
+            align-self: left;
+        }
+
+        .contact h2{
+            font-size: 33px;
+            margin-top: 900px;
+            margin-right: 65px;
+            margin-left: 160px;
+            align-self: left;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .container-contact img {
+            margin-top: 400px;
+            max-width: 600px;
+            float: left;
+            border: 3px solid transparent;
+            margin-top: -200px;
+            margin-right: 65px;
+            margin-left: 160px;
+            align-self: left;
+        }
+
+        .OFC pre {
+            font-size: 35px;
+            color: white;
+            border-top: 3px solid green;
+            border-right: 3px solid green;
+            border-left: 3px solid green;
+            background-color: green;
+            margin-top: -870px;
+            margin-left: -650px;;
+            float: left;
+            align-self: left;
+        }
+
+        .container {
+            margin-left: 100px auto;
+            width: 75%;
+        }
+        
+        .container img {
+            max-width: 565px;
+            float: left;
+            border: 3px solid transparent;
+            margin-top: 0px;
+            margin-right: 65px;
+            margin-left: 160px;
+            align-self: left;
+        }
+        
+        .text pre {
+            font-size: 17px;
+            font-family: Arial;
+            margin-top: -60px;
+            margin-right: 65px;
+            margin-left: 160px;
+            align-self: left;
+        }
+        
+        .text h2 {
+            font-size: 33px;
+            margin-top: -30px;
+            margin-right: 65px;
+            margin-left: 160px;
+            align-self: left;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        
+        .container2 {
+            margin-right: 100px auto;
+            width: 75%;
+        }
+
+        .text2 h2 {
+            font-size: 33px;
+            float: left;
+            margin-top: 150px;
+            margin-right: 100px;
+            margin-bottom: -30px;
+            margin-left: 160px;
+            top: 100px;
+        }
+
+        .text2 pre {
+            font-size: 17px;
+            font-family: Arial;
+            float: left;
+            border: 3px solid transparent;
+            margin-top: 30px;
+            margin-right: 65px;
+            margin-left: 160px;
+            margin-bottom: 100px;
+            align-self: left;
+        }
+
+        .container2 img {
+            border: 3px solid transparent;
+            margin-top: -250px;
+            margin-left: 820px;
+            margin-right: 130px;
+        }
+
+        .container-first img {
+            width: 350px;
+            float: left;
+            border: 3px solid transparent;
+            margin-top: -10px;
+            margin-right: 65px;
+            margin-left: 500px;
+            align-self: left;
+        }
+
+        .text-first h2 {
+            font-size: 30px;
+            font-family: Arial;
+            margin-top: 100px;
+            margin-right: 65px;
+            margin-left: 160px;
+            align-self: left;
+        }
+
+        .text-first pre {
+            font-size: 17px;
+            font-family: Arial;
+            margin-top: 30px;
+            margin-right: 65px;
+            margin-left: 160px;
+            align-self: left;
+        }
+        
+        .container-second img {
+            width: 350px;
+            float: left;
+            border: 3px solid transparent;
+            margin-top: 200px;
+            margin-left: 820px;
+            margin-right: 65px;
+            align-self: left;
+        }
+
+        .text-second pre {
+            font-size: 17px;
+            font-family: Arial;
+            margin-top: -400px;
+            margin-right: 300px;
+            margin-left: 500px;
+            align-self: left;
+            float: left;
+        }
+
+        .container-third img {
+            width: 500px;
+            float: left;
+            border: 3px solid transparent;
+            margin-top: -200px;
+            margin-right: 65px;
+            margin-left: 500px;
+            align-self: left;
+        }
+
+        .text-third pre{
+                font-size: 17px;
+                font-family: Arial;
+                margin-top: 1600px;
+                margin-right: 65px;
+                margin-left: 160px;
+                align-self: left;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+        .hero {
+            background-image: url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .card {
+            flex-basis: calc(33% - 20px);
+            margin-bottom: 40px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .lang-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            margin-right: 130px;
+        }
+        .lang-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin-left: 5px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex-basis: 100%;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin-bottom: 10px;
+            }
+        }
+        .page {
+            display: none;
+        }
+        .page.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showPage('home')"><img src="logo.jpg" height="70" width="-50"></a></li>
+                    <li><a href="#" onclick="showPage('products')">Products and Solutions</a></li>
+                    <li><a href="#" onclick="showPage('reference')">Reference</a></li>
+                    <li><a href="#" onclick="showPage('support')">Support</a></li>
+                    <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="lang-switcher">
+        <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+        <button class="lang-btn" onclick="changeLanguage('th')">TH</button>
+        <button class="lang-btn" onclick="changeLanguage('zh')">中文</button>
+    </div>
+
+    <div id="home" class="page active">
+        <div class="container">
+            <img src="swimming pool.jpg" width="" height="">
+        </div>
+            <div class="home-page-container">
+                <pre>
+    As the world hurtles towards an uncertain future shaped by climate change, 
+    technological innovation, and growing urbanization, the way we interact 
+    with our environment, live in our homes, and design our buildings is set
+    to evolve dramatically. The next few decades will witness groundbreaking 
+    transformations across multiple sectors as humanity strives to balance 
+    ecological sustainability with the demands of a growing global population. 
+    Central to this evolution are three critical factors: the environment, 
+    habitat, building and housing design, building automation systems, and the 
+    pursuit of decarbonization.
+
+    <b>The Future of the World Environment and Habitat</b>
+    Our environment, already under unprecedented strain due to human activity, 
+    will remain at the core of global concern in the coming years. As the impacts 
+    of climate change intensify, we will be forced to rethink how we use and 
+    conserve natural resources. Initiatives aimed at protecting biodiversity, 
+    restoring degraded ecosystems, and rewildingurban spaces will shape how we 
+    approach future land use and city planning.
+
+                                Environmental adaptation will be crucial in the face of rising sea levels, more frequent natural disasters, and changing weather patterns. Coastal cities will adopt strategies
+                                to protect themselves from floods by integrating green infrastructures, such as wetlands and mangroves, while inland areas will implement drought-resistant landscaping and 
+                                urban farms to increase food resilience. As habitats shift due to climate extremes, conservation efforts will prioritize creating corridors that allow species to migrate
+                                and adapt to their new surroundings.
+                                
+                                On the human front, habitats will evolve into multi-functional, sustainable ecosystems. Cities will increasingly blur the line between built environments and natural ecosystems,
+                                with smart city designs emphasizing urban forests, green roofs, and community gardens. Nature will no longer be confined to parks but will become an integral part of daily urban
+                                life, offering both aesthetic and ecological benefits. Buildings will serve as ecosystems themselves, housing both humans and greenery in symbiotic relationships, where homes 
+                                and workplaces clean air, filter water, and even grow food.
+
+                                <b>The Future of Building and Housing</b>
+                                The built environment is also undergoing a profound shift. Buildings of the future will no longer be seen as static structures but as dynamic, adaptable systems that are deeply
+                                integrated into the environment. The future of architecture will be defined by sustainability, flexibility, and resilience.
+
+                                Green architecture will become the norm, with buildings designed to minimize their environmental footprint and generate their energy. Solar panels, rainwater harvesting systems, 
+                                and green walls will be common features in housing, while the use of sustainable, renewable materials like bamboo, recycled steel, and mycelium-based composites will replace 
+                                conventional construction methods. Smart design will focus on reducing resource consumption, with energy-efficient insulation, natural ventilation, and passive solar heating 
+                                becoming standard.
+
+                                Housing will also need to accommodate the changing demographics of cities. As urban populations grow and space becomes more limited, modular and prefabricated housing will offer
+                                a sustainable solution for compact living. These homes will be designed to expand or contract based on the occupants' needs, offering flexibility and adaptability as lifestyles 
+                                change. Additionally, with urbanization driving up the cost of housing, affordable, high-density solutions such as micro-apartments and co-living spaces will become more 
+                                prevalent.
+
+                                Future buildings will not only be environmentally friendly but also resilient. In disaster-prone areas, structures will be built to withstand floods, earthquakes, and other 
+                                extreme events. Adaptive architecture will incorporate features that allow buildings to respond to changing environmental conditions, such as rising temperatures or fluctuating 
+                                rainfall. Housing of the future will not only shelter its inhabitants but protect them from the changing climate.
+
+                                <b>The Role of Building Automation Systems</b>
+                                Building automation systems (BAS) will play a pivotal role in shaping the future of buildings and housing. With the increasing integration of technology into our everyday lives, 
+                                smart homes and smart buildings will become more prevalent. These systems will optimize the operation of heating, ventilation, lighting, and security, reducing energy 
+                                consumption and providing a higher level of comfort and convenience.
+
+                                At the core of BAS is the Internet of Things (IoT), which enables devices within a building to communicate with each other and operate autonomously. These systems will learn 
+                                from the behavior of occupants, adjusting settings in real-time to maintain optimal energy efficiency. For example, intelligent lighting systems will use sensors to detect 
+                                occupancy and adjust brightness accordingly, while smart thermostats will analyze weather forecasts to minimize heating and cooling costs.
+
+                                Building automation will also enhance the safety and security of homes and businesses. Real-time monitoring, combined with AI-driven predictive analytics, will enable systems to
+                                detect potential issues like gas leaks, electrical faults, or intrusions before they escalate into serious problems. Over time, these systems will become more sophisticated, 
+                                incorporating features like voice control, gesture recognition, and biometric authentication.
+
+                                The integration of automation technology will also help buildings generate, store, and manage their energy. Smart grids, solar panels, and battery storage systems will work in 
+                                tandem to optimize energy use, reducing dependence on fossil fuels. As renewable energy becomes more prevalent, buildings will act as micro-power plants, contributing excess 
+                                energy back to the grid during times of surplus. This will be a critical component of the transition to net-zero energy buildings.
+
+                                <b>Decarbonization: The Road to Zero Emissions</b>
+                                At the heart of the transformation in building design and housing is the global push toward decarbonization. Decarbonization refers to the reduction of carbon dioxide (CO2) 
+                                emissions, primarily from burning fossil fuels. As the world moves toward the goals set in the Paris Agreement, decarbonization will become a non-negotiable priority in 
+                                construction, urban planning, and building automation.
+
+                                The construction industry, responsible for a significant share of global emissions, will adopt new materials and methods to reduce its carbon footprint. Innovations like 
+                                carbon-sequestering concrete, which absorbs CO2 from the atmosphere, and the use of timber from sustainable forests will become widespread. Governments and industries will 
+                                likely introduce stricter carbon regulations, incentivizing builders to adopt sustainable practices and penalizing those who fail to meet decarbonization targets.
+
+                                Buildings themselves will aim to achieve net-zero emissions, meaning they will produce as much energy as they consume. The integration of renewable energy sources such as 
+                                solar, wind, and geothermal power into building designs will help achieve this goal. Energy-efficient technologies, such as smart windows that adjust transparency based on the 
+                                intensity of sunlight, will further reduce energy consumption. Buildings of the future will be climate-positive, not only minimizing their environmental impact but actively 
+                                contributing to the global effort to mitigate climate change.
+
+                                <b>Conclusion</b>
+                                The future of our habitat will be defined by an urgent need for sustainability and resilience. As we confront the challenges posed by climate change and urbanization, buildings 
+                                and homes will evolve into complex, adaptive systems that not only provide shelter but integrate seamlessly with the natural world. The drive towards decarbonization will 
+                                influence every aspect of construction, design, and energy use, transforming the built environment into a force for environmental restoration and sustainability. With innovative 
+                                technology and a commitment to a carbon-free future, the world stands at the cusp of a greener, smarter, and more resilient future for all.
+                </pre>
+            </div>
+    </div>
+
+    <div id="products" class="page">
+        <div class="container">
+            <div class="content">
+                <div class="card">
+                    <img src="solar panel.jpg" alt="Solar Panels">
+                    <div class="card-content">
+                        <h2>Solar Solutions</h2>
+                        <p
+                        data-en="Harness the power of the sun with our cutting-edge solar technologies."
+                        data-th="ควบคุมพลังของดวงอาทิตย์ด้วยเทคโนโลยีพลังงานแสงอาทิตย์ที่ล้ําสมัยของเรา"
+                        data-zh="利用我们尖端的太阳能技术利用太阳能。">Harness the power of the sun with our cutting-edge solar technologies.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="wind turbine.png" width="10" alt="Wind Turbines">
+                    <div class="card-content">
+                        <h2 data-en="Wind Energy"
+                            data-th="พลังงานลม"
+                            data-zh="风能">Wind Energy</h2>
+                        <p data-en="Efficient and sustainable wind energy solutions for a greener future."
+                           data-th="โซลูชั่นพลังงานลมที่มีประสิทธิภาพและยั่งยืนเพื่ออนาคตที่เป็นมิตรต่อสิ่งแวดล้อม"
+                           data-zh="高效、可持续的风能解决方案，打造更绿色的未来。">Efficient and sustainable wind energy solutions for a greener future.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="GREEN.jpg" alt="Green Building">
+                    <div class="card-content">
+                        <h2 data-en="Green Architecture"
+                            data-th="สถาปัตยกรรมสีเขียว"
+                            data-zh="绿色建筑">Green Architecture</h2>
+                        <p data-en="Designing eco-friendly buildings that harmonize with nature."
+                           data-th="ออกแบบอาคารที่เป็นมิตรกับสิ่งแวดล้อมที่กลมกลืนกับธรรมชาติ"
+                           data-zh="设计与自然和谐相处的环保建筑。">Designing eco-friendly buildings that harmonize with nature.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <img src="HVAC.png" width="10">
+                    <div class="card-content">
+                        <h2 data-en="HVAC, MEP and Retrofit"
+                            data-th="HVAC, MEP และการติดตั้งเพิ่มเติม"
+                            data-zh="HVAC、MEP 和改造">HVAC, MEP and Retrofit</h2>
+                        <p data-en="Enhances energy efficiency, reducing operational costs and environmental impact. It also increases indoor comfort, system reliability, and overall building value, creating a more sustainable and cost-effective environment."
+                           data-th="เพิ่มประสิทธิภาพการใช้พลังงาน ลดต้นทุนการดําเนินงาน และผลกระทบต่อสิ่งแวดล้อม นอกจากนี้ยังเพิ่มความสะดวกสบายในร่มความน่าเชื่อถือของระบบและมูลค่าอาคารโดยรวมสร้างสภาพแวดล้อมที่ยั่งยืนและคุ้มค่ายิ่งขึ้น"
+                           data-zh="提高能源效率，降低运营成本和环境影响。它还提高了室内舒适度、系统可靠性和整体建筑价值，创造了更可持续和更具成本效益的环境。">Enhances energy efficiency, reducing operational costs and environmental impact. It also increases indoor comfort, system reliability, and overall building value, creating a more sustainable and cost-effective environment.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="3.jpg" alt="Wind Turbines">
+                    <div class="card-content">
+                        <h2 data-en="Controls, Automation, BAS and Smart Building"
+                            data-th="การควบคุม ระบบอัตโนมัติ BAS และอาคารอัจฉริยะ"
+                            data-zh="控制、自动化、BAS 和智能建筑">Controls, Automation, BAS and Smart Building</h2>
+                        <p data-en="Enhances energy efficiency, reducing operational costs and environmental impact. It also improves building management by enabling real-time monitoring, predictive maintenance, and better occupant comfort and security."
+                           data-th="เพิ่มประสิทธิภาพการใช้พลังงาน ลดต้นทุนการดําเนินงาน และผลกระทบต่อสิ่งแวดล้อม นอกจากนี้ยังปรับปรุงการจัดการอาคารโดยเปิดใช้งานการตรวจสอบแบบเรียลไทม์การบํารุงรักษาเชิงคาดการณ์และความสะดวกสบายและความปลอดภัยของผู้อยู่อาศัยที่ดีขึ้น"
+                           data-zh="提高能源效率，降低运营成本和环境影响。它还通过实现实时监控、预测性维护以及更好的居住者舒适度和安全性来改善建筑管理。">Enhances energy efficiency, reducing operational costs and environmental impact. It also improves building management by enabling real-time monitoring, predictive maintenance, and better occupant comfort and security.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image6.jpg" alt="Green Building">
+                    <div class="card-content">
+                        <h2 data-en="Environmental services and Energy saving"
+                            data-th="环境服务和节能"
+                            data-zh="环境服务和节能">Environmental services and Energy saving</h2>
+                        <p data-en="Managing, restoring, and protecting natural resources, ecosystems, and biodiversity to reduce pollution and environmental impact. Energy-saving services focus on optimizing energy consumption through efficiency measures, renewable energy solutions, and sustainable practices to reduce costs and environmental footprints."
+                           data-th="จัดการ ฟื้นฟู และปกป้องทรัพยากรธรรมชาติ ระบบนิเวศ และความหลากหลายทางชีวภาพเพื่อลดมลพิษและผลกระทบต่อสิ่งแวดล้อม บริการประหยัดพลังงานมุ่งเน้นไปที่การเพิ่มประสิทธิภาพการใช้พลังงานผ่านมาตรการที่มีประสิทธิภาพโซลูชันพลังงานหมุนเวียนและแนวทางปฏิบัติที่ยั่งยืนเพื่อลดต้นทุนและผลกระทบต่อสิ่งแวดล้อม"
+                           data-zh="管理、恢复和保护自然资源、生态系统和生物多样性，以减少污染和环境影响。节能服务侧重于通过效率措施、可再生能源解决方案和可持续实践来优化能源消耗，以降低成本和环境足迹。">Managing, restoring, and protecting natural resources, ecosystems, and biodiversity to reduce pollution and environmental impact. Energy-saving services focus on optimizing energy consumption through efficiency measures, renewable energy solutions, and sustainable practices to reduce costs and environmental footprints.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="reference" class="page">
+        <div class="container-first">
+            <img src="image.jpg">
+            <div class="text-first">
+                <pre data-en="
+    Project   : The Fountain Hatyai
+    Detail     : Design & build of downtown shophouses 
+                     with a restauraunt and cafe
+    Location : Hatyai city
+    Value      : THB40,200,000"
+                    data-th="
+โครงการ : The Fountain Hatyai
+รายละเอียด : ออกแบบและสร้างอาคารพาณิชย์ในตัวเมือง 
+                 ด้วยร้านอาหารและคาเฟ่
+สถานที่ตั้ง : หาดใหญ่
+มูลค่า : 40,200,000 บาท"
+                    data-zh="
+项目 ： The Fountain Hatyai
+详细资料：设计&建造市中心的店屋
+                 设有餐厅和咖啡馆
+地点 ： 合艾
+价值 ： THB40,200,000">
+Project   : The Fountain Hatyai
+Detail     : Design & build of downtown shophouses 
+                 with a restauraunt and cafe
+Location : Hatyai
+Value      : THB40,200,000</pre>
+            </div>
+        </div>
+        <div class="container-second">
+            <img src="loft 71.jpg">
+            <div class="text-second">
+                <pre
+                data-en="
+Project   : Loft71
+Detail     : Design & build of 350-sq.m. 
+              home offices
+Location : Ladprao 71
+Value      : THB30,000,000"
+                data-th="
+โครงการ : Loft71
+รายละเอียด : ออกแบบและสร้างพื้นที่ 350 ตร.ม. 
+              โฮมออฟฟิศ
+ที่ตั้ง : ลาดพร้าว 71
+มูลค่า : 30,000,000 บาท"
+                data-zh="
+项目 ： Loft71
+详细情况：设计和建造350平方米。
+         家庭办公室
+位置 ： Ladprao 71
+价值 ： THB30,000,000">
+Project   : Loft71
+Detail     : Design & build of 350-sq.m. 
+              home offices
+Location : Ladprao 71
+Value      : THB30,000,000</pre>
+            </div>
+        </div>
+        <div class="container-third">
+            <img src="Satahip ACDC.jpg">
+            <div class="text-third">
+                <pre
+                data-en="
+Project   : Satahip ACDC
+Detail     : Construction of 30 houses
+Location : Satahip
+Value      : THB20,100,000"
+                data-th="
+โครงการ : Satahip ACDC
+รายละเอียด : ก่อสร้างบ้าน 30 หลัง
+สถานที่ตั้ง : สตาหีบ
+มูลค่า : 20,100,000 บาท"
+                data-zh="
+项目 ： Satahip ACDC
+详细 ： 建造 30 栋房屋
+位置 ： Satahip
+价值 ： THB20,100,000">
+                </pre>
+            </div>
+        </div>
+    </div>         
+    <div id="about" class="page">
+        <div class="container">
+            <pre>
+                <img src="beach.png">
+                <div class="text">
+                    <h2
+                    data-en="Welcome to Cblue"
+                    data-th="ยินดีต้อนรับสู่ Cblue"
+                    data-zh="欢迎来到 Cblue">Welcome to Cblue</h2>
+                    <pre 
+                    data-en="
+As a group of experienced and highly skilled professionals, we design,
+engineer and construct leading-edge facilities and related infrastructure for 
+the residential buildings, industries and public civil works.
+
+We have the flexibility and the strength to be able to deliver
+large or small projects successfully anywhere in Thailand.
+We offer a complete range of products and services to our clients:
+
+1. Market research and strategic studies
+2. Economic evaluations and feasibility studies
+3. Architectural, Interior and Landscape design as well as 
+Fit Out/Construction
+4. Detail engineering
+5. Procurement
+6. Construction management, Project management and Training
+7. HVAC, MEP and Retrofit
+8. Controls, Automation, Building Management System, Smart 
+Building,
+Environmental services and Energy saving"
+                    data-th="
+ในฐานะกลุ่มมืออาชีพที่มีประสบการณ์และทักษะสูง เราออกแบบ วิศวกรรม
+และก่อสร้างสิ่งอำนวยความสะดวกล้ำสมัยและโครงสร้างพื้นฐานที่เกี่ยวข้อง
+สำหรับอาคารที่พักอาศัย อุตสาหกรรมและงานโยธาสาธารณะ เรามีความยืด
+หยุ่นและความแข็งแกร่งที่จะสามารถส่งมอบโครงการขนาดใหญ่หรือเล็กได้
+สำเร็จในทุกพื้นที่ของประเทศไทย เราให้บริการผลิตภัณฑ์และบริการที่
+ครบวงจรแก่ลูกค้าของเรา:
+
+1. วิจัยตลาดและการศึกษาเชิงกลยุทธ์
+2. การประเมินทางเศรษฐศาสตร์และการศึกษาความเป็นไปได้
+3. การออกแบบสถาปัตยกรรม ภายใน และภูมิทัศน์ 
+รวมถึงการตกแต่งและการก่อสร้าง
+4. วิศวกรรมรายละเอียด
+5. การจัดซื้อจัดจ้าง
+6. การบริหารการก่อสร้าง การบริหารโครงการ และการฝึกอบรม
+7. ระบบปรับอากาศ ระบบไฟฟ้าและเครื่องกล และการปรับปรุง
+8. การควบคุม ระบบอัตโนมัติ ระบบบริหารอาคาร อาคารอัจฉริยะ 
+บริการด้านสิ่งแวดล้อม และการประหยัดพลังงาน"
+                    data-zh="
+作为一群经验丰富、技能娴熟的专业人士，我们为住宅建筑、工业和公共土
+木工程设计、工程和建造先进的设施和相关基础设施。我们拥有灵活性和实力
+，能够在泰国各地成功交付大小项目。我们为客户提供全面的产品和服务：
+
+1. 市场研究和战略研究
+2. 经济评估和可行性研究
+3. 建筑、室内和景观设计以及装修/施工
+4. 详细工程设计
+5. 采购
+6. 施工管理、项目管理和培训
+7. 暖通空调、机电和改造
+8. 控制、自动化、楼宇管理系统、智能建筑、环境服务和节能">
+As a group of experienced and highly skilled professionals, we design, engineer 
+and construct leading-edge facilities and related infrastructure for 
+the residential buildings, industries and public civil works.
+
+We have the flexibility and the strength to be able to deliver
+large or small projects successfully anywhere in Thailand.
+We offer a complete range of products and services to our clients:
+
+1. Market research and strategic studies
+2. Economic evaluations and feasibility studies
+3. Architectural, Interior and Landscape design as well as Fit Out/Construction
+4. Detail engineering
+5. Procurement
+6. Construction management, Project management and Training
+7. HVAC, MEP and Retrofit
+8. Controls, Automation, Building Management System, Smart Building,
+Environmental services and Energy saving
+                    </pre>
+                </div>
+                <div class="container2">
+                    <div class="text2">
+                        <h2 data-en="Our Mission"
+                            data-th="ภารกิจของเรา"
+                            data-zh="我们的使命">Our Mission</h2>
+                        <pre 
+                        data-en="
+Our mission is to provide the best, state-of-the-art green solutions and
+services on time,on budget and with safety and integrity."
+                        data-th="ภารกิจของเราคือการจัดหาโซลูชั่นและบริการสีเขียวที่ดีที่สุดและ
+ล้ําสมัยตรงเวลาในงบประมาณและมีความปลอดภัยและความซื่อสัตย์"
+                        data-zh="我们的使命是按时提供最佳、最先进的绿色解决方案和服务，在预算范围内，安全可靠。">
+Our mission is to provide the best, state-of-the-art green solutions and
+services on time, on budget and with safety and integrity.
+                        </pre>
+                    </div>
+                    <img src="1.jpg">
+                </div>
+                </div>
+                <div class="container-contact">
+                    <img src="2.jpg">
+                <div class="contact">
+                    <h2 data-en="Our contact"
+                        data-th="ติดต่อของเรา"
+                        data-zh="我们的联系方式">Our contact</h2>
+                    <pre
+                    data-en="
+Email : ghiscafe@hotmail.com
+Phone number : (+66) 086 990 9631"
+                    data-th="
+อีเมล์ : ghiscafe@hotmail.com
+หมายเลขโทรศัพท์ : (+66) 086 990 9631"
+                    data-zh="
+电子邮件：ghiscafe@hotmail.com
+电话号码 : (+66) 086 990 9631">
+Email : ghiscafe@hotmail.com
+Phone number : (+66) 086 990 9631
+                    </pre>
+                </div>
+                </div>
+                <div class="OFC">
+                    <pre>
+"Head for green
+    & of course blue"</pre>
+                </div>
+    </div>
+
+
+    <script>
+            function changeLanguage(lang) {
+                document.documentElement.lang = lang;
+                document.querySelectorAll('[data-en], [data-th], [data-zh]').forEach(element => {
+                    if (element.hasAttribute(`data-${lang}`)) {
+                        element.textContent = element.getAttribute(`data-${lang}`);
+                    }
+                });
+            }
+        
+            // The rest of your existing JavaScript remains unchanged
+        
+            document.addEventListener('DOMContentLoaded', function() {
+                // Your existing DOMContentLoaded code remains unchanged
+        
+                // Add this line at the end of the DOMContentLoaded function
+                changeLanguage('en'); // Set initial language to English
+            });
+        
+
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            document.getElementById(pageId).classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add schema markup for better SEO
+            const script = document.createElement('script');
+            script.setAttribute('type', 'application/ld+json');
+            script.textContent = JSON.stringify({
+                "@context": "http://schema.org",
+                "@type": "ProfessionalService",
+                "name": "Eco-Tech Architects & Engineers",
+                "description": "State-of-the-art architectural and engineering services specializing in sustainable and eco-friendly solutions.",
+                "url": "https://www.example.com",
+                "sameAs": [
+                    "https://www.facebook.com/ecotecharchitects",
+                    "https://www.linkedin.com/company/ecotecharchitects",
+                    "https://twitter.com/ecotecharch"
+                ]
+            });
+            document.head.appendChild(script);
+        });
+    </script>
+</body>
+</html>
