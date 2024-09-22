@@ -4,345 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cblue</title>
-    <link rel="icon" href="website icon.jpg" type="image/x-icon">
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #e6f3ff 35%, #ffffff 35% 85%, #d0f0c0 85%);
-            height: 100%;
-        }
-
-        .home-page-container {
-            margin-left: 100px auto;
-            width: 75%;
-        }
-
-        .home-page-container pre {
-            font-family: Arial;
-            font-size: 17;
-        }
-        
-        .contact pre {
-            font-size: 17px;
-            font-family: Arial;
-            margin-top: 0px;
-            margin-right: 130px;
-            align-self: left;
-        }
-
-        .contact h2{
-            font-size: 33px;
-            margin-top: 900px;
-            margin-right: 65px;
-            margin-left: 160px;
-            align-self: left;
-            margin-right: 0;
-            margin-left: 0;
-        }
-
-        .container-contact img {
-            margin-top: 400px;
-            max-width: 600px;
-            float: left;
-            border: 3px solid transparent;
-            margin-top: -200px;
-            margin-right: 65px;
-            margin-left: 160px;
-            align-self: left;
-        }
-
-        .container-s-contact img {
-            max-width: 600px;
-            float: left;
-            border: 3px solid transparent;
-            margin-top: 0px;
-            margin-right: 65px;
-            margin-left: 160px;
-            align-self: left;
-        }
-
-        .contact-s pre {
-            font-size: 17px;
-            font-family: Arial;
-            margin-top: 0px;
-            margin-right: 130px;
-            align-self: left;
-        }
-
-        .contact-s h2{
-            font-size: 33px;
-            margin-top: 100px;
-            margin-right: 65px;
-            margin-left: 800px;
-            align-self: left;
-        }
-
-        .OFC pre {
-            font-size: 35px;
-            color: white;
-            border-top: 3px solid green;
-            border-right: 3px solid green;
-            border-left: 3px solid green;
-            background-color: green;
-            margin-top: -870px;
-            margin-left: -650px;;
-            float: left;
-            align-self: left;
-        }
-
-        .container {
-            margin-left: 100px auto;
-            width: 75%;
-        }
-        
-        .container img {
-            max-width: 565px;
-            float: left;
-            border: 3px solid transparent;
-            margin-top: 0px;
-            margin-right: 65px;
-            margin-left: 160px;
-            align-self: left;
-        }
-        
-        .text pre {
-            font-size: 17px;
-            font-family: Arial;
-            margin-top: -60px;
-            margin-right: 65px;
-            margin-left: 160px;
-            align-self: left;
-        }
-        
-        .text h2 {
-            font-size: 33px;
-            margin-top: -30px;
-            margin-right: 65px;
-            margin-left: 160px;
-            align-self: left;
-            margin-right: 0;
-            margin-left: 0;
-        }
-        
-        .container2 {
-            margin-right: 100px auto;
-            width: 75%;
-        }
-
-        .text2 h2 {
-            font-size: 33px;
-            float: left;
-            margin-top: 150px;
-            margin-right: 100px;
-            margin-bottom: -30px;
-            margin-left: 160px;
-            top: 100px;
-        }
-
-        .text2 pre {
-            font-size: 17px;
-            font-family: Arial;
-            float: left;
-            border: 3px solid transparent;
-            margin-top: 30px;
-            margin-right: 65px;
-            margin-left: 160px;
-            margin-bottom: 100px;
-            align-self: left;
-        }
-
-        .container2 img {
-            border: 3px solid transparent;
-            margin-top: -250px;
-            margin-left: 820px;
-            margin-right: 130px;
-        }
-
-        .container-first img {
-            width: 350px;
-            float: left;
-            border: 3px solid transparent;
-            margin-top: -10px;
-            margin-right: 65px;
-            margin-left: 300px;
-            align-self: left;
-        }
-
-        .text-first h2 {
-            font-size: 30px;
-            font-family: Arial;
-            margin-top: 100px;
-            margin-right: 65px;
-            margin-left: 160px;
-            align-self: left;
-        }
-
-        .text-first pre {
-            font-size: 17px;
-            font-family: Arial;
-            margin-top: 30px;
-            margin-right: 5cm;
-            margin-left: 160px;
-            align-self: left;
-        }
-        
-        .container-second img {
-            width: 350px;
-            float: left;
-            border: 3px solid transparent;
-            margin-top: 200px;
-            margin-left: 700px;
-            margin-right: 65px;
-            align-self: left;
-        }
-
-        .text-second pre {
-            font-size: 17px;
-            font-family: Arial;
-            margin-top: -400px;
-            margin-right: 300px;
-            margin-left: 400px;
-            align-self: left;
-            float: left;
-        }
-
-        .container-third img {
-            width: 500px;
-            float: left;
-            border: 3px solid transparent;
-            margin-top: -200px;
-            margin-right: 65px;
-            margin-left: 400px;
-            align-self: left;
-        }
-
-        .text-third pre{
-                font-size: 17px;
-                font-family: Arial;
-                margin-top: 1600px;
-                margin-right: 65px;
-                margin-left: 160px;
-                align-self: left;
-        }
-
-        header {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-around;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        nav ul li a:hover {
-            color: #4CAF50;
-        }
-        .hero {
-            background-image: url('/api/placeholder/1200/600');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3em;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-        }
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-top: 40px;
-        }
-        .card {
-            flex-basis: calc(33% - 20px);
-            margin-bottom: 40px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            margin-left: 0;
-        }
-        .card img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-        }
-        .card-content {
-            padding: 20px;
-        }
-
-        .card-s {
-            flex-basis: calc(33% - 20px);
-            margin-bottom: 40px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            margin-left: 70px;
-            margin-right: 0;
-        }
-        .card-s img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .lang-switcher {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            margin-right: 130px;
-        }
-        .lang-btn {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            margin-left: 5px;
-            cursor: pointer;
-            border-radius: 3px;
-        }
-        @media (max-width: 768px) {
-            .card {
-                flex-basis: 100%;
-            }
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-            nav ul li {
-                margin-bottom: 10px;
-            }
-        }
-        .page {
-            display: none;
-        }
-        .page.active {
-            display: block;
-        }
-    </style>
+    <link rel="icon" href="logo + home page/website icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="#" onclick="showPage('home')"><img src="logo.jpg" height="70" width="-50"></a></li>
+                    <li><a href="#" onclick="showPage('home')"><img src="logo + home page/logo.jpg" height="70" width="-50"></a></li>
                     <li><a href="#" onclick="showPage('products')">Solutions</a></li>
                     <li><a href="#" onclick="showPage('reference')">Reference</a></li>
                     <li><a href="#" onclick="showPage('support')">Support</a></li>
@@ -360,7 +30,7 @@
 
     <div id="home" class="page active">
         <div class="container">
-            <img src="swimming pool.jpg" width="" height="">
+            <img src="logo + home page/swimming pool.jpg" width="" height="">
         </div>
             <div class="home-page-container">
                 <pre
@@ -672,7 +342,7 @@
         <div class="container">
             <div class="content">
                 <div class="card-s">
-                    <img src="solar panel.jpg" alt="Solar Panels">
+                    <img src="img solutions/solar panel.jpg" alt="Solar Panels">
                     <div class="card-content">
                         <h2 data-en="Solar Solutions"
                             data-th="พลังงานแสงอาทิตย์"
@@ -685,7 +355,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="ev charger.jpg" width="10" alt="ev charger">
+                    <img src="img solutions/ev charger.jpg" width="10" alt="ev charger">
                     <div class="card-content">
                         <h2 data-en="EV charger"
                             data-th="เครื่องชาร์จ EV"
@@ -700,7 +370,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="GREEN.jpg" alt="Green Building">
+                    <img src="img solutions/GREEN.jpg" alt="Green Building">
                     <div class="card-content">
                         <h2 data-en="Green Architecture"
                             data-th="สถาปัตยกรรมสีเขียว"
@@ -713,7 +383,7 @@
             </div>
             <div class="content">
                 <div class="card-s">
-                    <img src="HVAC.png" width="10">
+                    <img src="img solutions/HVAC.png" width="10">
                     <div class="card-content">
                         <h2 data-en="HVAC, MEP and Retrofit"
                             data-th="HVAC, MEP และการติดตั้งเพิ่มเติม"
@@ -724,7 +394,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="3.jpg" alt="Wind Turbines">
+                    <img src="img solutions/3.jpg" alt="Wind Turbines">
                     <div class="card-content">
                         <h2 data-en="Controls, Automation, BAS and Smart Building"
                             data-th="การควบคุม ระบบอัตโนมัติ BAS และอาคารอัจฉริยะ"
@@ -735,7 +405,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="image6.jpg" alt="Green Building">
+                    <img src="img solutions/image6.jpg" alt="Green Building">
                     <div class="card-content">
                         <h2 data-en="Environmental services and Energy saving"
                             data-th="环境服务和节能"
@@ -750,7 +420,7 @@
     </div>
     <div id="reference" class="page">
         <div class="container-first">
-            <img src="image.jpg">
+            <img src="img reference/image.jpg">
             <div class="text-first">
                 <pre data-en="
     Project   : The Fountain Hatyai
@@ -778,7 +448,7 @@ Value      : THB40,200,000</pre>
             </div>
         </div>
         <div class="container-second">
-            <img src="loft 71.jpg">
+            <img src="img reference/loft 71.jpg">
             <div class="text-second">
                 <pre
                 data-en="
@@ -807,7 +477,7 @@ Value      : THB30,000,000</pre>
             </div>
         </div>
         <div class="container-third">
-            <img src="Satahip ACDC.jpg">
+            <img src="img reference/Satahip ACDC.jpg">
             <div class="text-third">
                 <pre
                 data-en="
@@ -831,7 +501,7 @@ Value      : THB20,100,000"
     </div>
     <div id="support" class="page">
         <div class="container-s-contact">
-            <img src="2.jpg">
+            <img src="img support/2.jpg">
         <div class="contact-s">
             <h2 data-en="Our contact"
                 data-th="ติดต่อของเรา"
@@ -855,7 +525,7 @@ Phone number : (+66) (0)86 990 9631
     <div id="about" class="page">
         <div class="container">
             <pre>
-                <img src="beach.png">
+                <img src="img about us/beach.png">
                 <div class="text">
                     <h2
                     data-en="Welcome to Cblue"
@@ -947,11 +617,11 @@ Our mission is to provide the best, state-of-the-art green solutions and
 services on time, on budget and with safety and integrity.
                         </pre>
                     </div>
-                    <img src="1.jpg">
+                    <img src="img about us/1.jpg">
                 </div>
                 </div>
                 <div class="container-contact">
-                    <img src="2.jpg">
+                    <img src="img about us/2.jpg">
                 <div class="contact">
                     <h2 data-en="Our contact"
                         data-th="ติดต่อของเรา"
@@ -979,51 +649,6 @@ Phone number : (+66) 086 990 9631
     </div>
 
 
-    <script>
-            function changeLanguage(lang) {
-                document.documentElement.lang = lang;
-                document.querySelectorAll('[data-en], [data-th], [data-zh]').forEach(element => {
-                    if (element.hasAttribute(`data-${lang}`)) {
-                        element.textContent = element.getAttribute(`data-${lang}`);
-                    }
-                });
-            }
-        
-            // The rest of your existing JavaScript remains unchanged
-        
-            document.addEventListener('DOMContentLoaded', function() {
-                // Your existing DOMContentLoaded code remains unchanged
-        
-                // Add this line at the end of the DOMContentLoaded function
-                changeLanguage('en'); // Set initial language to English
-            });
-        
-
-        function showPage(pageId) {
-            document.querySelectorAll('.page').forEach(page => {
-                page.classList.remove('active');
-            });
-            document.getElementById(pageId).classList.add('active');
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-            // Add schema markup for better SEO
-            const script = document.createElement('script');
-            script.setAttribute('type', 'application/ld+json');
-            script.textContent = JSON.stringify({
-                "@context": "http://schema.org",
-                "@type": "ProfessionalService",
-                "name": "Eco-Tech Architects & Engineers",
-                "description": "State-of-the-art architectural and engineering services specializing in sustainable and eco-friendly solutions.",
-                "url": "https://www.example.com",
-                "sameAs": [
-                    "https://www.facebook.com/ecotecharchitects",
-                    "https://www.linkedin.com/company/ecotecharchitects",
-                    "https://twitter.com/ecotecharch"
-                ]
-            });
-            document.head.appendChild(script);
-        });
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
