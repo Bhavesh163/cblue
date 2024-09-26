@@ -1,4 +1,4 @@
-        body, html {
+                body, html {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
@@ -324,69 +324,60 @@
                 margin-bottom: 10px;
             }
             .container-first img {
-                width: 350px;
+                width: 200px;
                 float: left;
                 border: 3px solid transparent;
-                margin-top: -10px;
+                margin-top: -300px;
                 margin-right: 65px;
-                margin-left: 0px;
-                align-self: left;
-            }
-        
-            .text-first h2 {
-                font-size: 30px;
-                font-family: Arial;
-                margin-top: 100px;
-                margin-right: 65px;
-                margin-left: 160px;
+                margin-left: 20px;
                 align-self: left;
             }
         
             .text-first pre {
-                font-size: 17px;
+                font-size: 13px;
                 font-family: Arial;
-                margin-top: 30px;
+                margin-top: 300px;
                 margin-right: 5cm;
-                margin-left: 160px;
+                margin-left: 0px;
                 align-self: left;
             }
         
             .container-second img {
-                width: 350px;
+                width: 200px;
                 float: left;
                 border: 3px solid transparent;
-                margin-top: 200px;
-                margin-left: 700px;
+                margin-top: 70px;
+                margin-left: 20px;
                 margin-right: 65px;
                 align-self: left;
             }
         
             .text-second pre {
-                font-size: 17px;
+                font-size: 13px;
                 font-family: Arial;
-                margin-top: -400px;
+                margin-top: 10px;
                 margin-right: 300px;
-                margin-left: 400px;
+                margin-left: 20px;
                 align-self: left;
                 float: left;
             }
         
             .container-third img {
-                width: 500px;
+                width: 300px;
                 float: left;
                 border: 3px solid transparent;
                 margin-top: -200px;
                 margin-right: 65px;
-                margin-left: 400px;
+                margin-left: 20px;
                 align-self: left;
             }
         
             .text-third pre{
-                    font-size: 17px;
+                    font-size: 13px;
                     font-family: Arial;
-                    margin-top: 1600px;
+                    margin-top: 700px;
                     margin-right: 65px;
-                    margin-left: 160px;
+                    margin-left: 20px;
                     align-self: left;
             }
         }
