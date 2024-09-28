@@ -391,7 +391,7 @@ nav ul li a:hover {
     }
     
     .contact-s pre {
-        font-size: 20px;
+        font-size: 10px;
         font-family: Arial;
         margin-top: 0px;
         margin-left: 20px;
@@ -399,7 +399,7 @@ nav ul li a:hover {
     }
     
     .contact-s h2{
-        font-size: 40px;
+        font-size: 16px;
         margin-top: 200px;
         margin-right: 65px;
         margin-left: 20px;
@@ -409,7 +409,7 @@ nav ul li a:hover {
     .container-s-contact img {
         margin-top: -180px;
         margin-bottom: 30px;
-        max-width: 400px;
+        max-width: 300px;
         float: left;
         border: 3px solid transparent;
         margin-right: 65px;
