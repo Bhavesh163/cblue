@@ -45,7 +45,7 @@ body, html {
     align-self: left;
 }
 
-.container-s-contact pre {
+.contact-s pre {
     font-size: 17px;
     font-family: Arial;
     margin-top: 0px;
@@ -53,9 +53,9 @@ body, html {
     align-self: left;
 }
 
-.container-s-contact h2{
+.contact-s h2{
     font-size: 33px;
-    margin-top: 100px;
+    margin-top: 160px;
     margin-right: 65px;
     margin-left: 160px;
     align-self: left;
@@ -66,7 +66,7 @@ body, html {
 .container-s-contact img {
     margin-top: 400px;
     max-width: 600px;
-    float: left;
+    margin-bottom: 30px;
     border: 3px solid transparent;
     margin-top: -80px;
     margin-right: 65px;
@@ -382,11 +382,10 @@ nav ul li a:hover {
     }
 
     .container-s-contact img {
-        margin-top: 400px;
         max-width: 300px;
         float: left;
         border: 3px solid transparent;
-        margin-top: -80px;
+        margin-top: -170px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
@@ -394,7 +393,7 @@ nav ul li a:hover {
 
     .container-s-contact h2{
         font-size: 33px;
-        margin-top: 100px;
+        margin-top: 200px;
         margin-right: 45px;
         margin-left: 20px;
         align-self: left;
@@ -403,7 +402,7 @@ nav ul li a:hover {
     .container-s-contact pre {
         font-size: 17px;
         font-family: Arial;
-        margin-top: 0px;
+        margin-top: -40px;
         margin-left: 20px;
         align-self: left;
     }
@@ -429,7 +428,7 @@ nav ul li a:hover {
     
     .text h2 {
         font-size: 16px;
-        margin-top: 250px;
+        margin-top: 270px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
@@ -438,7 +437,7 @@ nav ul li a:hover {
     .text2 h2 {
         font-size: 16px;
         float: left;
-        margin-top: 130px;
+        margin-top: 220px;
         margin-right: 100px;
         margin-bottom: -30px;
         margin-left: 20px;
@@ -465,7 +464,7 @@ nav ul li a:hover {
     }
 
     .contact pre {
-        font-size: 17px;
+        font-size: 10px;
         font-family: Arial;
         margin-top: 0px;
         margin-right: 130px;
@@ -474,7 +473,7 @@ nav ul li a:hover {
     }
     
     .contact h2{
-        font-size: 33px;
+        font-size: 16px;
         margin-top: 450px;
         margin-right: 65px;
         margin-left: 20px;
@@ -482,7 +481,8 @@ nav ul li a:hover {
     }
     
     .container-contact img {
-        margin-top: -260px;
+        margin-top: -150px;
+        margin-bottom: 30px;
         max-width: 300px;
         float: left;
         border: 3px solid transparent;
