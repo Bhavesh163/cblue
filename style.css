@@ -478,7 +478,7 @@ nav ul li a:hover {
 
     .container2 img {
         border: 3px solid transparent;
-        margin-top: -600px;
+        margin-top: -570px;
         margin-left: 20px;
         margin-right: 130px;
     }
@@ -486,7 +486,7 @@ nav ul li a:hover {
     .contact pre {
         font-size: 10px;
         font-family: Arial;
-        margin-top: 0px;
+        margin-top: 200px;
         margin-right: 130px;
         margin-left: 20px;
         align-self: left;
@@ -494,14 +494,14 @@ nav ul li a:hover {
     
     .contact h2{
         font-size: 16px;
-        margin-top: 400px;
+        margin-top: 600px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
     }
     
     .container-contact img {
-        margin-top: -100px;
+        margin-top: 130px;
         margin-bottom: 30px;
         max-width: 300px;
         float: left;
