@@ -6,18 +6,59 @@ body, html {
     height: 100%;
 }
 
-.home-page-container {
-    margin-left: 100px auto;
-    width: 75%;
-}
-
-.home-page-container pre {
+.home-container pre {
     font-family: Arial;
     font-size: 17;
 }
 
-.mobile-only pre {
-    font-size: 0;
+.container2-h img {
+    margin-top: 0px;
+    margin-left: 780px;
+}
+
+.text2-h pre {
+    font-size: 15px;
+    font-family: Arial;
+    border: 3px solid transparent;
+    margin-top: 100px;
+    margin-bottom: -450px;
+    margin-right: 0px;
+    margin-left: 160px;
+}
+
+.container3-h img {
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+.text3-h pre {
+    font-size: 17px;
+    font-family: Arial;
+    margin-left: 700px;
+    margin-top: -450px;
+}
+
+.container4-h img {
+    margin-top: 100px;
+    margin-left: 800px;
+}
+.text4-h pre {
+    font-family: Arial;
+    margin-left: 120px;
+    margin-top: -450px;
+}
+
+.container5-h img {
+    margin-top: 300px;
+    margin-left: 130px;
+}
+
+.text5-h pre {
+    font-size: 17px;
+    font-family: Arial;
+    margin-top: -475px;
+    margin-left: 780px;
+    align-self: left;
 }
 
 .contact pre {
@@ -30,7 +71,7 @@ body, html {
 
 .contact h2{
     font-size: 33px;
-    margin-top: 900px;
+    margin-top: 1000px;
     margin-right: 65px;
     margin-left: 160px;
     align-self: left;
@@ -39,7 +80,7 @@ body, html {
 }
 
 .container-contact img {
-    margin-top: 0px;
+    margin-top: -100px;
     max-width: 600px;
     float: left;
     border: 3px solid transparent;
@@ -84,7 +125,7 @@ body, html {
     border-right: 3px solid green;
     border-left: 3px solid green;
     background-color: green;
-    margin-top: -550px;
+    margin-top: -650px;
     margin-left: -650px;;
     float: left;
     align-self: left;
@@ -132,7 +173,7 @@ body, html {
 .text2 h2 {
     font-size: 33px;
     float: left;
-    margin-top: 250px;
+    margin-top: 220px;
     margin-right: 100px;
     margin-bottom: -30px;
     margin-left: 160px;
@@ -145,7 +186,7 @@ body, html {
     float: left;
     border: 3px solid transparent;
     margin-top: 30px;
-    margin-right: 65px;
+    margin-right: 0px;
     margin-left: 160px;
     margin-bottom: 100px;
     align-self: left;
@@ -155,7 +196,7 @@ body, html {
     border: 3px solid transparent;
     margin-top: -400px;
     margin-left: 820px;
-    margin-right: 130px;
+    margin-right: 30px;
 }
 
 .container-first img {
@@ -210,7 +251,7 @@ body, html {
     width: 500px;
     float: left;
     border: 3px solid transparent;
-    margin-top: -200px;
+    margin-top: -125px;
     margin-right: 65px;
     margin-left: 400px;
     align-self: left;
@@ -478,7 +519,7 @@ nav ul li a:hover {
 
     .container2 img {
         border: 3px solid transparent;
-        margin-top: -570px;
+        margin-top: -600px;
         margin-left: 20px;
         margin-right: 130px;
     }
@@ -486,7 +527,7 @@ nav ul li a:hover {
     .contact pre {
         font-size: 10px;
         font-family: Arial;
-        margin-top: 200px;
+        margin-top: 0px;
         margin-right: 130px;
         margin-left: 20px;
         align-self: left;
@@ -494,14 +535,14 @@ nav ul li a:hover {
     
     .contact h2{
         font-size: 16px;
-        margin-top: 600px;
+        margin-top: 400px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
     }
     
     .container-contact img {
-        margin-top: 130px;
+        margin-top: -100px;
         margin-bottom: 30px;
         max-width: 300px;
         float: left;
