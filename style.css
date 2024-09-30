@@ -369,11 +369,6 @@ nav ul li a:hover {
 }
 @media screen and (max-width: 450px) {
 
-    .home-page-container {
-        margin: 0;
-        width: auto;
-    }
-
     .card {
         flex-basis: 100%;
     }
