@@ -369,6 +369,72 @@ nav ul li a:hover {
 }
 @media screen and (max-width: 450px) {
 
+    .home-container img {
+        max-width: 300px;
+        margin-left: 20px;
+    }
+    
+    .home-container pre {
+        font-family: Arial;
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    
+    .container2-h img {
+        max-width: 300px;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+    
+    .text2-h pre {
+        font-size: 9px;
+        font-family: Arial;
+        border: 3px solid transparent;
+        margin-top: 270px;
+        margin-bottom: -450px;
+        margin-left: 20px;
+    }
+    
+    .container3-h img {
+        max-width: 300px;
+        margin-top: 350px;
+        margin-left: 20px;
+    }
+    
+    .text3-h pre {
+        font-size: 9px;
+        font-family: Arial;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    
+    .container4-h img {
+        max-width: 300px;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .text4-h pre {
+        font-family: Arial;
+        font-size: 8px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    
+    .container5-h img {
+        max-width: 300px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    
+    .text5-h pre {
+        font-size: 10px;
+        font-family: Arial;
+        margin-top: 60px;
+        margin-left: 20px;
+        align-self: left;
+    }
+
     .card {
         flex-basis: 100%;
     }
