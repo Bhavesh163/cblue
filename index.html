@@ -1,637 +1,852 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #e6f3ff 35%, #ffffff 35% 85%, #d0f0c0 85%);
-    height: 100%;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cblue</title>
+    <link rel="icon" href="website icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showPage('home')"><img src="logo.jpg" height="70" width="-50"></a></li>
+                    <li><a href="#" onclick="showPage('products')">Solutions</a></li>
+                    <li><a href="#" onclick="showPage('reference')">Reference</a></li>
+                    <li><a href="#" onclick="showPage('support')">Support</a></li>
+                    <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-.home-container img {
-    max-width: 500px;
-    margin-left: 130px;
-}
+    <div class="lang-switcher">
+        <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+        <button class="lang-btn" onclick="changeLanguage('th')">TH</button>
+        <button class="lang-btn" onclick="changeLanguage('zh')">中文</button>
+    </div>
 
-.home-container pre {
-    font-family: Arial;
-    font-size: 17;
-    margin-left: 740px;
-    margin-top: -200px;
-}
+    <div id="home" class="page active">
+        <div class="home-container">
+            <img src="swimming pool.jpg">
+        </div>
+            <div class="home-container">
+                <pre
+data-en="
+As the world hurtles towards an uncertain future shaped by climate change, 
+technological innovation, and growing urbanization, the way we interact 
+with our environment, live in our homes, and design our buildings is set
+to evolve dramatically. The next few decades will witness groundbreaking 
+transformations across multiple sectors as humanity strives to balance 
+ecological sustainability with the demands of a growing global population. 
+Central to this evolution are three critical factors: the environment, 
+habitat, building and housing design, building automation systems, and 
+the pursuit of decarbonization."
+data-th="
+ในขณะที่โลกพุ่งไปสู่อนาคตที่ไม่แน่นอนที่เกิดจากการเปลี่ยนแปลงสภาพภูมิอากาศ 
+นวัตกรรมทางเทคโนโลยีและการขยายตัวของเมืองที่เพิ่มขึ้นวิธีที่เราโต้ตอบ 
+ด้วยสภาพแวดล้อมของเราอาศัยอยู่ในบ้านของเราและออกแบบอาคารของเราถูกกําหนด
+เพื่อพัฒนาอย่างมาก อีกไม่กี่ทศวรรษข้างหน้าจะเป็นสักขีพยานในการก้าวล้ํา 
+การเปลี่ยนแปลงในหลายภาคส่วนในขณะที่มนุษยชาติมุ่งมั่นที่จะสร้างสมดุล 
+ความยั่งยืนทางนิเวศวิทยาตามความต้องการของประชากรโลกที่เพิ่มขึ้น 
+หัวใจสําคัญของวิวัฒนาการนี้คือปัจจัยสําคัญสามประการ: สิ่งแวดล้อม 
+ที่อยู่อาศัย การออกแบบอาคารและที่อยู่อาศัย ระบบอัตโนมัติในอาคาร และ 
+การแสวงหาการลดคาร์บอน"
+data-zh="
+当世界朝着由气候变化塑造的不确定未来飞驰时，
+技术创新、日益增长的城市化、我们的互动方式
+与我们的环境、住在我们的家中和设计我们的建筑一起设置
+急剧进化。未来几十年将见证破土动工
+随着人类努力平衡，多个领域的转型
+满足全球不断增长的人口需求的生态可持续性。
+这种演变的核心是三个关键因素：环境、
+栖息地、建筑和住房设计、楼宇自动化系统，以及
+追求脱碳。">
+As the world hurtles towards an uncertain future shaped by climate change, 
+technological innovation, and growing urbanization, the way we interact 
+with our environment, live in our homes, and design our buildings is set
+to evolve dramatically. The next few decades will witness groundbreaking 
+transformations across multiple sectors as humanity strives to balance 
+ecological sustainability with the demands of a growing global population. 
+Central to this evolution are three critical factors: the environment, 
+habitat, building and housing design, building automation systems, and 
+the pursuit of decarbonization.
+                </pre>
+            </div>
+            <div class="text2-h">
+                <pre
+                data-en="
+The Future of the World Environment and Habitat
+Our environment, already under unprecedented strain due to human activity, 
+will remain at the core of global concern in the coming years. As the impacts 
+of climate change intensify, we will be forced to rethink how we use and 
+conserve natural resources. Initiatives aimed at protecting biodiversity, 
+restoring degraded ecosystems, and rewildingurban spaces will shape how we 
+approach future land use and city planning.
+                
+Environmental adaptation will be crucial in the face of rising sea levels, 
+more frequent natural disasters, and changing weather patterns. Coastal 
+cities will adopt strategies to protect themselves from floods by 
+integrating green infrastructures, such as wetlands and mangroves, while
+inland areas will implement drought-resistant landscaping and urban farms
+to increase food resilience. As habitats shift due to climate extremes, 
+conservation efforts will prioritize creating corridors that allow species
+to migrate and adapt to their new surroundings.
+                                                
+On the human front, habitats will evolve into multi-functional, sustainable 
+ecosystems. Cities will increasingly blur the line between built environments 
+and natural ecosystems,with smart city designs emphasizing urban forests, 
+green roofs, and community gardens. Nature will no longer be confined to parks 
+but will become an integral part of daily urbanlife, offering both aesthetic 
+and ecological benefits. Buildings will serve as ecosystems themselves, housing 
+both humans and greenery in symbiotic relationships, where homes and workplaces 
+clean air, filter water, and even grow food."
+                data-th="
+อนาคตของโลกสิ่งแวดล้อมและที่อยู่อาศัยสิ่งแวดล้อมของเราซึ่งอยู่ภายใต้ความตึงเครียดที่
+ไม่เคยมีมาก่อนเนื่องจากกิจกรรมของมนุษย์จะยังคงเป็นหัวใจสําคัญของความกังวลระดับโลก
+ในอีกไม่กี่ปีข้างหน้า เมื่อผลกระทบของการเปลี่ยนแปลงสภาพภูมิอากาศทวีความรุนแรงขึ้น 
+เราจะถูกบังคับให้คิดใหม่ว่าเราใช้และอนุรักษ์ทรัพยากรธรรมชาติอย่างไร ความคิดริเริ่มที่มุ่ง
+ปกป้องความหลากหลายทางชีวภาพ ฟื้นฟูระบบนิเวศที่เสื่อมโทรม และการฟื้นฟูพื้นที่ใน
+เมืองจะกําหนดวิธีที่เราเข้าใกล้การใช้ที่ดินในอนาคตและการวางผังเมือง
 
-.container2-h img {
-    max-width: 500px;
-    margin-top: 0px;
-    margin-left: 780px;
-}
 
-.text2-h pre {
-    font-size: 15px;
-    font-family: Arial;
-    border: 3px solid transparent;
-    margin-top: 100px;
-    margin-bottom: -450px;
-    margin-right: 0px;
-    margin-left: 160px;
-}
+การปรับตัวต่อสิ่งแวดล้อมจะมีความสําคัญอย่างยิ่งเมื่อเผชิญกับระดับน้ําทะเลที่สูงขึ้นภัย
+ธรรมชาติที่บ่อยขึ้นและรูปแบบสภาพอากาศที่เปลี่ยนแปลง เมืองชายฝั่งจะใช้กลยุทธ์
+เพื่อป้องกันตนเองจากน้ําท่วมโดยการบูรณาการโครงสร้างพื้นฐานสีเขียว เช่น พื้นที่ชุ่ม
+น้ําและป่าชายเลนพื้นที่ภายในประเทศจะใช้ภูมิทัศน์ที่ทนต่อความแห้งแล้งและฟาร์มใน
+เมืองเพื่อเพิ่มความยืดหยุ่นของอาหาร เมื่อที่อยู่อาศัยเปลี่ยนไปเนื่องจากสภาพอากาศสุด
+ขั้วความพยายามในการอนุรักษ์จะให้ความสําคัญกับการสร้างทางเดินที่ช่วยให้สิ่งมีชีวิต
+สามารถอพยพและปรับตัวให้เข้ากับสภาพแวดล้อมใหม่ได้
 
-.container3-h img {
-    max-width: 500px;
-    margin-top: 200px;
-    margin-left: 130px;
-}
+ในด้านของมนุษย์ที่อยู่อาศัยจะพัฒนาไปสู่ระบบนิเวศที่ยั่งยืนและอเนกประสงค์ เมืองต่างๆ 
+จะเบลอเส้นแบ่ง ระหว่างสภาพแวดล้อมที่สร้างขึ้นมากขึ้น และระบบนิเวศธรรมชาติด้วย
+การออกแบบเมืองอัจฉริยะที่เน้นป่าในเมือง หลังคาสีเขียว และสวนชุมชน ธรรมชาติจะไม่
+ถูกจํากัดอยู่แค่ในสวนสาธารณะอีกต่อไป แต่จะกลายเป็นส่วนสําคัญของชีวิตในเมืองประจํา
+วัน โดยให้ประโยชน์ทั้งด้านสุนทรียศาสตร์และระบบนิเวศ อาคารจะทําหน้าที่เป็นระบบนิเวศ 
+เป็นที่อยู่อาศัยของทั้งมนุษย์และต้นไม้เขียวขจีในความสัมพันธ์ทางชีวภาพ ซึ่งบ้าน
+และที่ทํางาน อากาศบริสุทธิ์กรองน้ําและแม้กระทั่งปลูกอาหาร
+                "
+                data-zh="
+世界环境和栖息地的未来
+由于人类活动，我们的环境已经承受了前所未有的压力，
+在未来几年仍将是全球关注的核心问题。作为影响
+随着气候变化的加剧，我们将被迫重新思考我们如何利用和
+保护自然资源。旨在保护生物多样性的举措，
+恢复退化的生态系统和重新野化城市空间将塑造我们如何
+处理未来的土地利用和城市规划。
 
-.text3-h pre {
-    font-size: 17px;
-    font-family: Arial;
-    margin-left: 700px;
-    margin-top: -450px;
-}
+面对海平面上升，环境适应将至关重要。
+更频繁的自然灾害和不断变化的天气模式。海岸的
+城市将采取策略来保护自己免受洪水的影响，包括
+整合湿地和红树林等绿色基础设施，同时
+内陆地区将实施抗旱园林绿化和城市农场
+提高食物的弹性。随着极端气候导致栖息地发生变化，
+保护工作将优先创建允许物种
+迁移并适应他们的新环境。
+                
+在人类方面，栖息地将演变成多功能、可持续的栖息地
+生态。城市将越来越模糊建筑环境之间的界限
+和自然生态系统，以强调城市森林的智慧城市设计，
+绿色屋顶和社区花园。大自然将不再局限于公园
+但将成为日常城市生活中不可或缺的一部分，提供两种美学
+和生态效益。建筑物本身将作为生态系统，住房
+人类与绿色共生，其中家和工作场所
+清洁空气、过滤水，甚至种植食物。">
+<b>The Future of the World Environment and Habitat</b>
+Our environment, already under unprecedented strain due to human activity, 
+will remain at the core of global concern in the coming years. As the impacts 
+of climate change intensify, we will be forced to rethink how we use and 
+conserve natural resources. Initiatives aimed at protecting biodiversity, 
+restoring degraded ecosystems, and rewildingurban spaces will shape how we 
+approach future land use and city planning.
 
-.container4-h img {
-    max-width: 400px;
-    margin-top: 100px;
-    margin-left: 800px;
-}
-.text4-h pre {
-    font-family: Arial;
-    margin-left: 120px;
-    margin-top: -450px;
-}
+Environmental adaptation will be crucial in the face of rising sea levels, 
+more frequent natural disasters, and changing weather patterns. Coastal 
+cities will adopt strategies to protect themselves from floods by 
+integrating green infrastructures, such as wetlands and mangroves, while
+inland areas will implement drought-resistant landscaping and urban farms
+to increase food resilience. As habitats shift due to climate extremes, 
+conservation efforts will prioritize creating corridors that allow species
+to migrate and adapt to their new surroundings.
+                                
+On the human front, habitats will evolve into multi-functional, sustainable
+ecosystems. Cities will increasingly blur the line between built environments 
+and natural ecosystems, with smart city designs emphasizing urban forests, 
+green roofs, and community gardens. Nature will no longer be confined to parks 
+but will become an integral part of daily urban life, offering both aesthetic
+and ecological benefits. Buildings will serve as ecosystems themselves, 
+housing both humans and greenery in symbiotic relationships, where homes 
+and workplaces clean air, filter water, and even grow food.
+                </pre>
+            </div>
+        <div class="container2-h">
+            <img src="pexels-asadphoto-457882.jpg">
+        </div>
+        <div class="container3-h">
+            <img src="image11.jpg">
+        </div>
+        <div class="text3-h">
+            <pre
+data-en="
+The Future of Building and Housing
+The built environment is also undergoing a profound shift. Buildings of the 
+future will no longer be seen as static structures but as dynamic, adaptable 
+systems that are deeply integrated into the environment. The future of 
+architecture will be defined by sustainability, flexibility, and resilience.
 
-.container5-h img {
-    max-width: 500px;
-    margin-top: 300px;
-    margin-left: 130px;
-}
+Green architecture will become the norm, with buildings designed to minimize 
+their environmental footprint and generate their energy. Solar panels, 
+rainwater harvesting systems, and green walls will be common features in 
+housing, while the use of sustainable, renewable materials like bamboo, 
+recycled steel, and mycelium-based composites will replace conventional 
+construction methods. Smart design will focus on reducing resource consumption, 
+with energy-efficient insulation, natural ventilation, and passive solar heating 
+becoming standard.
 
-.text5-h pre {
-    font-size: 17px;
-    font-family: Arial;
-    margin-top: -475px;
-    margin-left: 780px;
-    align-self: left;
-}
+Housing will also need to accommodate the changing demographics of cities. As 
+urban populations grow and space becomes more limited, modular and prefabricated 
+housing will offera sustainable solution for compact living. These homes will be 
+designed to expand or contract based on the occupants' needs, offering flexibility 
+and adaptability as lifestyles change. Additionally, with urbanization driving up 
+the cost of housing, affordable, high-density solutions such as micro-apartments 
+and co-living spaces will become more prevalent.
+Future buildings will not only be environmentally friendly but also resilient. In 
+disaster-prone areas, structures will be built to withstand floods, earthquakes, 
+and other extreme events. Adaptive architecture will incorporate features that 
+allow buildings to respond to changing environmental conditions, such as rising 
+temperatures or fluctuating rainfall. Housing of the future will not only shelter 
+its inhabitants but protect them from the changing climate."
+data-th="
+อนาคตของอาคารและที่อยู่อาศัย
+สภาพแวดล้อมที่สร้างขึ้นก็กําลังอยู่ระหว่างการเปลี่ยนแปลงอย่างลึกซึ้งเช่นกัน อาคารของ 
+อนาคตจะไม่ถูกมองว่าเป็นโครงสร้างคงที่อีกต่อไป แต่เป็นแบบไดนามิกและปรับตัวได้ 
+ระบบที่บูรณาการอย่างลึกซึ้งกับสิ่งแวดล้อม อนาคตของ 
+สถาปัตยกรรมจะถูกกําหนดโดยความยั่งยืน ความยืดหยุ่น และความยืดหยุ่น
 
-.contact pre {
-    font-size: 17px;
-    font-family: Arial;
-    margin-top: 0px;
-    margin-right: 130px;
-    align-self: left;
-}
+สถาปัตยกรรมสีเขียวจะกลายเป็นบรรทัดฐาน ด้วยอาคารที่ออกแบบมาเพื่อลดขนาด 
+รอยเท้าต่อสิ่งแวดล้อมและสร้างพลังงานของพวกเขา แผงโซลาร์เซลล์, 
+ระบบเก็บเกี่ยวน้ําฝนและกําแพงสีเขียวจะเป็นคุณสมบัติทั่วไปใน 
+ที่อยู่อาศัยในขณะที่ใช้วัสดุหมุนเวียนที่ยั่งยืนเช่นไม้ไผ่ 
+เหล็กรีไซเคิลและคอมโพสิตที่ใช้ไมซีเลียมจะเข้ามาแทนที่แบบเดิม 
+วิธีการก่อสร้าง การออกแบบที่ชาญฉลาดจะมุ่งเน้นไปที่การลดการใช้ทรัพยากร 
+ด้วยฉนวนกันความร้อนประหยัดพลังงานการระบายอากาศตามธรรมชาติและเครื่องทําความ
+ร้อนพลังงานแสงอาทิตย์แบบพาสซีฟ กลายเป็นมาตรฐาน
 
-.contact h2{
-    font-size: 33px;
-    margin-top: 1000px;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-    margin-right: 0;
-    margin-left: 0;
-}
+ที่อยู่อาศัยจะต้องรองรับข้อมูลประชากรที่เปลี่ยนแปลงไปของเมือง เป็น 
+ประชากรในเมืองเพิ่มขึ้นและพื้นที่มี จํากัด มากขึ้น โมดูลาร์และสําเร็จรูป 
+ที่อยู่อาศัยจะนําเสนอโซลูชั่นที่ยั่งยืนสําหรับการใช้ชีวิตที่กะทัดรัด บ้านเหล่านี้จะเป็น 
+ออกแบบมาเพื่อขยายหรือหดตัวตามความต้องการของผู้อยู่อาศัย ให้ความยืดหยุ่น 
+และความสามารถในการปรับตัวเมื่อวิถีชีวิตเปลี่ยนไป นอกจากนี้ ด้วยการขยายตัวของเมืองที่เพิ่มขึ้น 
+ต้นทุนที่อยู่อาศัย ราคาไม่แพง โซลูชั่นความหนาแน่นสูง เช่น ไมโครอพาร์ทเมนต์ 
+และพื้นที่ใช้สอยร่วมกันจะแพร่หลายมากขึ้น
+อาคารในอนาคตไม่เพียงแต่เป็นมิตรกับสิ่งแวดล้อมเท่านั้น แต่ยังยืดหยุ่นอีกด้วย ใน 
+พื้นที่เสี่ยงต่อภัยพิบัติ โครงสร้างจะถูกสร้างขึ้นเพื่อทนต่อน้ําท่วม แผ่นดินไหว 
+และเหตุการณ์สุดโต่งอื่น ๆ สถาปัตยกรรมแบบปรับได้จะรวมคุณสมบัติที่ 
+ช่วยให้อาคารสามารถตอบสนองต่อสภาพแวดล้อมที่เปลี่ยนแปลงไป เช่น การเพิ่มขึ้น 
+อุณหภูมิหรือปริมาณน้ําฝนที่ผันผวน ที่อยู่อาศัยแห่งอนาคตจะไม่เพียงแต่ที่พักพิง 
+ผู้อยู่อาศัย แต่ปกป้องพวกเขาจากการเปลี่ยนแปลงภูมิอากาศ"
 
-.container-contact img {
-    margin-top: -100px;
-    max-width: 600px;
-    float: left;
-    border: 3px solid transparent;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-}
+data-zh="
+建筑和住房的未来
+建筑环境也正在发生深刻的变化。建筑
+未来将不再被视为静态结构，而是动态的、适应性强的
+深度集成到环境中的系统。未来
+建筑将由可持续性、灵活性和弹性来定义。
 
-.container-s-contact pre {
-    font-size: 17px;
-    font-family: Arial;
-    margin-top: 0px;
-    margin-right: 130px;
-    align-self: left;
-}
+绿色建筑将成为常态，建筑的设计将最大限度地减少
+他们的环境足迹并产生他们的能源。太阳能电池板，
+雨水收集系统和绿化墙将成为
+住房，同时使用竹子等可持续、可再生材料，
+回收钢和菌丝体基复合材料将取代传统的
+施工方法。智能设计将专注于减少资源消耗，
+采用节能隔热、自然通风和被动式太阳能供暖
+成为标准。
 
-.container-s-contact h2{
-    font-size: 33px;
-    margin-top: 100px;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-    margin-right: 0;
-    margin-left: 0;
-}
+住房还需要适应城市不断变化的人口结构。如
+城市人口增长，空间变得更加有限，模块化和预制
+住房将为紧凑的生活提供可持续的解决方案。这些房屋将是
+可根据居住者的需要进行扩展或收缩，提供灵活性
+以及随着生活方式变化而具有的适应性。此外，随着城市化进程的加快
+住房成本、负担得起的高密度解决方案，例如微型公寓
+共同生活空间将变得更加普遍。
+未来的建筑不仅要环保，而且要有弹性。在
+灾害多发地区，将建造能够抵御洪水、地震、
+和其他极端事件。自适应架构将包含以下功能
+允许建筑物响应不断变化的环境条件，例如上升
+温度或降雨量波动。未来的住房不仅会提供住房
+它的居民，但保护他们免受变化气候">            
+The Future of Building and Housing
+The built environment is also undergoing a profound shift. Buildings of the 
+future will no longer be seen as static structures but as dynamic, adaptable 
+systems that are deeply integrated into the environment. The future of 
+architecture will be defined by sustainability, flexibility, and resilience.
 
-.container-s-contact img {
-    margin-top: 400px;
-    max-width: 600px;
-    float: left;
-    border: 3px solid transparent;
-    margin-top: -80px;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-}
+Green architecture will become the norm, with buildings designed to minimize 
+their environmental footprint and generate their energy. Solar panels, 
+rainwater harvesting systems, and green walls will be common features in 
+housing, while the use of sustainable, renewable materials like bamboo, 
+recycled steel, and mycelium-based composites will replace conventional 
+construction methods. Smart design will focus on reducing resource consumption, 
+with energy-efficient insulation, natural ventilation, and passive solar heating 
+becoming standard.
 
-.OFC pre {
-    font-size: 35px;
-    color: white;
-    border-top: 3px solid green;
-    border-right: 3px solid green;
-    border-left: 3px solid green;
-    background-color: green;
-    margin-top: -650px;
-    margin-left: -650px;;
-    float: left;
-    align-self: left;
-}
+Housing will also need to accommodate the changing demographics of cities. As 
+urban populations grow and space becomes more limited, modular and prefabricated 
+housing will offera sustainable solution for compact living. These homes will be 
+designed to expand or contract based on the occupants' needs, offering flexibility 
+and adaptability as lifestyles change. Additionally, with urbanization driving up 
+the cost of housing, affordable, high-density solutions such as micro-apartments 
+and co-living spaces will become more prevalent.
+Future buildings will not only be environmentally friendly but also resilient. In 
+disaster-prone areas, structures will be built to withstand floods, earthquakes, 
+and other extreme events. Adaptive architecture will incorporate features that 
+allow buildings to respond to changing environmental conditions, such as rising 
+temperatures or fluctuating rainfall. Housing of the future will not only shelter 
+its inhabitants but protect them from the changing climate.</pre>
+        </div>
+        <div class="container4-h">
+            <img src="image12.jpg">
+        </div>
+        <div class="text4-h">
+            <pre
+data-en="
+The Role of Building Automation Systems
+Building automation systems (BAS) will play a pivotal role in shaping the future of buildings 
+and housing. With the increasing integration of technology into our everyday lives, smart 
+homesand smart buildings will become more prevalent. These systems will optimize the 
+operation of heating, ventilation, lighting, and security, reducing energy consumption 
+and providing a higher level of comfort and convenience.
 
-.container {
-    margin-left: 100px auto;
-    width: 75%;
-}
+At the core of BAS is the Internet of Things (IoT), which enables devices within a building to 
+communicate with each other and operate autonomously. These systems will learn from the 
+behaviorof occupants, adjusting settings in real-time to maintain optimal energy efficiency. 
+For example, intelligent lighting systems will use sensors to detect occupancy and adjust 
+brightness accordingly, while smart thermostats will analyze weather forecasts to minimize 
+heating and cooling costs.
 
-.container img {
-    max-width: 565px;
-    float: left;
-    border: 3px solid transparent;
-    margin-top: 0px;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-}
+Building automation will also enhance the safety and security of homes and businesses. 
+Real-time monitoring, combined with AI-driven predictive analytics, will enable 
+systems to detect potential issues like gas leaks, electrical faults, or intrusions 
+before they escalate into serious problems. Over time, these systems will become more 
+sophisticated, incorporating features like voice control, gesture recognition, and 
+biometric authentication."
+data-th="
+บทบาทของระบบอาคารอัตโนมัติ
+ระบบอัตโนมัติในอาคาร (BAS) จะมีบทบาทสําคัญในการกําหนดอนาคตของอาคาร 
+และที่อยู่อาศัย ด้วยการบูรณาการเทคโนโลยีเข้ากับชีวิตประจําวันของเราที่เพิ่มขึ้น 
+บ้านและอาคารอัจฉริยะจะแพร่หลายมากขึ้น ระบบเหล่านี้จะเพิ่มประสิทธิภาพ 
+การทํางานของเครื่องทําความร้อนการระบายอากาศแสงสว่างและการรักษาความปลอดภัยลดการใช้พลังงาน 
+และมอบความสะดวกสบายในระดับที่สูงขึ้น
 
-.text pre {
-    font-size: 17px;
-    font-family: Arial;
-    margin-top: -60px;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-}
+หัวใจหลักของ BAS คือ Internet of Things (IoT) ซึ่งช่วยให้อุปกรณ์ภายในอาคารสามารถ 
+สื่อสารกันและทํางานได้อย่างอิสระ ระบบเหล่านี้จะเรียนรู้จาก 
+พฤติกรรมของผู้อยู่อาศัยปรับการตั้งค่าแบบเรียลไทม์เพื่อรักษาประสิทธิภาพการใช้พลังงานที่เหมาะสมที่สุด 
+ตัวอย่างเช่น ระบบไฟอัจฉริยะจะใช้เซ็นเซอร์เพื่อตรวจจับการครอบครองและปรับ 
+ความสว่างตามนั้น ในขณะที่เทอร์โมสตัทอัจฉริยะจะวิเคราะห์การพยากรณ์อากาศเพื่อลด 
+ค่าความร้อนและความเย็น
 
-.text h2 {
-    font-size: 33px;
-    margin-top: -30px;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-    margin-right: 0;
-    margin-left: 0;
-}
+ระบบอัตโนมัติในอาคารจะช่วยเพิ่มความปลอดภัยและความมั่นคงของบ้านและธุรกิจ 
+การตรวจสอบแบบเรียลไทม์รวมกับการวิเคราะห์เชิงคาดการณ์ที่ขับเคลื่อนด้วย AI จะช่วยให้ 
+ระบบตรวจจับปัญหาที่อาจเกิดขึ้น เช่น การรั่วไหลของแก๊ส ความผิดพลาดทางไฟฟ้า หรือการบุกรุก 
+ก่อนที่พวกเขาจะบานปลายไปสู่ปัญหาร้ายแรง เมื่อเวลาผ่านไประบบเหล่านี้จะมากขึ้น 
+ซับซ้อน รวมคุณสมบัติต่างๆ เช่น การควบคุมด้วยเสียง การจดจําท่าทาง และ 
+การรับรองความถูกต้องด้วยไบโอเมตริกซ์"
+data-zh="
+楼宇自动化系统的作用
+楼宇自动化系统 （BAS） 将在塑造建筑的未来方面发挥关键作用
+和住房。随着技术越来越多地融入我们的日常生活，智能
+住宅和智能建筑将变得更加普遍。这些系统将优化
+供暖、通风、照明和安全的运行，减少能源消耗
+并提供更高水平的舒适度和便利性。
 
-.container2 {
-    margin-right: 100px auto;
-    width: 75%;
-}
+BAS 的核心是物联网 （IoT），它使建筑物内的设备能够
+相互通信并自主运行。这些系统将从
+行为，实时调整设置以保持最佳能源效率。
+例如，智能照明系统将使用传感器来检测占用情况并进行调整
+亮度，而智能恒温器将分析天气预报以最小化
+供暖和制冷成本。
 
-.text2 h2 {
-    font-size: 33px;
-    float: left;
-    margin-top: 220px;
-    margin-right: 100px;
-    margin-bottom: -30px;
-    margin-left: 160px;
-    top: 100px;
-}
+楼宇自动化还将提高家庭和企业的安全保障。
+实时监控与 AI 驱动的预测分析相结合，将使
+用于检测潜在问题（如气体泄漏、电气故障或入侵）的系统
+在他们升级为严重问题之前。随着时间的推移，这些系统将变得更加
+复杂，包含语音控制、手势识别和
+生物识别身份验证。">
+<b>The Role of Building Automation Systems</b>
+Building automation systems (BAS) will play a pivotal role in shaping the future of buildings 
+and housing. With the increasing integration of technology into our everyday lives, smart 
+homesand smart buildings will become more prevalent. These systems will optimize the 
+operation of heating, ventilation, lighting, and security, reducing energy consumption 
+and providing a higher level of comfort and convenience.
 
-.text2 pre {
-    font-size: 17px;
-    font-family: Arial;
-    float: left;
-    border: 3px solid transparent;
-    margin-top: 100px;
-    margin-right: 0px;
-    margin-left: 160px;
-    margin-bottom: 100px;
-    align-self: left;
-}
+At the core of BAS is the Internet of Things (IoT), which enables devices within a building to 
+communicate with each other and operate autonomously. These systems will learn from the 
+behaviorof occupants, adjusting settings in real-time to maintain optimal energy efficiency. 
+For example, intelligent lighting systems will use sensors to detect occupancy and adjust 
+brightness accordingly, while smart thermostats will analyze weather forecasts to minimize 
+heating and cooling costs.
 
-.container2 img {
-    border: 3px solid transparent;
-    margin-top: -400px;
-    margin-left: 820px;
-    margin-right: 30px;
-}
+Building automation will also enhance the safety and security of homes and businesses. 
+Real-time monitoring, combined with AI-driven predictive analytics, will enable 
+systems to detect potential issues like gas leaks, electrical faults, or intrusions 
+before they escalate into serious problems. Over time, these systems will become more 
+sophisticated, incorporating features like voice control, gesture recognition, and 
+biometric authentication.
+            </pre>
+        </div>
+        <div class="container5-h">
+            <img src="image9jpg.jpg">
+        </div>
+        <div class="text5-h">
+            <pre
+data-en="
+Decarbonization: The Road to Zero Emissions
+At the heart of the transformation in building design and housing is the 
+global push toward decarbonization. Decarbonization refers to the 
+reduction of carbon dioxide (CO2) emissions, primarily from burning 
+fossil fuels. As the world moves toward the goals set in the Paris 
+Agreement, decarbonization will become a non-negotiable priority in 
+construction, urban planning, and building automation.
+                
+The construction industry, responsible for a significant share of global 
+emissions, will adopt new materials and methods to reduce its carbon 
+footprint. Innovations like carbon-sequestering concrete, which absorbs 
+CO2 from the atmosphere, and the use of timber from sustainable forests 
+will become widespread. Governments and industries will likely introduce 
+stricter carbon regulations, incentivizing builders to adopt sustainable 
+practices and penalizing those who fail to meet decarbonization targets.
+                
+Buildings themselves will aim to achieve net-zero emissions, meaning they 
+will produce as much energy as they consume. The integration of renewable 
+energy sources such as solar, wind, and geothermal power into building 
+designs will help achieve this goal. Energy-efficient technologies, such 
+as smart windows that adjust transparency based on the intensity of sunlight, 
+will further reduce energy consumption. Buildings of the future will be 
+climate-positive, not only minimizing their environmental impact but actively 
+contributing to the global effort to mitigate climate change."
+data-th="
+การลดคาร์บอน: เส้นทางสู่การปล่อยมลพิษเป็นศูนย์
+หัวใจสําคัญของการเปลี่ยนแปลงในการออกแบบอาคารและที่อยู่อาศัยคือ 
+การผลักดันทั่วโลกสู่การลดคาร์บอน การลดคาร์บอนหมายถึง 
+การลดการปล่อยก๊าซคาร์บอนไดออกไซด์ (CO2) ส่วนใหญ่มาจากการเผาไหม้ 
+เชื้อเพลิงฟอสซิล ในขณะที่โลกก้าวไปสู่เป้าหมายที่กําหนดไว้ในปารีส 
+ข้อตกลงการลดคาร์บอนจะกลายเป็นลําดับความสําคัญที่ไม่สามารถต่อรองได้ใน 
+การก่อสร้าง การวางผังเมือง และระบบอัตโนมัติในอาคาร
+                
+อุตสาหกรรมการก่อสร้างที่รับผิดชอบส่วนแบ่งที่สําคัญของโลก 
+การปล่อยมลพิษจะนําวัสดุและวิธีการใหม่มาใช้เพื่อลดคาร์บอน 
+รอยเท้า  นวัตกรรม เช่น คอนกรีตกักเก็บคาร์บอน ซึ่งดูดซับ 
+CO2 จากชั้นบรรยากาศและการใช้ไม้จากป่าไม้ที่ยั่งยืน 
+จะแพร่หลาย รัฐบาลและอุตสาหกรรมมีแนวโน้มที่จะแนะนํา 
+กฎระเบียบด้านคาร์บอนที่เข้มงวดขึ้น จูงใจให้ผู้สร้างนํามาใช้อย่างยั่งยืน 
+การปฏิบัติและลงโทษผู้ที่ไม่บรรลุเป้าหมายการลดคาร์บอน
 
-.container-first img {
-    width: 350px;
-    float: left;
-    border: 3px solid transparent;
-    margin-top: -10px;
-    margin-right: 65px;
-    margin-left: 300px;
-    align-self: left;
-}
+อาคารเองจะมีเป้าหมายที่จะบรรลุการปล่อยก๊าซเรือนกระจกสุทธิเป็นศูนย์ 
+ซึ่งหมายความว่าอาคารเหล่านั้น จะผลิตพลังงานได้มากเท่าที่พวกเขาใช้ 
+การบูรณาการของพลังงานหมุนเวียน แหล่งพลังงาน เช่น พลังงานแสง
+อาทิตย์ ลม และพลังงานความร้อนใต้พิภพในอาคาร การออกแบบจะช่วย
+ให้บรรลุเป้าหมายนี้ เทคโนโลยีประหยัดพลังงาน เช่น เป็นหน้าต่างอัจฉริยะ
+ที่ปรับความโปร่งใสตามความเข้มของแสงแดด จะช่วยลดการใช้พลังงานได้
+มากขึ้น อาคารแห่งอนาคตจะเป็น เป็นบวกต่อสภาพภูมิอากาศ ไม่เพียงแต่
+ลดผลกระทบต่อสิ่งแวดล้อม แต่ยังกระตือรือร้นอีกด้วย มีส่วนร่วมในความ
+พยายามระดับโลกในการบรรเทาการเปลี่ยนแปลงสภาพภูมิอากาศ"
+data-zh="
+脱碳：零排放之路
+建筑设计和住房转型的核心是
+全球推动脱碳。脱碳是指
+减少二氧化碳 （CO2） 排放，主要是燃烧产生的
+化石燃料。随着世界朝着巴黎设定的目标迈进
+协议，脱碳将成为不容商量的优先事项
+建筑、城市规划和楼宇自动化。
 
-.text-first h2 {
-    font-size: 30px;
-    font-family: Arial;
-    margin-top: 100px;
-    margin-right: 65px;
-    margin-left: 160px;
-    align-self: left;
-}
+建筑业，占全球的很大份额
+排放，将采用新材料和新方法来减少其碳排放
+脚印。碳封存混凝土等创新技术，可吸收
+大气中的二氧化碳，以及使用来自可持续森林的木材
+将变得普遍。政府和行业可能会引入
+更严格的碳法规，激励建筑商采用可持续
+做法并惩罚那些未能达到脱碳目标的人。
 
-.text-first pre {
-    font-size: 17px;
-    font-family: Arial;
-    margin-top: 30px;
-    margin-right: 5cm;
-    margin-left: 160px;
-    align-self: left;
-}
+建筑物本身将致力于实现净零排放，这意味着它们
+将产生与它们消耗的能量一样多的能量。可再生能
+源的整合太阳能、风能和地热能等能源进入建筑
+设计将有助于实现这一目标。节能技术，例如
+作为根据阳光强度调整透明度的智能窗口，
+将进一步降低能耗。未来的建筑将是
+对气候产生积极影响，不仅最大限度地减少对环境
+的影响，而且积极主动为全球缓解气候变化的努力
+做出贡献。"
+>
+<b>Decarbonization: The Road to Zero Emissions</b>
+At the heart of the transformation in building design and housing is the 
+global push toward decarbonization. Decarbonization refers to the 
+reduction of carbon dioxide (CO2) emissions, primarily from burning 
+fossil fuels. As the world moves toward the goals set in the Paris 
+Agreement, decarbonization will become a non-negotiable priority in 
+construction, urban planning, and building automation.
+                
+The construction industry, responsible for a significant share of global 
+emissions, will adopt new materials and methods to reduce its carbon 
+footprint. Innovations like carbon-sequestering concrete, which absorbs 
+CO2 from the atmosphere, and the use of timber from sustainable forests 
+will become widespread. Governments and industries will likely introduce 
+stricter carbon regulations, incentivizing builders to adopt sustainable 
+practices and penalizing those who fail to meet decarbonization targets.
+                
+Buildings themselves will aim to achieve net-zero emissions, meaning they 
+will produce as much energy as they consume. The integration of renewable 
+energy sources such as solar, wind, and geothermal power into building 
+designs will help achieve this goal. Energy-efficient technologies, such 
+as smart windows that adjust transparency based on the intensity of sunlight, 
+will further reduce energy consumption. Buildings of the future will be 
+climate-positive, not only minimizing their environmental impact but actively 
+contributing to the global effort to mitigate climate change.</pre>
+        </div>
+    </div>
+    <div id="products" class="page">
+        <div class="container">
+            <div class="content">
+                <div class="card">
+                    <img src="solar panel.jpg" alt="Solar Panels">
+                    <div class="card-content">
+                        <h2 data-en="Solar Solutions"
+                            data-th="พลังงานแสงอาทิตย์"
+                            data-zh="太阳能解决方案">
+                            Solar Solutions</h2>
+                        <p
+                        data-en="Harness the power of the sun with our cutting-edge solar technologies."
+                        data-th="ควบคุมพลังของดวงอาทิตย์ด้วยเทคโนโลยีพลังงานแสงอาทิตย์ที่ล้ําสมัยของเรา"
+                        data-zh="利用我们尖端的太阳能技术利用太阳能。">Harness the power of the sun with our cutting-edge solar technologies.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="ev charger.jpg" width="10" alt="ev charger">
+                    <div class="card-content">
+                        <h2 data-en="EV charger"
+                            data-th="เครื่องชาร์จ EV"
+                            data-zh="电动汽车充电器">EV charger</h2>
+                            <p
+                            data-en="fast, smart charging with features like Wi-Fi connectivity, adjustable power output, and universal compatibility, providing up to 30-50 miles of range per 
+                            hour for Level 2 chargers or ultra-fast DC charging. It’s weatherproof, safe, and integrates with renewable energy systems, ensuring efficient, eco-friendly charging for all EV models."
+                            data-th="การชาร์จที่รวดเร็วและชาญฉลาดพร้อมคุณสมบัติต่างๆ เช่น การเชื่อมต่อ Wi-Fi กําลังขับที่ปรับได้ และความเข้ากันได้สากล ให้ระยะทางสูงสุด 30-50 ไมล์ต่อชั่วโมงสําหรับเครื่องชาร์จระดับ 2 หรือการชาร์จ DC ที่รวดเร็วเป็นพิเศษ
+                            ทนทานต่อสภาพอากาศ ปลอดภัย และผสานรวมกับระบบพลังงานหมุนเวียน ทําให้มั่นใจได้ถึงการชาร์จที่มีประสิทธิภาพและเป็นมิตรกับสิ่งแวดล้อมสําหรับ EV ทุกรุ่น"
+                            data-zh="具有 Wi-Fi 连接、可调节功率输出和通用兼容性等功能的快速智能充电，为 30 级充电器或超快速直流充电提供每小时 50-2 英里的续航里程。它防风雨、安全，并与可再生能源系统集成，确保为所有 EV 车型提供高效、环保的充电。">fast, smart charging with features like Wi-Fi connectivity, adjustable power output, and universal compatibility, providing up to 30-50 miles of range per 
+                            hour for Level 2 chargers or ultra-fast DC charging. It’s weatherproof, safe, and integrates with renewable energy systems, ensuring efficient, eco-friendly charging for all EV models.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="GREEN.jpg" alt="Green Building">
+                    <div class="card-content">
+                        <h2 data-en="Green Architecture"
+                            data-th="สถาปัตยกรรมสีเขียว"
+                            data-zh="绿色建筑">Green Architecture</h2>
+                        <p data-en="Designing eco-friendly buildings that harmonize with nature."
+                           data-th="ออกแบบอาคารที่เป็นมิตรกับสิ่งแวดล้อมที่กลมกลืนกับธรรมชาติ"
+                           data-zh="设计与自然和谐相处的环保建筑。">Designing eco-friendly buildings that harmonize with nature.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <img src="HVAC.png" width="10">
+                    <div class="card-content">
+                        <h2 data-en="HVAC, MEP and Retrofit"
+                            data-th="HVAC, MEP และการติดตั้งเพิ่มเติม"
+                            data-zh="HVAC、MEP 和改造">HVAC, MEP and Retrofit</h2>
+                        <p data-en="Enhances energy efficiency, reducing operational costs and environmental impact. It also increases indoor comfort, system reliability, and overall building value, creating a more sustainable and cost-effective environment."
+                           data-th="เพิ่มประสิทธิภาพการใช้พลังงาน ลดต้นทุนการดําเนินงาน และผลกระทบต่อสิ่งแวดล้อม นอกจากนี้ยังเพิ่มความสะดวกสบายในร่มความน่าเชื่อถือของระบบและมูลค่าอาคารโดยรวมสร้างสภาพแวดล้อมที่ยั่งยืนและคุ้มค่ายิ่งขึ้น"
+                           data-zh="提高能源效率，降低运营成本和环境影响。它还提高了室内舒适度、系统可靠性和整体建筑价值，创造了更可持续和更具成本效益的环境。">Enhances energy efficiency, reducing operational costs and environmental impact. It also increases indoor comfort, system reliability, and overall building value, creating a more sustainable and cost-effective environment.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="3.jpg" alt="Wind Turbines">
+                    <div class="card-content">
+                        <h2 data-en="Controls, Automation, BAS and Smart Building"
+                            data-th="การควบคุม ระบบอัตโนมัติ BAS และอาคารอัจฉริยะ"
+                            data-zh="控制、自动化、BAS 和智能建筑">Controls, Automation, BAS and Smart Building</h2>
+                        <p data-en="Enhances energy efficiency, reducing operational costs and environmental impact. It also improves building management by enabling real-time monitoring, predictive maintenance, and better occupant comfort and security."
+                           data-th="เพิ่มประสิทธิภาพการใช้พลังงาน ลดต้นทุนการดําเนินงาน และผลกระทบต่อสิ่งแวดล้อม นอกจากนี้ยังปรับปรุงการจัดการอาคารโดยเปิดใช้งานการตรวจสอบแบบเรียลไทม์การบํารุงรักษาเชิงคาดการณ์และความสะดวกสบายและความปลอดภัยของผู้อยู่อาศัยที่ดีขึ้น"
+                           data-zh="提高能源效率，降低运营成本和环境影响。它还通过实现实时监控、预测性维护以及更好的居住者舒适度和安全性来改善建筑管理。">Enhances energy efficiency, reducing operational costs and environmental impact. It also improves building management by enabling real-time monitoring, predictive maintenance, and better occupant comfort and security.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image6.jpg" alt="Green Building">
+                    <div class="card-content">
+                        <h2 data-en="Environmental services and Energy saving"
+                            data-th="环境服务和节能"
+                            data-zh="环境服务和节能">Environmental services and Energy saving</h2>
+                        <p data-en="Managing, restoring, and protecting natural resources, ecosystems, and biodiversity to reduce pollution and environmental impact. Energy-saving services focus on optimizing energy consumption through efficiency measures, renewable energy solutions, and sustainable practices to reduce costs and environmental footprints."
+                           data-th="จัดการ ฟื้นฟู และปกป้องทรัพยากรธรรมชาติ ระบบนิเวศ และความหลากหลายทางชีวภาพเพื่อลดมลพิษและผลกระทบต่อสิ่งแวดล้อม บริการประหยัดพลังงานมุ่งเน้นไปที่การเพิ่มประสิทธิภาพการใช้พลังงานผ่านมาตรการที่มีประสิทธิภาพโซลูชันพลังงานหมุนเวียนและแนวทางปฏิบัติที่ยั่งยืนเพื่อลดต้นทุนและผลกระทบต่อสิ่งแวดล้อม"
+                           data-zh="管理、恢复和保护自然资源、生态系统和生物多样性，以减少污染和环境影响。节能服务侧重于通过效率措施、可再生能源解决方案和可持续实践来优化能源消耗，以降低成本和环境足迹。">Managing, restoring, and protecting natural resources, ecosystems, and biodiversity to reduce pollution and environmental impact. Energy-saving services focus on optimizing energy consumption through efficiency measures, renewable energy solutions, and sustainable practices to reduce costs and environmental footprints.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="reference" class="page">
+        <div class="container-first">
+            <img src="image.jpg">
+            <div class="text-first">
+                <pre data-en="
+    Project   : The Fountain Hatyai
+    Detail     : Design & build of downtown shophouses 
+                     with a restauraunt and cafe
+    Location : Hatyai city
+    Value      : THB40,200,000"
+                    data-th="
+โครงการ : The Fountain Hatyai
+รายละเอียด : ออกแบบและสร้างอาคารพาณิชย์ในตัวเมือง 
+                 ด้วยร้านอาหารและคาเฟ่
+สถานที่ตั้ง : หาดใหญ่
+มูลค่า : 40,200,000 บาท"
+                    data-zh="
+项目 ： The Fountain Hatyai
+详细资料：设计&建造市中心的店屋
+                 设有餐厅和咖啡馆
+地点 ： 合艾
+价值 ： THB40,200,000">
+Project   : The Fountain Hatyai
+Detail     : Design & build of downtown shophouses 
+                 with a restauraunt and cafe
+Location : Hatyai
+Value      : THB40,200,000</pre>
+            </div>
+        </div>
+        <div class="container-second">
+            <img src="loft 71.jpg">
+            <div class="text-second">
+                <pre
+                data-en="
+Project   : Loft71
+Detail     : Design & build of 350-sq.m. 
+              home offices
+Location : Ladprao 71
+Value      : THB30,000,000"
+                data-th="
+โครงการ : Loft71
+รายละเอียด : ออกแบบและสร้างพื้นที่ 350 ตร.ม. 
+              โฮมออฟฟิศ
+ที่ตั้ง : ลาดพร้าว 71
+มูลค่า : 30,000,000 บาท"
+                data-zh="
+项目 ： Loft71
+详细情况：设计和建造350平方米。
+         家庭办公室
+位置 ： Ladprao 71
+价值 ： THB30,000,000">
+Project   : Loft71
+Detail     : Design & build of 350-sq.m. 
+              home offices
+Location : Ladprao 71
+Value      : THB30,000,000</pre>
+            </div>
+        </div>
+        <div class="container-third">
+            <img src="Satahip ACDC.jpg">
+            <div class="text-third">
+                <pre
+                data-en="
+Project   : Satahip ACDC
+Detail     : Construction of 30 houses
+Location : Satahip
+Value      : THB20,100,000"
+                data-th="
+โครงการ : Satahip ACDC
+รายละเอียด : ก่อสร้างบ้าน 30 หลัง
+สถานที่ตั้ง : สตาหีบ
+มูลค่า : 20,100,000 บาท"
+                data-zh="
+项目 ： Satahip ACDC
+详细 ： 建造 30 栋房屋
+位置 ： Satahip
+价值 ： THB20,100,000">
+                </pre>
+            </div>
+        </div>
+    </div>
+    <div id="support" class="page">
+        <div class="container-s-contact">
+            <img src="2.jpg">
+        <div class="contact-s">
+            <h2 data-en="Our contact"
+                data-th="ติดต่อของเรา"
+                data-zh="我们的联系方式">Our contact</h2>
+            <pre
+            data-en="
+Email : contruction_blue@hotmail.com
+Phone number : +66 (0)86 990 9631"
+            data-th="
+อีเมล์ : contruction_blue@hotmail.com
+หมายเลขโทรศัพท์ : +66 (0)86 990 9631"
+            data-zh="
+电子邮件：contruction_blue@hotmail.com
+电话号码 : +66 (0)86 990 9631">
+Email : ghiscafe@hotmail.com
+Phone number : (+66) (0)86 990 9631
+            </pre>
+        </div>
+        </div>
+    </div>         
+    <div id="about" class="page">
+        <div class="container">
+            <pre>
+                <img src="beach.png">
+                <div class="text">
+                    <h2
+                    data-en="Welcome to Cblue"
+                    data-th="ยินดีต้อนรับสู่ Cblue"
+                    data-zh="欢迎来到 Cblue">Welcome to Cblue</h2>
+                    <pre 
+                    data-en="
+As a group of experienced and highly skilled professionals, we design,
+engineer and construct leading-edge facilities and related infrastructure for 
+the residential buildings, industries and public civil works.
 
-.container-second img {
-    width: 350px;
-    float: left;
-    border: 3px solid transparent;
-    margin-top: 200px;
-    margin-left: 700px;
-    margin-right: 65px;
-    align-self: left;
-}
+We have the flexibility and the strength to be able to deliver
+large or small projects successfully anywhere in Thailand.
+We offer a complete range of products and services to our clients:
 
-.text-second pre {
-    font-size: 17px;
-    font-family: Arial;
-    margin-top: -400px;
-    margin-right: 300px;
-    margin-left: 400px;
-    align-self: left;
-    float: left;
-}
+1. Market research and strategic studies
+2. Economic evaluations and feasibility studies
+3. Architectural, Interior and Landscape design as well as 
+Fit Out/Construction
+4. Detail engineering
+5. Procurement
+6. Construction management, Project management and Training
+7. HVAC, MEP and Retrofit
+8. Controls, Automation, Building Management System, Smart 
+Building, Environmental services and Energy saving"
+                    data-th="
+ในฐานะกลุ่มมืออาชีพที่มีประสบการณ์และทักษะสูง เราออกแบบ วิศวกรรม
+และก่อสร้างสิ่งอำนวยความสะดวกล้ำสมัยและโครงสร้างพื้นฐานที่เกี่ยวข้อง
+สำหรับอาคารที่พักอาศัย อุตสาหกรรมและงานโยธาสาธารณะ เรามีความยืด
+หยุ่นและความแข็งแกร่งที่จะสามารถส่งมอบโครงการขนาดใหญ่หรือเล็กได้
+สำเร็จในทุกพื้นที่ของประเทศไทย เราให้บริการผลิตภัณฑ์และบริการที่
+ครบวงจรแก่ลูกค้าของเรา:
 
-.container-third img {
-    width: 500px;
-    float: left;
-    border: 3px solid transparent;
-    margin-top: -125px;
-    margin-right: 65px;
-    margin-left: 400px;
-    align-self: left;
-}
+1. วิจัยตลาดและการศึกษาเชิงกลยุทธ์
+2. การประเมินทางเศรษฐศาสตร์และการศึกษาความเป็นไปได้
+3. การออกแบบสถาปัตยกรรม ภายใน และภูมิทัศน์ 
+รวมถึงการตกแต่งและการก่อสร้าง
+4. วิศวกรรมรายละเอียด
+5. การจัดซื้อจัดจ้าง
+6. การบริหารการก่อสร้าง การบริหารโครงการ และการฝึกอบรม
+7. ระบบปรับอากาศ ระบบไฟฟ้าและเครื่องกล และการปรับปรุง
+8. การควบคุม ระบบอัตโนมัติ ระบบบริหารอาคาร อาคารอัจฉริยะ 
+บริการด้านสิ่งแวดล้อม และการประหยัดพลังงาน"
+                    data-zh="
+作为一群经验丰富、技能娴熟的专业人士，我们为住宅建筑、工业和公共土
+木工程设计、工程和建造先进的设施和相关基础设施。我们拥有灵活性和实力
+，能够在泰国各地成功交付大小项目。我们为客户提供全面的产品和服务：
 
-.text-third pre{
-        font-size: 17px;
-        font-family: Arial;
-        margin-top: 1600px;
-        margin-right: 65px;
-        margin-left: 160px;
-        align-self: left;
-}
+1. 市场研究和战略研究
+2. 经济评估和可行性研究
+3. 建筑、室内和景观设计以及装修/施工
+4. 详细工程设计
+5. 采购
+6. 施工管理、项目管理和培训
+7. 暖通空调、机电和改造
+8. 控制、自动化、楼宇管理系统、智能建筑、环境服务和节能">
+As a group of experienced and highly skilled professionals, we design, engineer 
+and construct leading-edge facilities and related infrastructure for 
+the residential buildings, industries and public civil works.
 
-header {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-nav ul li a:hover {
-    color: #4CAF50;
-}
-.hero {
-    background-image: url('/api/placeholder/1200/600');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}
-.hero h1 {
-    font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-.card {
-    flex-basis: calc(33% - 20px);
-    margin-bottom: 40px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    margin-left: 0;
-}
-.card img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-.card-content {
-    padding: 20px;
-}
+We have the flexibility and the strength to be able to deliver
+large or small projects successfully anywhere in Thailand.
+We offer a complete range of products and services to our clients:
 
-.card-s {
-    flex-basis: calc(33% - 20px);
-    margin-bottom: 40px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    margin-left: 70px;
-    margin-right: 0;
-}
-.card-s img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
+1. Market research and strategic studies
+2. Economic evaluations and feasibility studies
+3. Architectural, Interior and Landscape design as well as Fit Out/Construction
+4. Detail engineering
+5. Procurement
+6. Construction management, Project management and Training
+7. HVAC, MEP and Retrofit
+8. Controls, Automation, Building Management System, Smart Building,
+Environmental services and Energy saving
+                    </pre>
+                </div>
+                <div class="container2">
+                    <div class="text2">
+                        <h2 data-en="Our Mission"
+                            data-th="ภารกิจของเรา"
+                            data-zh="我们的使命">Our Mission</h2>
+                        <pre 
+                        data-en="
+The future of our habitat will be defined by an urgent need for sustainability and 
+resilience. As we confront the challenges posed by climate change and urbanization,
+buildings and homes will evolve into complex, adaptive systems that not only 
+provide shelter but integrate seamlessly with the natural world. The drive towards 
+decarbonization will influence every aspect of construction, design, and energy use,
+transforming the built environment into a force for environmental restoration and 
+sustainability. With innovative technology and a commitment to a carbon-free future, 
+the world stands at the cusp of a greener, smarter, and more resilient future for all.
 
-.lang-switcher {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    margin-right: 130px;
-}
-.lang-btn {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    margin-left: 5px;
-    cursor: pointer;
-    border-radius: 3px;
-}
-@media screen and (max-width: 450px) {
 
-    .home-container img {
-        max-width: 300px;
-        margin-left: 20px;
-    }
-    
-    .home-container pre {
-        font-family: Arial;
-        font-size: 10px;
-        margin-left: 20px;
-        margin-top: 0px;
-    }
-    
-    .container2-h img {
-        max-width: 300px;
-        margin-top: -20px;
-        margin-left: 20px;
-    }
-    
-    .text2-h pre {
-        font-size: 9px;
-        font-family: Arial;
-        border: 3px solid transparent;
-        margin-top: 270px;
-        margin-bottom: -450px;
-        margin-left: 20px;
-    }
-    
-    .container3-h img {
-        max-width: 300px;
-        margin-top: 350px;
-        margin-left: 20px;
-    }
-    
-    .text3-h pre {
-        font-size: 9px;
-        font-family: Arial;
-        margin-left: 20px;
-        margin-top: 50px;
-    }
-    
-    .container4-h img {
-        max-width: 300px;
-        margin-top: 80px;
-        margin-left: 20px;
-    }
-    .text4-h pre {
-        font-family: Arial;
-        font-size: 8px;
-        margin-left: 20px;
-        margin-top: 0px;
-    }
-    
-    .container5-h img {
-        max-width: 300px;
-        margin-top: 70px;
-        margin-left: 20px;
-    }
-    
-    .text5-h pre {
-        font-size: 10px;
-        font-family: Arial;
-        margin-top: 60px;
-        margin-left: 20px;
-        align-self: left;
-    }
 
-    .card {
-        flex-basis: 100%;
-    }
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin-bottom: 10px;
-    }
-    .container-first img {
-        width: 200px;
-        float: left;
-        border: 3px solid transparent;
-        margin-top: -300px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
+Our mission is to provide the best, state-of-the-art green solutions and
+services on time,on budget and with safety and integrity."
+                        data-th="
+อนาคตของที่อยู่อาศัยของเราจะถูกกําหนดโดยความต้องการเร่งด่วนสําหรับความยั่งยืนและ 
+ความยืดหยุ่น  ในขณะที่เราเผชิญกับความท้าทายที่เกิดจากการเปลี่ยนแปลงสภาพภูมิอากาศและการขยายตัวของเมือง
+อาคารและบ้านจะพัฒนาเป็นระบบที่ซับซ้อนและปรับตัวได้ซึ่งไม่เพียง แต่ 
+ให้ที่พักพิงแต่รวมเข้ากับโลกธรรมชาติได้อย่างราบรื่น การขับเคลื่อนสู่ 
+การลดคาร์บอนจะมีอิทธิพลต่อทุกด้านของการก่อสร้างการออกแบบและการใช้พลังงาน
+เปลี่ยนสภาพแวดล้อมที่สร้างขึ้นให้เป็นพลังในการฟื้นฟูสิ่งแวดล้อมและ 
+ความยั่งยืน ด้วยเทคโนโลยีที่เป็นนวัตกรรมและความมุ่งมั่นสู่อนาคตที่ปราศจากคาร์บอน 
+โลกยืนอยู่บนจุดสูงสุดของอนาคตที่เป็นมิตรต่อสิ่งแวดล้อม ฉลาดขึ้น และยืดหยุ่นมากขึ้นสําหรับทุกคน
 
-    .text-first pre {
-        font-size: 13px;
-        font-family: Arial;
-        margin-top: 300px;
-        margin-right: 5cm;
-        margin-left: 0px;
-        align-self: left;
-    }
+ภารกิจของเราคือการจัดหาโซลูชั่นและบริการสีเขียวที่ดีที่สุดและ
+ล้ําสมัยตรงเวลาในงบประมาณและมีความปลอดภัยและความซื่อสัตย์"
+                        data-zh="
+我们栖息地的未来将由对可持续性和
+达观。当我们面对气候变化和城市化带来的挑战时，
+建筑和住宅将演变成复杂的自适应系统，不仅
+提供庇护所，但与自然世界无缝融合。驶向
+脱碳将影响建筑、设计和能源使用的方方面面，
+将建筑环境转变为环境恢复的力量，以及
+可持续性。凭借创新技术和对无碳未来的承诺，
+世界正处于为所有人创造更绿色、更智能、更具韧性的未来的最前沿。
+                        
+我们的使命是按时提供最佳、最先进的绿色解决方案和服务，在预算范围内，安全可靠。">
+Our mission is to provide the best, state-of-the-art green solutions and
+services on time, on budget and with safety and integrity.
+                        </pre>
+                    </div>
+                    <img src="1.jpg">
+                </div>
+                </div>
+                <div class="container-contact">
+                    <img src="2.jpg">
+                <div class="contact">
+                    <h2 data-en="Our contact"
+                        data-th="ติดต่อของเรา"
+                        data-zh="我们的联系方式">Our contact</h2>
+                    <pre
+                    data-en="
+Email : contruction_blue@hotmail.com
+Phone number : +66 (0)86 990 9631"
+                    data-th="
+อีเมล์ : contruction_blue@hotmail.com
+หมายเลขโทรศัพท์ : +66 (0)86 990 9631"
+                    data-zh="
+电子邮件：contruction_blue@hotmail.com
+电话号码 : +66 (0)86 990 9631">
+Email : ghiscafe@hotmail.com
+Phone number : (+66) 086 990 9631
+                    </pre>
+                </div>
+                </div>
+                <div class="OFC">
+                    <pre>
+"Head for green
+    & of course blue"</pre>
+                </div>
+    </div>
 
-    .container-second img {
-        width: 200px;
-        float: left;
-        border: 3px solid transparent;
-        margin-top: 70px;
-        margin-left: 20px;
-        margin-right: 65px;
-        align-self: left;
-    }
 
-    .text-second pre {
-        font-size: 13px;
-        font-family: Arial;
-        margin-top: 10px;
-        margin-right: 300px;
-        margin-left: 20px;
-        align-self: left;
-        float: left;
-    }
-
-    .container-third img {
-        width: 300px;
-        float: left;
-        border: 3px solid transparent;
-        margin-top: -200px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
-
-    .text-third pre{
-            font-size: 13px;
-            font-family: Arial;
-            margin-top: 700px;
-            margin-right: 65px;
-            margin-left: 20px;
-            align-self: left;
-    }
-
-    .container-contact img {
-        margin-top: 0px;
-        max-width: 600px;
-        float: left;
-        border: 3px solid transparent;
-        margin-right: 65px;
-        margin-left: 160px;
-        align-self: left;
-    }
-    
-    .contact-s pre {
-        font-size: 10px;
-        font-family: Arial;
-        margin-top: 0px;
-        margin-left: 20px;
-        align-self: left;
-    }
-    
-    .contact-s h2{
-        font-size: 16px;
-        margin-top: 200px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
-
-    .container-s-contact img {
-        margin-top: -180px;
-        margin-bottom: 30px;
-        max-width: 300px;
-        float: left;
-        border: 3px solid transparent;
-        margin-right: 65px;
-        margin-left: 10px;
-        align-self: left;
-    }
-
-    .container img {
-        max-width: 300px;
-        float: left;
-        border: 3px solid transparent;
-        margin-top: 0px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
-    
-    .text pre {
-        font-size: 9.6px;
-        font-family: Arial;
-        margin-top: -40px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
-    
-    .text h2 {
-        font-size: 16px;
-        margin-top: 270px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
-    
-    .text2 h2 {
-        font-size: 16px;
-        float: left;
-        margin-top: 150px;
-        margin-right: 100px;
-        margin-bottom: -30px;
-        margin-left: 20px;
-        top: 100px;
-    }
-
-    .text2 pre {
-        font-size: 8.7px;
-        font-family: Arial;
-        float: left;
-        border: 3px solid transparent;
-        margin-top: 130px;
-        margin-right: 65px;
-        margin-left: 20px;
-        margin-bottom: 100px;
-        align-self: left;
-    }
-
-    .container2 img {
-        border: 3px solid transparent;
-        margin-top: -500px;
-        margin-left: 20px;
-        margin-right: 130px;
-    }
-
-    .contact pre {
-        font-size: 10px;
-        font-family: Arial;
-        margin-top: 0px;
-        margin-right: 130px;
-        margin-left: 20px;
-        align-self: left;
-    }
-    
-    .contact h2{
-        font-size: 16px;
-        margin-top: 400px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
-    
-    .container-contact img {
-        margin-top: 50px;
-        margin-bottom: 30px;
-        max-width: 300px;
-        float: left;
-        border: 3px solid transparent;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
-    }
-
-    .home-page-container pre {
-        font-family: Arial;
-        font-size: 10px;
-    }
-}
-.page {
-    display: none;
-}
-.page.active {
-    display: block;
-}
+    <script src="index.js"></script>
+</body>
+</html>
