@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- menu for mobile -->
     <header>
+        <nav class="burger-menu">
+            <ul>
+                <li><a href="#" onclick="showPage('home')"><img src="logo.jpg" height="70" width="-50"></a></li>
+                <li><a href="#" onclick="showPage('products')">Solutions</a></li>
+                <li><a href="#" onclick="showPage('reference')">Reference</a></li>
+                <li><a href="#" onclick="showPage('support')">Support</a></li>
+                <li><a href="#" onclick="showPage('about')">About Us</a></li>
+            </ul>
+        </nav>
+    <!-- stopping menu for mobile -->
         <div class="container">
             <nav>
                 <ul>
@@ -27,7 +38,7 @@
         <button class="lang-btn" onclick="changeLanguage('th')">TH</button>
         <button class="lang-btn" onclick="changeLanguage('zh')">中文</button>
     </div>
-
+    <div class="burger-menu-btn"></div>
     <div id="home" class="page active">
         <div class="home-container">
             <img src="swimming pool.jpg">
@@ -76,15 +87,12 @@ the pursuit of decarbonization.
                 </pre>
             </div>
             <div class="text2-h">
+                <h2
+                data-en="The Future of the World Environment and Habitat"
+                data-th="อนาคตของสิ่งแวดล้อมโลกและที่อยู่อาศัย"
+                data-zh="世界环境与人居的未来">The Future of the World Environment and Habitat</h2>
                 <pre
                 data-en="
-
-                    
-                    
-                    
-                    
-                    
-The Future of the World Environment and Habitat
 Our environment, already under unprecedented strain due to human activity, 
 will remain at the core of global concern in the coming years. As the impacts 
 of climate change intensify, we will be forced to rethink how we use and 
@@ -194,9 +202,12 @@ and workplaces clean air, filter water, and even grow food.
             <img src="image11.jpg">
         </div>
         <div class="text3-h">
+            <h2
+            data-en="The Future of Building and Housing"
+            data-th="อนาคตของอาคารและที่อยู่อาศัย"
+            data-zh="的未来建筑和住房">The Future of Building and Housing</h2>
             <pre
 data-en="
-The Future of Building and Housing
 The built environment is also undergoing a profound shift. Buildings of the 
 future will no longer be seen as static structures but as dynamic, adaptable 
 systems that are deeply integrated into the environment. The future of 
@@ -316,9 +327,12 @@ its inhabitants but protect them from the changing climate.</pre>
             <img src="image12.jpg">
         </div>
         <div class="text4-h">
+            <h2
+            data-en="The Role of Building Automation Systems"
+            data-th="บทบาทของระบบอัตโนมัติในอาคาร"
+            data-zh="楼宇自动化系统的作用">The Role of Building Automation Systems</h2>
             <pre
 data-en="
-The Role of Building Automation Systems
 Building automation systems (BAS) will play a pivotal role in shaping the future of buildings 
 and housing. With the increasing integration of technology into our everyday lives, smart 
 homesand smart buildings will become more prevalent. These systems will optimize the 
@@ -406,9 +420,9 @@ biometric authentication.
             <img src="image9jpg.jpg">
         </div>
         <div class="text5-h">
+            <h2>Decarbonization: The Road to Zero Emissions</h2>
             <pre
 data-en="
-Decarbonization: The Road to Zero Emissions
 At the heart of the transformation in building design and housing is the 
 global push toward decarbonization. Decarbonization refers to the 
 reduction of carbon dioxide (CO2) emissions, primarily from burning 
@@ -659,7 +673,7 @@ Detail     : Construction of 30 houses
 Location : Satahip
 Value      : THB20,100,000"
                 data-th="
-โครงการ : Satahip ACDC
+โครงการ : บ้านพักหน่วยบัญชาการต่อสู้อากาศยานและรักษาฝั่ง สัตหีบ
 รายละเอียด : ก่อสร้างบ้าน 30 หลัง
 สถานที่ตั้ง : สตาหีบ
 มูลค่า : 20,100,000 บาท"
