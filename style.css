@@ -162,7 +162,7 @@ body, html {
     border-right: 3px solid green;
     border-left: 3px solid green;
     background-color: green;
-    margin-top: -650px;
+    margin-top: -600px;
     margin-left: -650px;;
     float: left;
     align-self: left;
@@ -210,7 +210,7 @@ body, html {
 .text2 h2 {
     font-size: 33px;
     float: left;
-    margin-top: 220px;
+    margin-top: 250px;
     margin-right: 100px;
     margin-bottom: -30px;
     margin-left: 160px;
@@ -222,7 +222,7 @@ body, html {
     font-family: Arial;
     float: left;
     border: 3px solid transparent;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 0px;
     margin-left: 160px;
     margin-bottom: 100px;
@@ -231,7 +231,7 @@ body, html {
 
 .container2 img {
     border: 3px solid transparent;
-    margin-top: -400px;
+    margin-top: -420px;
     margin-left: 820px;
     margin-right: 30px;
 }
@@ -269,7 +269,7 @@ body, html {
     float: left;
     border: 3px solid transparent;
     margin-top: 200px;
-    margin-left: 700px;
+    margin-left: 720px;
     margin-right: 65px;
     align-self: left;
 }
@@ -290,7 +290,7 @@ body, html {
     border: 3px solid transparent;
     margin-top: -125px;
     margin-right: 65px;
-    margin-left: 400px;
+    margin-left: 200px;
     align-self: left;
 }
 
