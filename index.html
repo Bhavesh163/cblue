@@ -10,8 +10,9 @@
 <body>
     <header>
         <div class="container">
+            <!-- mobile version -->
             <nav class="middle-menu">
-                <li><a href="#" onclick="showPage('home')"><img src="logo.jpg" height="35px" width="-25"></a></li>
+                <li><a href="#" onclick="showPage('home')"><img src="logo.jpg" height="35" width="-25"></a></li>
             </nav>
             <nav>
                 <div class="hamburger-menu" onclick="toggleMenu()">
@@ -20,6 +21,7 @@
                     <div></div>
                 </div>
                 <ul>
+                    <li><a href="#" onclick="showPage('home')"><img src="logo.jpg" height="70" width="-50"></a></li>
                     <li><a href="#" onclick="showPage('products')">Solutions</a></li>
                     <li><a href="#" onclick="showPage('reference')">Reference</a></li>
                     <li><a href="#" onclick="showPage('support')">Support</a></li>
@@ -37,7 +39,7 @@
         <button class="lang-btn" onclick="changeLanguage('zh')">中文</button>
     </div>
     
-    <!-- Rest of your HTML content remains the same -->
+    <!-- Rest of the HTML content remains the same -->
     <div id="home" class="page active">
         <div class="home-container">
             <img src="swimming pool.jpg">
@@ -45,25 +47,20 @@
             <div class="home-container">
                 <pre
 data-en="
-As the world hurtles towards an uncertain future shaped by climate change, 
-technological innovation, and growing urbanization, the way we interact 
-with our environment, live in our homes, and design our buildings is set
-to evolve dramatically. The next few decades will witness groundbreaking 
-transformations across multiple sectors as humanity strives to balance 
-ecological sustainability with the demands of a growing global population. 
-Central to this evolution are three critical factors: the environment, 
-habitat, building and housing design, building automation systems, and 
-the pursuit of decarbonization."
+As the world confronts the pressing challenges of climate change, 
+technological innovation, and urbanization, the way we live, build, and 
+interact with our environment will undergo significant transformations. 
+Over the next few decades, we will witness innovative changes across 
+multiple sectors as humanity strives to balance sustainability with the 
+needs of a growing global population. Three critical pillars of this 
+evolution include the environment, sustainable building design, and 
+decarbonization efforts."
 data-th="
-ในขณะที่โลกพุ่งไปสู่อนาคตที่ไม่แน่นอนที่เกิดจากการเปลี่ยนแปลงสภาพภูมิอากาศ 
-นวัตกรรมทางเทคโนโลยีและการขยายตัวของเมืองที่เพิ่มขึ้นวิธีที่เราโต้ตอบ 
-ด้วยสภาพแวดล้อมของเราอาศัยอยู่ในบ้านของเราและออกแบบอาคารของเราถูกกําหนด
-เพื่อพัฒนาอย่างมาก อีกไม่กี่ทศวรรษข้างหน้าจะเป็นสักขีพยานในการก้าวล้ํา 
-การเปลี่ยนแปลงในหลายภาคส่วนในขณะที่มนุษยชาติมุ่งมั่นที่จะสร้างสมดุล 
-ความยั่งยืนทางนิเวศวิทยาตามความต้องการของประชากรโลกที่เพิ่มขึ้น 
-หัวใจสําคัญของวิวัฒนาการนี้คือปัจจัยสําคัญสามประการ: สิ่งแวดล้อม 
-ที่อยู่อาศัย การออกแบบอาคารและที่อยู่อาศัย ระบบอัตโนมัติในอาคาร และ 
-การแสวงหาการลดคาร์บอน"
+ในขณะที่โลกกำลังเผชิญกับความท้าทายที่สำคัญเกี่ยวกับการเปลี่ยนแปลง
+สภาพภูมิอากาศ นวัตกรรมทางเทคโนโลยี และการขยายตัวของเมือง วิถี
+การใช้ชีวิต การก่อสร้าง และการมีปฏิสัมพันธ์กับสิ่งแวดล้อมของเราจะ
+เปลี่ยนแปลงอย่างมีนัยสำคัญ ในอีกไม่กี่ทศวรรษข้างหน้า เราจะได้เห็นการ
+เปลี่ยนแปลงที่สร้างสรรค์ในหลายภาคส่วน"
 data-zh="
 当世界朝着由气候变化塑造的不确定未来飞驰时，
 技术创新、日益增长的城市化、我们的互动方式
@@ -74,15 +71,14 @@ data-zh="
 这种演变的核心是三个关键因素：环境、
 栖息地、建筑和住房设计、楼宇自动化系统，以及
 追求脱碳。">
-As the world hurtles towards an uncertain future shaped by climate change, 
-technological innovation, and growing urbanization, the way we interact 
-with our environment, live in our homes, and design our buildings is set
-to evolve dramatically. The next few decades will witness groundbreaking 
-transformations across multiple sectors as humanity strives to balance 
-ecological sustainability with the demands of a growing global population. 
-Central to this evolution are three critical factors: the environment, 
-habitat, building and housing design, building automation systems, and 
-the pursuit of decarbonization.
+As the world confronts the pressing challenges of climate change, 
+technological innovation, and urbanization, the way we live, build, and 
+interact with our environment will undergo significant transformations. 
+Over the next few decades, we will witness innovative changes across 
+multiple sectors as humanity strives to balance sustainability with the 
+needs of a growing global population. Three critical pillars of this 
+evolution include the environment, sustainable building design, and 
+decarbonization efforts.
                 </pre>
             </div>
             <div class="text2-h">
@@ -92,55 +88,36 @@ the pursuit of decarbonization.
                 data-zh="世界环境与人居的未来">The Future of the World Environment and Habitat</h2>
                 <pre
                 data-en="
-Our environment, already under unprecedented strain due to human activity, 
-will remain at the core of global concern in the coming years. As the impacts 
-of climate change intensify, we will be forced to rethink how we use and 
-conserve natural resources. Initiatives aimed at protecting biodiversity, 
-restoring degraded ecosystems, and rewildingurban spaces will shape how we 
-approach future land use and city planning.
-                
-Environmental adaptation will be crucial in the face of rising sea levels, 
-more frequent natural disasters, and changing weather patterns. Coastal 
-cities will adopt strategies to protect themselves from floods by 
-integrating green infrastructures, such as wetlands and mangroves, while
-inland areas will implement drought-resistant landscaping and urban farms
-to increase food resilience. As habitats shift due to climate extremes, 
-conservation efforts will prioritize creating corridors that allow species
-to migrate and adapt to their new surroundings.
-                                                
-On the human front, habitats will evolve into multi-functional, sustainable 
-ecosystems. Cities will increasingly blur the line between built environments 
-and natural ecosystems,with smart city designs emphasizing urban forests, 
-green roofs, and community gardens. Nature will no longer be confined to parks 
-but will become an integral part of daily urbanlife, offering both aesthetic 
-and ecological benefits. Buildings will serve as ecosystems themselves, housing 
-both humans and greenery in symbiotic relationships, where homes and workplaces 
-clean air, filter water, and even grow food."
+The environment will remain at the center of global concerns as the 
+impacts of climate change become more severe. Rising sea levels, more 
+frequent natural disasters, and shifting weather patterns will force us 
+to rethink how we use natural resources and design cities.
+
+Green infrastructure will become a vital strategy for urban planning, 
+especially in coastal areas vulnerable to floods. Solutions like wetlands, 
+mangroves, and drought-resistant landscaping will enhance climate 
+resilience. In urban areas, we will see a shift towards sustainable cities 
+that blend natural and built environments. Urban forests, green roofs, and 
+community gardens will become common features, bringing nature into city 
+life.
+
+In this future, buildings will act as ecosystems, offering more than just 
+shelter. Homes and workplaces will incorporate features like 
+air-purifying plants, water filtration systems, and even urban farming 
+spaces. These integrated systems will make sustainability an inherent part 
+of daily life."
                 data-th="
-อนาคตของโลกสิ่งแวดล้อมและที่อยู่อาศัยสิ่งแวดล้อมของเราซึ่งอยู่ภายใต้ความตึงเครียดที่
-ไม่เคยมีมาก่อนเนื่องจากกิจกรรมของมนุษย์จะยังคงเป็นหัวใจสําคัญของความกังวลระดับโลก
-ในอีกไม่กี่ปีข้างหน้า เมื่อผลกระทบของการเปลี่ยนแปลงสภาพภูมิอากาศทวีความรุนแรงขึ้น 
-เราจะถูกบังคับให้คิดใหม่ว่าเราใช้และอนุรักษ์ทรัพยากรธรรมชาติอย่างไร ความคิดริเริ่มที่มุ่ง
-ปกป้องความหลากหลายทางชีวภาพ ฟื้นฟูระบบนิเวศที่เสื่อมโทรม และการฟื้นฟูพื้นที่ใน
-เมืองจะกําหนดวิธีที่เราเข้าใกล้การใช้ที่ดินในอนาคตและการวางผังเมือง
+สิ่งแวดล้อมจะยังคงเป็นประเด็นสำคัญระดับโลก โดยเฉพาะเมื่อผลกระทบ
+จากการเปลี่ยนแปลงสภาพภูมิอากาศทวีความรุนแรงมากขึ้น:
 
-
-การปรับตัวต่อสิ่งแวดล้อมจะมีความสําคัญอย่างยิ่งเมื่อเผชิญกับระดับน้ําทะเลที่สูงขึ้นภัย
-ธรรมชาติที่บ่อยขึ้นและรูปแบบสภาพอากาศที่เปลี่ยนแปลง เมืองชายฝั่งจะใช้กลยุทธ์
-เพื่อป้องกันตนเองจากน้ําท่วมโดยการบูรณาการโครงสร้างพื้นฐานสีเขียว เช่น พื้นที่ชุ่ม
-น้ําและป่าชายเลนพื้นที่ภายในประเทศจะใช้ภูมิทัศน์ที่ทนต่อความแห้งแล้งและฟาร์มใน
-เมืองเพื่อเพิ่มความยืดหยุ่นของอาหาร เมื่อที่อยู่อาศัยเปลี่ยนไปเนื่องจากสภาพอากาศสุด
-ขั้วความพยายามในการอนุรักษ์จะให้ความสําคัญกับการสร้างทางเดินที่ช่วยให้สิ่งมีชีวิต
-สามารถอพยพและปรับตัวให้เข้ากับสภาพแวดล้อมใหม่ได้
-
-ในด้านของมนุษย์ที่อยู่อาศัยจะพัฒนาไปสู่ระบบนิเวศที่ยั่งยืนและอเนกประสงค์ เมืองต่างๆ 
-จะเบลอเส้นแบ่ง ระหว่างสภาพแวดล้อมที่สร้างขึ้นมากขึ้น และระบบนิเวศธรรมชาติด้วย
-การออกแบบเมืองอัจฉริยะที่เน้นป่าในเมือง หลังคาสีเขียว และสวนชุมชน ธรรมชาติจะไม่
-ถูกจํากัดอยู่แค่ในสวนสาธารณะอีกต่อไป แต่จะกลายเป็นส่วนสําคัญของชีวิตในเมืองประจํา
-วัน โดยให้ประโยชน์ทั้งด้านสุนทรียศาสตร์และระบบนิเวศ อาคารจะทําหน้าที่เป็นระบบนิเวศ 
-เป็นที่อยู่อาศัยของทั้งมนุษย์และต้นไม้เขียวขจีในความสัมพันธ์ทางชีวภาพ ซึ่งบ้าน
-และที่ทํางาน อากาศบริสุทธิ์กรองน้ําและแม้กระทั่งปลูกอาหาร
-                "
+- การเพิ่มขึ้นของระดับน้ำทะเล
+- ภัยพิบัติทางธรรมชาติที่เกิดขึ้นบ่อยครั้ง
+- รูปแบบสภาพอากาศที่เปลี่ยนแปลง
+                
+### โครงสร้างพื้นฐานสีเขียว
+- พื้นที่ชุ่มน้ำ
+- ป่าชายเลน
+- การจัดภูมิทัศน์ที่ทนต่อความแห้งแล้ง"
                 data-zh="
 世界环境和栖息地的未来
 由于人类活动，我们的环境已经承受了前所未有的压力，
@@ -167,7 +144,6 @@ clean air, filter water, and even grow food."
 和生态效益。建筑物本身将作为生态系统，住房
 人类与绿色共生，其中家和工作场所
 清洁空气、过滤水，甚至种植食物。">
-<b>The Future of the World Environment and Habitat</b>
 Our environment, already under unprecedented strain due to human activity, 
 will remain at the core of global concern in the coming years. As the impacts 
 of climate change intensify, we will be forced to rethink how we use and 
@@ -202,67 +178,41 @@ and workplaces clean air, filter water, and even grow food.
         </div>
         <div class="text3-h">
             <h2
-            data-en="The Future of Building and Housing"
-            data-th="อนาคตของอาคารและที่อยู่อาศัย"
+            data-en="The Future of Building and Housing Design"
+            data-th="อนาคตของการออกแบบอาคารและที่อยู่อาศัย 🏗️"
             data-zh="的未来建筑和住房">The Future of Building and Housing</h2>
             <pre
 data-en="
-The built environment is also undergoing a profound shift. Buildings of the 
-future will no longer be seen as static structures but as dynamic, adaptable 
-systems that are deeply integrated into the environment. The future of 
-architecture will be defined by sustainability, flexibility, and resilience.
+The next era of building design will be driven by green architecture, flexibility, 
+and resilience. Future buildings will aim to minimize their environmental impact 
+through the use of sustainable materials such as bamboo, recycled steel, and 
+mycelium-based composites.
 
-Green architecture will become the norm, with buildings designed to minimize 
-their environmental footprint and generate their energy. Solar panels, 
-rainwater harvesting systems, and green walls will be common features in 
-housing, while the use of sustainable, renewable materials like bamboo, 
-recycled steel, and mycelium-based composites will replace conventional 
-construction methods. Smart design will focus on reducing resource consumption, 
-with energy-efficient insulation, natural ventilation, and passive solar heating 
-becoming standard.
+Key features of tomorrow's sustainable homes will include:
 
-Housing will also need to accommodate the changing demographics of cities. As 
-urban populations grow and space becomes more limited, modular and prefabricated 
-housing will offera sustainable solution for compact living. These homes will be 
-designed to expand or contract based on the occupants' needs, offering flexibility 
-and adaptability as lifestyles change. Additionally, with urbanization driving up 
-the cost of housing, affordable, high-density solutions such as micro-apartments 
-and co-living spaces will become more prevalent.
-Future buildings will not only be environmentally friendly but also resilient. In 
-disaster-prone areas, structures will be built to withstand floods, earthquakes, 
-and other extreme events. Adaptive architecture will incorporate features that 
-allow buildings to respond to changing environmental conditions, such as rising 
-temperatures or fluctuating rainfall. Housing of the future will not only shelter 
-its inhabitants but protect them from the changing climate."
+- Solar panels and rainwater harvesting systems.
+- Energy-efficient insulation and natural ventilation.
+- Passive solar heating to reduce energy consumption.
+As urban populations continue to rise, modular and prefabricated housing will offer 
+space-efficient solutions for compact living. These adaptive homes will be designed 
+to expand or contract based on changing needs, catering to modern urban lifestyles. 
+We will also see a rise in micro-apartments and co-living spaces as cities become 
+denser.
+
+In disaster-prone areas, buildings will incorporate resilient design elements, 
+capable of withstanding floods, earthquakes, and extreme weather events. These 
+adaptive architectures will ensure that homes not only shelter their inhabitants 
+but also protect them from an unpredictable climate."
 data-th="
-อนาคตของอาคารและที่อยู่อาศัย
-สภาพแวดล้อมที่สร้างขึ้นก็กําลังอยู่ระหว่างการเปลี่ยนแปลงอย่างลึกซึ้งเช่นกัน อาคารของ 
-อนาคตจะไม่ถูกมองว่าเป็นโครงสร้างคงที่อีกต่อไป แต่เป็นแบบไดนามิกและปรับตัวได้ 
-ระบบที่บูรณาการอย่างลึกซึ้งกับสิ่งแวดล้อม อนาคตของ 
-สถาปัตยกรรมจะถูกกําหนดโดยความยั่งยืน ความยืดหยุ่น และความยืดหยุ่น
+การออกแบบอาคารในยุคต่อไปจะขับเคลื่อนด้วย:
+- สถาปัตยกรรมสีเขียว
+- ความยืดหยุ่น
+- ความยั่งยืน
 
-สถาปัตยกรรมสีเขียวจะกลายเป็นบรรทัดฐาน ด้วยอาคารที่ออกแบบมาเพื่อลดขนาด 
-รอยเท้าต่อสิ่งแวดล้อมและสร้างพลังงานของพวกเขา แผงโซลาร์เซลล์, 
-ระบบเก็บเกี่ยวน้ําฝนและกําแพงสีเขียวจะเป็นคุณสมบัติทั่วไปใน 
-ที่อยู่อาศัยในขณะที่ใช้วัสดุหมุนเวียนที่ยั่งยืนเช่นไม้ไผ่ 
-เหล็กรีไซเคิลและคอมโพสิตที่ใช้ไมซีเลียมจะเข้ามาแทนที่แบบเดิม 
-วิธีการก่อสร้าง การออกแบบที่ชาญฉลาดจะมุ่งเน้นไปที่การลดการใช้ทรัพยากร 
-ด้วยฉนวนกันความร้อนประหยัดพลังงานการระบายอากาศตามธรรมชาติและเครื่องทําความ
-ร้อนพลังงานแสงอาทิตย์แบบพาสซีฟ กลายเป็นมาตรฐาน
-
-ที่อยู่อาศัยจะต้องรองรับข้อมูลประชากรที่เปลี่ยนแปลงไปของเมือง เป็น 
-ประชากรในเมืองเพิ่มขึ้นและพื้นที่มี จํากัด มากขึ้น โมดูลาร์และสําเร็จรูป 
-ที่อยู่อาศัยจะนําเสนอโซลูชั่นที่ยั่งยืนสําหรับการใช้ชีวิตที่กะทัดรัด บ้านเหล่านี้จะเป็น 
-ออกแบบมาเพื่อขยายหรือหดตัวตามความต้องการของผู้อยู่อาศัย ให้ความยืดหยุ่น 
-และความสามารถในการปรับตัวเมื่อวิถีชีวิตเปลี่ยนไป นอกจากนี้ ด้วยการขยายตัวของเมืองที่เพิ่มขึ้น 
-ต้นทุนที่อยู่อาศัย ราคาไม่แพง โซลูชั่นความหนาแน่นสูง เช่น ไมโครอพาร์ทเมนต์ 
-และพื้นที่ใช้สอยร่วมกันจะแพร่หลายมากขึ้น
-อาคารในอนาคตไม่เพียงแต่เป็นมิตรกับสิ่งแวดล้อมเท่านั้น แต่ยังยืดหยุ่นอีกด้วย ใน 
-พื้นที่เสี่ยงต่อภัยพิบัติ โครงสร้างจะถูกสร้างขึ้นเพื่อทนต่อน้ําท่วม แผ่นดินไหว 
-และเหตุการณ์สุดโต่งอื่น ๆ สถาปัตยกรรมแบบปรับได้จะรวมคุณสมบัติที่ 
-ช่วยให้อาคารสามารถตอบสนองต่อสภาพแวดล้อมที่เปลี่ยนแปลงไป เช่น การเพิ่มขึ้น 
-อุณหภูมิหรือปริมาณน้ําฝนที่ผันผวน ที่อยู่อาศัยแห่งอนาคตจะไม่เพียงแต่ที่พักพิง 
-ผู้อยู่อาศัย แต่ปกป้องพวกเขาจากการเปลี่ยนแปลงภูมิอากาศ"
+### วัสดุก่อสร้างที่ยั่งยืน:
+- ไม้ไผ่
+- เหล็กรีไซเคิล
+- วัสดุคอมโพสิตจากเชื้อรา"
 
 data-zh="
 建筑和住房的未来
@@ -293,85 +243,54 @@ data-zh="
 允许建筑物响应不断变化的环境条件，例如上升
 温度或降雨量波动。未来的住房不仅会提供住房
 它的居民，但保护他们免受变化气候">            
-The Future of Building and Housing
-The built environment is also undergoing a profound shift. Buildings of the 
-future will no longer be seen as static structures but as dynamic, adaptable 
-systems that are deeply integrated into the environment. The future of 
-architecture will be defined by sustainability, flexibility, and resilience.
+The next era of building design will be driven by green architecture, flexibility, 
+and resilience. Future buildings will aim to minimize their environmental impact 
+through the use of sustainable materials such as bamboo, recycled steel, and 
+mycelium-based composites.
 
-Green architecture will become the norm, with buildings designed to minimize 
-their environmental footprint and generate their energy. Solar panels, 
-rainwater harvesting systems, and green walls will be common features in 
-housing, while the use of sustainable, renewable materials like bamboo, 
-recycled steel, and mycelium-based composites will replace conventional 
-construction methods. Smart design will focus on reducing resource consumption, 
-with energy-efficient insulation, natural ventilation, and passive solar heating 
-becoming standard.
+Key features of tomorrow's sustainable homes will include:
 
-Housing will also need to accommodate the changing demographics of cities. As 
-urban populations grow and space becomes more limited, modular and prefabricated 
-housing will offera sustainable solution for compact living. These homes will be 
-designed to expand or contract based on the occupants' needs, offering flexibility 
-and adaptability as lifestyles change. Additionally, with urbanization driving up 
-the cost of housing, affordable, high-density solutions such as micro-apartments 
-and co-living spaces will become more prevalent.
-Future buildings will not only be environmentally friendly but also resilient. In 
-disaster-prone areas, structures will be built to withstand floods, earthquakes, 
-and other extreme events. Adaptive architecture will incorporate features that 
-allow buildings to respond to changing environmental conditions, such as rising 
-temperatures or fluctuating rainfall. Housing of the future will not only shelter 
-its inhabitants but protect them from the changing climate.</pre>
+- Solar panels and rainwater harvesting systems.
+- Energy-efficient insulation and natural ventilation.
+- Passive solar heating to reduce energy consumption.
+As urban populations continue to rise, modular and prefabricated housing will offer 
+space-efficient solutions for compact living. These adaptive homes will be designed 
+to expand or contract based on changing needs, catering to modern urban lifestyles. 
+We will also see a rise in micro-apartments and co-living spaces as cities become 
+denser.
+
+In disaster-prone areas, buildings will incorporate resilient design elements, 
+capable of withstanding floods, earthquakes, and extreme weather events. These 
+adaptive architectures will ensure that homes not only shelter their inhabitants 
+but also protect them from an unpredictable climate.</pre>
         </div>
         <div class="container4-h">
             <img src="image12.jpg">
         </div>
         <div class="text4-h">
             <h2
-            data-en="The Role of Building Automation Systems"
-            data-th="บทบาทของระบบอัตโนมัติในอาคาร"
+            data-en="Building Automation Systems (BAS) and Smart Homes"
+            data-th="การลดการปล่อยคาร์บอน: เส้นทางสู่การปล่อยมลพิษเป็นศูนย์ ♻️"
             data-zh="楼宇自动化系统的作用">The Role of Building Automation Systems</h2>
             <pre
 data-en="
-Building automation systems (BAS) will play a pivotal role in shaping the future of buildings 
-and housing. With the increasing integration of technology into our everyday lives, smart 
-homesand smart buildings will become more prevalent. These systems will optimize the 
-operation of heating, ventilation, lighting, and security, reducing energy consumption 
-and providing a higher level of comfort and convenience.
+Building automation systems (BAS) will play a pivotal role in the smart home revolution. 
+With the rise of the Internet of Things (IoT), homes and buildings will become increasingly 
+autonomous, optimizing energy use, comfort, and security.
 
-At the core of BAS is the Internet of Things (IoT), which enables devices within a building to 
-communicate with each other and operate autonomously. These systems will learn from the 
-behaviorof occupants, adjusting settings in real-time to maintain optimal energy efficiency. 
-For example, intelligent lighting systems will use sensors to detect occupancy and adjust 
-brightness accordingly, while smart thermostats will analyze weather forecasts to minimize 
-heating and cooling costs.
+Smart homes will leverage technologies like:
 
-Building automation will also enhance the safety and security of homes and businesses. 
-Real-time monitoring, combined with AI-driven predictive analytics, will enable 
-systems to detect potential issues like gas leaks, electrical faults, or intrusions 
-before they escalate into serious problems. Over time, these systems will become more 
-sophisticated, incorporating features like voice control, gesture recognition, and 
-biometric authentication."
+- Intelligent lighting systems that adjust based on occupancy.
+- Smart thermostats that analyze weather patterns to minimize energy use.
+- Real-time monitoring systems for enhanced safety and security, preventing issues like gas 
+leaks or electrical faults before they become major problems. As automation technology 
+evolves, homes will become more intuitive, incorporating voice control, gesture recognition, 
+and biometric authentication for seamless interaction."
 data-th="
-บทบาทของระบบอาคารอัตโนมัติ
-ระบบอัตโนมัติในอาคาร (BAS) จะมีบทบาทสําคัญในการกําหนดอนาคตของอาคาร 
-และที่อยู่อาศัย ด้วยการบูรณาการเทคโนโลยีเข้ากับชีวิตประจําวันของเราที่เพิ่มขึ้น 
-บ้านและอาคารอัจฉริยะจะแพร่หลายมากขึ้น ระบบเหล่านี้จะเพิ่มประสิทธิภาพ 
-การทํางานของเครื่องทําความร้อนการระบายอากาศแสงสว่างและการรักษาความปลอดภัยลดการใช้พลังงาน 
-และมอบความสะดวกสบายในระดับที่สูงขึ้น
-
-หัวใจหลักของ BAS คือ Internet of Things (IoT) ซึ่งช่วยให้อุปกรณ์ภายในอาคารสามารถ 
-สื่อสารกันและทํางานได้อย่างอิสระ ระบบเหล่านี้จะเรียนรู้จาก 
-พฤติกรรมของผู้อยู่อาศัยปรับการตั้งค่าแบบเรียลไทม์เพื่อรักษาประสิทธิภาพการใช้พลังงานที่เหมาะสมที่สุด 
-ตัวอย่างเช่น ระบบไฟอัจฉริยะจะใช้เซ็นเซอร์เพื่อตรวจจับการครอบครองและปรับ 
-ความสว่างตามนั้น ในขณะที่เทอร์โมสตัทอัจฉริยะจะวิเคราะห์การพยากรณ์อากาศเพื่อลด 
-ค่าความร้อนและความเย็น
-
-ระบบอัตโนมัติในอาคารจะช่วยเพิ่มความปลอดภัยและความมั่นคงของบ้านและธุรกิจ 
-การตรวจสอบแบบเรียลไทม์รวมกับการวิเคราะห์เชิงคาดการณ์ที่ขับเคลื่อนด้วย AI จะช่วยให้ 
-ระบบตรวจจับปัญหาที่อาจเกิดขึ้น เช่น การรั่วไหลของแก๊ส ความผิดพลาดทางไฟฟ้า หรือการบุกรุก 
-ก่อนที่พวกเขาจะบานปลายไปสู่ปัญหาร้ายแรง เมื่อเวลาผ่านไประบบเหล่านี้จะมากขึ้น 
-ซับซ้อน รวมคุณสมบัติต่างๆ เช่น การควบคุมด้วยเสียง การจดจําท่าทาง และ 
-การรับรองความถูกต้องด้วยไบโอเมตริกซ์"
+เป้าหมายสำคัญ:
+- การลดการปล่อยก๊าซคาร์บอนไดออกไซด์
+- การใช้วัสดุก่อสร้างที่ยั่งยืน
+- การบูรณาการแหล่งพลังงานหมุนเวียน"
 data-zh="
 楼宇自动化系统的作用
 楼宇自动化系统 （BAS） 将在塑造建筑的未来方面发挥关键作用
@@ -393,7 +312,6 @@ BAS 的核心是物联网 （IoT），它使建筑物内的设备能够
 在他们升级为严重问题之前。随着时间的推移，这些系统将变得更加
 复杂，包含语音控制、手势识别和
 生物识别身份验证。">
-<b>The Role of Building Automation Systems</b>
 Building automation systems (BAS) will play a pivotal role in shaping the future of buildings 
 and housing. With the increasing integration of technology into our everyday lives, smart 
 homesand smart buildings will become more prevalent. These systems will optimize the 
@@ -413,6 +331,19 @@ systems to detect potential issues like gas leaks, electrical faults, or intrusi
 before they escalate into serious problems. Over time, these systems will become more 
 sophisticated, incorporating features like voice control, gesture recognition, and 
 biometric authentication.
+
+Building automation systems (BAS) will play a pivotal role in the smart home revolution. 
+With the rise of the Internet of Things (IoT), homes and buildings will become increasingly 
+autonomous, optimizing energy use, comfort, and security.
+
+Smart homes will leverage technologies like:
+
+- Intelligent lighting systems that adjust based on occupancy.
+- Smart thermostats that analyze weather patterns to minimize energy use.
+- Real-time monitoring systems for enhanced safety and security, preventing issues like gas 
+leaks or electrical faults before they become major problems. As automation technology 
+evolves, homes will become more intuitive, incorporating voice control, gesture recognition, 
+and biometric authentication for seamless interaction.
             </pre>
         </div>
         <div class="container5-h">
@@ -420,60 +351,30 @@ biometric authentication.
         </div>
         <div class="text5-h">
             <h2
-            data-en="Decarbonization: The Road to Zero Emissions"
+            data-en="Decarbonization: The Path to Zero Emissions"
             data-th="การลดคาร์บอน: เส้นทางสู่การปล่อยก๊าซเป็นศูนย์"
             data-zh="脱碳：零排放之路">Decarbonization: The Road to Zero Emissions</h2>
             <pre
 data-en="
-At the heart of the transformation in building design and housing is the 
-global push toward decarbonization. Decarbonization refers to the 
-reduction of carbon dioxide (CO2) emissions, primarily from burning 
-fossil fuels. As the world moves toward the goals set in the Paris 
-Agreement, decarbonization will become a non-negotiable priority in 
-construction, urban planning, and building automation.
-                
-The construction industry, responsible for a significant share of global 
-emissions, will adopt new materials and methods to reduce its carbon 
-footprint. Innovations like carbon-sequestering concrete, which absorbs 
-CO2 from the atmosphere, and the use of timber from sustainable forests 
-will become widespread. Governments and industries will likely introduce 
-stricter carbon regulations, incentivizing builders to adopt sustainable 
-practices and penalizing those who fail to meet decarbonization targets.
-                
-Buildings themselves will aim to achieve net-zero emissions, meaning they 
-will produce as much energy as they consume. The integration of renewable 
-energy sources such as solar, wind, and geothermal power into building 
-designs will help achieve this goal. Energy-efficient technologies, such 
-as smart windows that adjust transparency based on the intensity of sunlight, 
-will further reduce energy consumption. Buildings of the future will be 
-climate-positive, not only minimizing their environmental impact but actively 
-contributing to the global effort to mitigate climate change."
-data-th="
-การลดคาร์บอน: เส้นทางสู่การปล่อยมลพิษเป็นศูนย์
-หัวใจสําคัญของการเปลี่ยนแปลงในการออกแบบอาคารและที่อยู่อาศัยคือ 
-การผลักดันทั่วโลกสู่การลดคาร์บอน การลดคาร์บอนหมายถึง 
-การลดการปล่อยก๊าซคาร์บอนไดออกไซด์ (CO2) ส่วนใหญ่มาจากการเผาไหม้ 
-เชื้อเพลิงฟอสซิล ในขณะที่โลกก้าวไปสู่เป้าหมายที่กําหนดไว้ในปารีส 
-ข้อตกลงการลดคาร์บอนจะกลายเป็นลําดับความสําคัญที่ไม่สามารถต่อรองได้ใน 
-การก่อสร้าง การวางผังเมือง และระบบอัตโนมัติในอาคาร
-                
-อุตสาหกรรมการก่อสร้างที่รับผิดชอบส่วนแบ่งที่สําคัญของโลก 
-การปล่อยมลพิษจะนําวัสดุและวิธีการใหม่มาใช้เพื่อลดคาร์บอน 
-รอยเท้า  นวัตกรรม เช่น คอนกรีตกักเก็บคาร์บอน ซึ่งดูดซับ 
-CO2 จากชั้นบรรยากาศและการใช้ไม้จากป่าไม้ที่ยั่งยืน 
-จะแพร่หลาย รัฐบาลและอุตสาหกรรมมีแนวโน้มที่จะแนะนํา 
-กฎระเบียบด้านคาร์บอนที่เข้มงวดขึ้น จูงใจให้ผู้สร้างนํามาใช้อย่างยั่งยืน 
-การปฏิบัติและลงโทษผู้ที่ไม่บรรลุเป้าหมายการลดคาร์บอน
+A crucial goal of future building and city planning is decarbonization—reducing carbon dioxide 
+(CO2) emissions to mitigate the effects of climate change. Achieving net-zero emissions will 
+become a global priority, especially in construction and urban development.
 
-อาคารเองจะมีเป้าหมายที่จะบรรลุการปล่อยก๊าซเรือนกระจกสุทธิเป็นศูนย์ 
-ซึ่งหมายความว่าอาคารเหล่านั้น จะผลิตพลังงานได้มากเท่าที่พวกเขาใช้ 
-การบูรณาการของพลังงานหมุนเวียน แหล่งพลังงาน เช่น พลังงานแสง
-อาทิตย์ ลม และพลังงานความร้อนใต้พิภพในอาคาร การออกแบบจะช่วย
-ให้บรรลุเป้าหมายนี้ เทคโนโลยีประหยัดพลังงาน เช่น เป็นหน้าต่างอัจฉริยะ
-ที่ปรับความโปร่งใสตามความเข้มของแสงแดด จะช่วยลดการใช้พลังงานได้
-มากขึ้น อาคารแห่งอนาคตจะเป็น เป็นบวกต่อสภาพภูมิอากาศ ไม่เพียงแต่
-ลดผลกระทบต่อสิ่งแวดล้อม แต่ยังกระตือรือร้นอีกด้วย มีส่วนร่วมในความ
-พยายามระดับโลกในการบรรเทาการเปลี่ยนแปลงสภาพภูมิอากาศ"
+The construction industry, a significant contributor to global CO2 emissions, will adopt 
+sustainable building materials and low-carbon methods. Innovations such as carbon-sequestering 
+concrete and sustainable timber will reduce the carbon footprint of new buildings. Stricter 
+government regulations will push builders to meet decarbonization targets, and sustainable 
+practices will no longer be optional.
+
+Future buildings will integrate renewable energy sources like solar, wind, and geothermal power. 
+Energy-efficient technologies, such as smart windows that adjust to sunlight, will further reduce 
+energy consumption. The goal: buildings that not only minimize their environmental impact but 
+actively contribute to a carbon-neutral future."
+data-th="
+เป้าหมายสำคัญ:
+- การลดการปล่อยก๊าซคาร์บอนไดออกไซด์
+- การใช้วัสดุก่อสร้างที่ยั่งยืน
+- การบูรณาการแหล่งพลังงานหมุนเวียน"
 data-zh="
 脱碳：零排放之路
 建筑设计和住房转型的核心是
@@ -500,8 +401,7 @@ data-zh="
 对气候产生积极影响，不仅最大限度地减少对环境
 的影响，而且积极主动为全球缓解气候变化的努力
 做出贡献。"
->
-<b>Decarbonization: The Road to Zero Emissions</b>
+><b>Decarbonization: The Road to Zero Emissions</b>
 At the heart of the transformation in building design and housing is the 
 global push toward decarbonization. Decarbonization refers to the 
 reduction of carbon dioxide (CO2) emissions, primarily from burning 
