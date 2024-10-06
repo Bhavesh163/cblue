@@ -431,9 +431,15 @@ nav ul li a:hover {
         }
 
     @media screen and (max-width: 768px) {
-        .hamburger-menu, .lang-hamburger {
-                display: block;
-            }
+        .hamburger-menu {
+            display: block;
+            margin-top: -50px;
+        }
+
+        .lang-hamburger {
+            display: block;
+            margin-top: 0px;
+        }
 
             nav ul {
                 display: none;
