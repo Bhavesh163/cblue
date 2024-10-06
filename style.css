@@ -7,7 +7,7 @@ body, html {
 }
 
 .middle-menu {
-    margin-left: 100px;
+    display: none;
 }
 
 .burger-menu, .burger-menu-btn { 
@@ -23,17 +23,17 @@ body, html {
     font-family: Arial;
     font-size: 17;
     margin-left: 740px;
-    margin-top: -200px;
+    margin-top: -250px;
 }
 
 .container2-h img {
     max-width: 500px;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 780px;
 }
 
 .text2-h h2 {
-    margin-top: 200px;
+    margin-top: 500px;
     margin-left: 160px;
 }
 
@@ -49,12 +49,12 @@ body, html {
 
 .container3-h img {
     max-width: 500px;
-    margin-top: 330px;
+    margin-top: 230px;
     margin-left: 130px;
 }
 
 .text3-h h2 {
-    margin-top: -500px;
+    margin-top: -400px;
     margin-left: 700px;
 }
 
@@ -67,12 +67,12 @@ body, html {
 
 .container4-h img {
     max-width: 400px;
-    margin-top: 100px;
-    margin-left: 800px;
+    margin-top: 350px;
+    margin-left: 840px;
 }
 
 .text4-h h2 {
-    margin-top: -500px;
+    margin-top: -400px;
     margin-left: 130px;
 }
 
@@ -84,12 +84,12 @@ body, html {
 
 .container5-h img {
     max-width: 500px;
-    margin-top: 400px;
+    margin-top: 500px;
     margin-left: 130px;
 }
 
 .text5-h h2 {
-    margin-top: -400px;
+    margin-top: -350px;
     margin-left: 780px;
     margin-bottom: -380px;
 }
@@ -299,12 +299,12 @@ body, html {
 }
 
 .text-third pre{
-        font-size: 17px;
-        font-family: Arial;
-        margin-top: 1600px;
-        margin-right: 65px;
-        margin-left: 160px;
-        align-self: left;
+    font-size: 17px;
+    font-family: Arial;
+    margin-top: 1600px;
+    margin-right: 65px;
+    margin-left: 160px;
+    align-self: left;
 }
 
 header {
@@ -399,88 +399,94 @@ nav ul li a:hover {
 }
 
         
-        /* Add new mobile-specific styles */
-        .hamburger-menu {
-            display: none;
-            cursor: pointer;
-            padding: 15px;
+/* Add new mobile-specific styles */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.lang-hamburger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 60px;
+    top: 0.1px;
         }
 
-        .hamburger-menu div {
-            width: 25px;
-            height: 3px;
-            background-color: #333;
-            margin: 5px 0;
-            transition: 0.4s;
-        }
+.lang-hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+}
 
-        .lang-hamburger {
-            display: none;
-            cursor: pointer;
-            position: absolute;
-            right: 60px;
-            top: 0.1px;
-        }
+@media screen and (max-width: 768px) {
 
-        .lang-hamburger div {
-            width: 25px;
-            height: 3px;
-            background-color: #333;
-            margin: 5px 0;
-            transition: 0.4s;
-        }
+    .middle-menu {
+        display: block;
+        margin-left: 100px;
+    }
 
-    @media screen and (max-width: 768px) {
-        .hamburger-menu {
+    .hamburger-menu {
             display: block;
             margin-top: -50px;
-        }
+    }
 
-        .lang-hamburger {
+    .lang-hamburger {
             display: block;
-            margin-top: 0px;
-        }
+            margin-top: -30px;
+    }  
 
-            nav ul {
-                display: none;
-                width: 100%;
-                position: absolute;
-                top: 70px;
-                left: 0;
-                background-color: white;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-                z-index: 1000;
-            }
+    nav ul {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
 
-            nav ul.active {
-                display: flex;
-                flex-direction: column;
-            }
+    nav ul.active {
+        display: flex;
+        flex-direction: column;
+    }
 
-            nav ul li {
-                text-align: center;
-                padding: 10px 0;
-            }
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+    }
 
-            .lang-switcher {
-                display: none;
-                position: absolute;
-                top: 70px;
-                right: 0;
-                background-color: white;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-                z-index: 1000;
-            }
+    .lang-switcher {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
 
-            .lang-switcher.active {
-                display: flex;
-                flex-direction: column;
-                padding: 10px;
-            }
+    .lang-switcher.active {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 
-            .lang-btn {
-                margin: 5px 0;
-            }
+    .lang-btn {
+        margin: 5px 0;
+    }
 
     .home-container img {
         max-width: 300px;
@@ -496,7 +502,7 @@ nav ul li a:hover {
     
     .container2-h img {
         max-width: 300px;
-        margin-top: -100px;
+        margin-top: 0px;
         margin-left: 20px;
     }
 
