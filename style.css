@@ -508,25 +508,32 @@ nav ul li a:hover {
         margin-top: 0px;
     }
     
-    .container2-h img {
-        max-width: 300px;
-        margin-top: -40px;
+    .text2 h2 {
+        font-size: 16px;
+        float: left;
+        margin-top: 250px;
+        margin-right: 100px;
         margin-left: 20px;
+        top: 100px;
     }
 
-    .text2-h h2 {
-        font-size: 16px;
-        margin-top: 290px;
-        margin-left: 20px;
-        margin-bottom: -270px;
-    }
-    
-    .text2-h pre {
-        font-size: 9px;
+    .text2 pre {
+        font-size: 8.7px;
         font-family: Arial;
+        float: left;
         border: 3px solid transparent;
-        margin-top: 270px;
+        margin-top: 20px;
+        margin-right: 65px;
         margin-left: 20px;
+        margin-bottom: 100px;
+        align-self: left;
+    }
+
+    .container2 img {
+        border: 3px solid transparent;
+        margin-top: -500px;
+        margin-left: 20px;
+        margin-right: 130px;
     }
     
     .container3-h img {
