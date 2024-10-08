@@ -438,6 +438,7 @@ nav ul li a:hover {
 
     .middle-menu {
         display: block;
+        margin-top: -20px;
         margin-left: 100px;
     }
 
@@ -508,32 +509,25 @@ nav ul li a:hover {
         margin-top: 0px;
     }
     
-    .text2 h2 {
+    .container2-h img {
+        max-width: 300px;
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+
+    .text2-h h2 {
         font-size: 16px;
-        float: left;
-        margin-top: 250px;
-        margin-right: 100px;
+        margin-top: 290px;
         margin-left: 20px;
-        top: 100px;
+        margin-bottom: -270px;
     }
-
-    .text2 pre {
-        font-size: 8.7px;
+    
+    .text2-h pre {
+        font-size: 9px;
         font-family: Arial;
-        float: left;
         border: 3px solid transparent;
-        margin-top: 20px;
-        margin-right: 65px;
+        margin-top: 270px;
         margin-left: 20px;
-        margin-bottom: 100px;
-        align-self: left;
-    }
-
-    .container2 img {
-        border: 3px solid transparent;
-        margin-top: -500px;
-        margin-left: 20px;
-        margin-right: 130px;
     }
     
     .container3-h img {
@@ -730,9 +724,8 @@ nav ul li a:hover {
     .text2 h2 {
         font-size: 16px;
         float: left;
-        margin-top: 150px;
+        margin-top: 250px;
         margin-right: 100px;
-        margin-bottom: -30px;
         margin-left: 20px;
         top: 100px;
     }
@@ -742,7 +735,7 @@ nav ul li a:hover {
         font-family: Arial;
         float: left;
         border: 3px solid transparent;
-        margin-top: 130px;
+        margin-top: 20px;
         margin-right: 65px;
         margin-left: 20px;
         margin-bottom: 100px;
