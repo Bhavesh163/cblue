@@ -430,6 +430,10 @@ nav ul li a:hover {
     transition: 0.4s;
 }
 
+.mobile-only {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
 
     .middle-menu {
@@ -445,7 +449,11 @@ nav ul li a:hover {
     .lang-hamburger {
             display: block;
             margin-top: -30px;
-    }  
+    }
+    
+    .mobile-only {
+        display: block;
+    }
 
     nav ul {
         display: none;
@@ -502,7 +510,7 @@ nav ul li a:hover {
     
     .container2-h img {
         max-width: 300px;
-        margin-top: 0px;
+        margin-top: -40px;
         margin-left: 20px;
     }
 
@@ -527,7 +535,7 @@ nav ul li a:hover {
     }
 
     .text3-h h2 {
-        margin-top: 0px;
+        margin-top: 20px;
         margin-left: 20px;
     }
     
@@ -535,7 +543,7 @@ nav ul li a:hover {
         font-size: 9px;
         font-family: Arial;
         margin-left: 20px;
-        margin-top: 0px;
+        margin-top: -20px;
     }
     
     .container4-h img {
@@ -545,7 +553,7 @@ nav ul li a:hover {
     }
 
     .text4-h h2 {
-        margin-top: 50px;
+        margin-top: 0px;
         margin-left: 20px;
     }
 
@@ -553,7 +561,7 @@ nav ul li a:hover {
         font-family: Arial;
         font-size: 8px;
         margin-left: 20px;
-        margin-top: 0px;
+        margin-top: -20px;
     }
     
     .container5-h img {
