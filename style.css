@@ -420,7 +420,7 @@ nav ul li a:hover {
     position: absolute;
     right: 60px;
     top: 0.1px;
-        }
+}
 
 .lang-hamburger div {
     width: 25px;
@@ -610,7 +610,7 @@ nav ul li a:hover {
         font-family: Arial;
         margin-top: 300px;
         margin-right: 5cm;
-        margin-left: 0px;
+        margin-left: 20px;
         align-self: left;
     }
 
@@ -638,19 +638,19 @@ nav ul li a:hover {
         width: 300px;
         float: left;
         border: 3px solid transparent;
-        margin-top: -200px;
+        margin-top: 50px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
     }
 
     .text-third pre{
-            font-size: 13px;
-            font-family: Arial;
-            margin-top: 700px;
-            margin-right: 65px;
-            margin-left: 20px;
-            align-self: left;
+        font-size: 13px;
+        font-family: Arial;
+        margin-top: 700px;
+        margin-right: 65px;
+        margin-left: 20px;
+        align-self: left;
     }
 
     .container-contact img {
