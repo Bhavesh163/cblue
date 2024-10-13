@@ -272,7 +272,7 @@ body, html {
     width: 350px;
     float: left;
     border: 3px solid transparent;
-    margin-top: 200px;
+    margin-top: 230px;
     margin-left: 720px;
     margin-right: 65px;
     align-self: left;
@@ -281,7 +281,7 @@ body, html {
 .text-second pre {
     font-size: 17px;
     font-family: Arial;
-    margin-top: -400px;
+    margin-top: -450px;
     margin-right: 300px;
     margin-left: 400px;
     align-self: left;
@@ -610,7 +610,7 @@ nav ul li a:hover {
         font-family: Arial;
         margin-top: 300px;
         margin-right: 5cm;
-        margin-left: 20px;
+        margin-left: 0px;
         align-self: left;
     }
 
@@ -632,7 +632,6 @@ nav ul li a:hover {
         margin-left: 20px;
         align-self: left;
         float: left;
-        margin-bottom: 50px;
     }
 
     .container-third img {
@@ -646,12 +645,12 @@ nav ul li a:hover {
     }
 
     .text-third pre{
-        font-size: 13px;
-        font-family: Arial;
-        margin-top: 700px;
-        margin-right: 65px;
-        margin-left: 20px;
-        align-self: left;
+            font-size: 13px;
+            font-family: Arial;
+            margin-top: 700px;
+            margin-right: 65px;
+            margin-left: 20px;
+            align-self: left;
     }
 
     .container-contact img {
