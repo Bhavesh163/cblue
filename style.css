@@ -282,7 +282,7 @@ body, html {
     float: left;
     border: 3px solid transparent;
     margin-top: 230px;
-    margin-left: 720px;
+    margin-left: 900px;
     margin-right: 65px;
     align-self: left;
 }
@@ -633,6 +633,14 @@ nav ul li a:hover {
         align-self: left;
     }
 
+    .Fountain-hatyai pre {
+        font-size: 10px;
+        margin-top: 30px;
+        margin-right: 5cm;
+        margin-left: 20px;
+        align-self: left;
+    }
+
     .container-second img {
         width: 200px;
         float: left;
@@ -653,11 +661,21 @@ nav ul li a:hover {
         float: left;
     }
 
+    .loft-71 pre {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;
+        margin-top: 0px;
+        margin-right: 300px;
+        margin-left: 20px;
+        align-self: left;
+        float: left;
+    }
+
     .container-third img {
         width: 300px;
         float: left;
         border: 3px solid transparent;
-        margin-top: 50px;
+        margin-top: -180px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
@@ -666,7 +684,7 @@ nav ul li a:hover {
     .text-third pre{
         font-size: 13px;
         font-family: Arial;
-        margin-top: 700px;
+        margin-top: 1000px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
