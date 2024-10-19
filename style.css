@@ -490,6 +490,7 @@ nav ul li a:hover {
     nav ul li {
         text-align: center;
         padding: 10px 0;
+        margin-left: -220px;
     }
 
     .lang-switcher {
