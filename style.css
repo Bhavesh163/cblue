@@ -455,17 +455,10 @@ nav ul li a:hover {
 
 @media screen and (max-width: 768px) {
 
-    body {
-        overflow-x: hidden; /* Prevent horizontal scrolling */
-    }
-    #reference, #about {
-        width: 100%;
-        overflow-x: hidden;
-    }
     .middle-menu {
         display: block;
         margin-top: -20px;
-        margin-left: 0px;
+        margin-left: 120px;
     }
 
     .hamburger-menu {
@@ -528,85 +521,45 @@ nav ul li a:hover {
     .home-container pre {
         font-family: Arial;
         font-size: 10px;
-        font-size: 12px;
         margin-left: 20px;
         margin-top: 0px;
     }
 
     .container2-h img {
         max-width: 300px;
-        margin-top: -100px;
-        margin-left: 20px;
-    }
-
-    .text2-h h2 {
-        font-size: 13px;
-        margin-top: 310px;
-        margin-left: 20px;
-        margin-bottom: -270px;
-        margin-bottom: -580px;
-    }
-
-    .text2-h pre {
-        font-size: 9px;
-        font-size: 11px;
-        font-family: Arial;
-        border: 3px solid transparent;
-        margin-top: 600px;
-        margin-left: 20px;
-    }
-
-    .home-container img {
-        max-width: 390px;
-        margin-left: 20px;
-    }
-
-    .home-container pre {
-        font-family: Arial;
-        font-size: 10px;
-        font-size: 12px;
-        margin-left: 20px;
-        margin-top: 0px;
-    }
-
-    .container2-h img {
-        max-width: 390px;
-        margin-top: -100px;
+        margin-top: -40px;
         margin-left: 20px;
     }
 
     .text2-h h2 {
         font-size: 14px;
-        margin-top: 330px;
+        margin-top: 290px;
         margin-left: 20px;
-        margin-bottom: -610px;
+        margin-bottom: -270px;
     }
 
     .text2-h pre {
         font-size: 9px;
-        font-size: 11px;
         font-family: Arial;
         border: 3px solid transparent;
-        margin-top: 600px;
+        margin-top: 270px;
         margin-left: 20px;
     }
 
     .container3-h img {
-        max-width: 390px;
-        margin-top: 405px;
+        max-width: 300px;
+        margin-top: 385px;
         margin-left: 20px;
     }
 
     .text3-h h2 {
         font-size: 14px;
-        font-size: 16px;
         margin-top: 0px;
         margin-left: 20px;
     }
 
     .text3-h pre {
         font-size: 9px;
-        font-size: 11px;
         font-family: Arial;
         margin-left: 20px;
         margin-top: -20px;
@@ -614,14 +567,12 @@ nav ul li a:hover {
 
     .container4-h img {
         max-width: 300px;
-        max-width: 390px;
         margin-top: 80px;
         margin-left: 20px;
     }
 
     .text4-h h2 {
         font-size: 14px;
-        font-size: 16px;
         margin-top: 0px;
         margin-left: 20px;
     }
@@ -629,21 +580,18 @@ nav ul li a:hover {
     .text4-h pre {
         font-family: Arial;
         font-size: 8px;
-        font-size: 11px;
         margin-left: 20px;
         margin-top: -20px;
     }
 
     .container5-h img {
         max-width: 300px;
-        max-width: 390px;
         margin-top: 70px;
         margin-left: 20px;
     }
 
     .text5-h h2 {
         font-size: 14px;
-        font-size: 16px;
         margin-top: 0px;
         margin-left: 20px;
         margin-bottom: -20px;
@@ -651,7 +599,6 @@ nav ul li a:hover {
 
     .text5-h pre {
         font-size: 10px;
-        font-size: 11px;
         font-family: Arial;
         margin-top: 20px;
         margin-left: 20px;
@@ -668,39 +615,23 @@ nav ul li a:hover {
     nav ul li {
         margin-bottom: 10px;
     }
-    .container-first,
-    .container-second,
-    .container-third,
-    .container,
-    .container2,
-    .container-contact {
-        width: 100%;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
     .container-first img {
         width: 200px;
         float: left;
         border: 3px solid transparent;
-        align-self: left;
-        max-width: 100%;
-        height: auto;
         margin-top: -300px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-right: 65px;
+        margin-left: 20px;
+        align-self: left;
     }
 
     .text-first pre {
         font-size: 13px;
         font-family: Arial;
         margin-top: 300px;
+        margin-right: 5cm;
+        margin-left: 20px;
         align-self: left;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-        max-width: 100%;
-        margin-top: 300px;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .Fountain-hatyai pre {
@@ -719,10 +650,6 @@ nav ul li a:hover {
         margin-left: 20px;
         margin-right: 65px;
         align-self: left;
-        max-width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .text-second pre {
@@ -733,12 +660,6 @@ nav ul li a:hover {
         margin-left: 20px;
         align-self: left;
         float: left;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-        margin-top: 0px;
-        max-width: 100%;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .loft-71 pre {
@@ -759,26 +680,15 @@ nav ul li a:hover {
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
-        max-width: 100%;
-        height: auto;
-        margin-top: -240px;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: -1200px;
     }
-    
-    .text-third pre {
+
+    .text-third pre{
         font-size: 13px;
         font-family: Arial;
         margin-top: 1000px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-        max-width: 100%;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .container-contact img {
@@ -789,10 +699,6 @@ nav ul li a:hover {
         margin-right: 65px;
         margin-left: 160px;
         align-self: left;
-        max-width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .contact-s pre {
@@ -826,19 +732,10 @@ nav ul li a:hover {
         max-width: 300px;
         float: left;
         border: 3px solid transparent;
-        margin-top: -60px;
+        margin-top: 0px;
+        margin-right: 65px;
+        margin-left: 20px;
         align-self: left;
-        max-width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .text h2 {
-        font-size: 16px;
-        font-family: Arial;
-        margin-top: 430px;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .text pre {
@@ -846,16 +743,15 @@ nav ul li a:hover {
         font-family: Arial;
         margin-top: -40px;
         margin-right: 65px;
-        margin-left: 0;
+        margin-left: 20px;
         align-self: left;
     }
-    
+
     .text h2 {
         font-size: 16px;
         margin-top: 270px;
         margin-right: 65px;
         margin-left: 20px;
-        margin-left: 0px;
         align-self: left;
     }
 
@@ -866,9 +762,6 @@ nav ul li a:hover {
         margin-right: 100px;
         margin-left: 20px;
         top: 100px;
-        font-size: 24px;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .text2 pre {
@@ -876,14 +769,11 @@ nav ul li a:hover {
         font-family: Arial;
         float: left;
         border: 3px solid transparent;
-        font-size: 10px;
         margin-top: 20px;
         margin-right: 65px;
         margin-left: 20px;
         margin-bottom: 100px;
         align-self: left;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .container2 img {
@@ -891,31 +781,22 @@ nav ul li a:hover {
         margin-top: -540px;
         margin-left: 20px;
         margin-right: 130px;
-        max-width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: -550px;
     }
 
     .contact pre {
         font-size: 10px;
-        font-size: 14px;
         font-family: Arial;
         margin-top: 0px;
         margin-right: 130px;
         margin-left: 20px;
-        margin-left: 0px;
         align-self: left;
     }
 
     .contact h2{
         font-size: 16px;
-        font-size: 24px;
         margin-top: 400px;
         margin-right: 65px;
         margin-left: 20px;
-        margin-left: 0px;
         align-self: left;
     }
 
@@ -928,11 +809,6 @@ nav ul li a:hover {
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
-        margin-top: -30px;
-        max-width: 100%;
-        height: auto;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .home-page-container pre {
@@ -940,11 +816,9 @@ nav ul li a:hover {
         font-size: 10px;
     }
 }
-
 .page {
     display: none;
 }
-
 .page.active {
     display: block;
 }
