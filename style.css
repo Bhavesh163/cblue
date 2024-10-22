@@ -521,8 +521,7 @@ nav ul li a:hover {
     }
 
     .home-container img {
-        max-width: 300px;
-        max-width: 390px;
+        max-width: 350px;
         margin-left: 20px;
     }
 
@@ -535,16 +534,13 @@ nav ul li a:hover {
     }
 
     .container2-h img {
-        max-width: 300px;
-        margin-top: -40px;
-        max-width: 390px;
-        margin-top: -80px;
+        max-width: 350px;
+        margin-top: 0px;
         margin-left: 20px;
     }
 
     .text2-h h2 {
         font-size: 14px;
-        font-size: 16px;
         margin-top: 290px;
         margin-left: 20px;
         margin-bottom: -270px;
