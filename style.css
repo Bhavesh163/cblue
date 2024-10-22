@@ -465,7 +465,7 @@ nav ul li a:hover {
     .middle-menu {
         display: block;
         margin-top: -20px;
-        margin-left: 120px;
+        margin-left: 0px;
     }
 
     .hamburger-menu {
@@ -521,7 +521,7 @@ nav ul li a:hover {
     }
 
     .home-container img {
-        max-width: 350px;
+        max-width: 300px;
         margin-left: 20px;
     }
 
@@ -534,14 +534,14 @@ nav ul li a:hover {
     }
 
     .container2-h img {
-        max-width: 350px;
-        margin-top: 0px;
+        max-width: 300px;
+        margin-top: -100px;
         margin-left: 20px;
     }
 
     .text2-h h2 {
-        font-size: 14px;
-        margin-top: 290px;
+        font-size: 13px;
+        margin-top: 310px;
         margin-left: 20px;
         margin-bottom: -270px;
         margin-bottom: -580px;
@@ -552,16 +552,48 @@ nav ul li a:hover {
         font-size: 11px;
         font-family: Arial;
         border: 3px solid transparent;
-        margin-top: 270px;
-        margin-top: 570px;
+        margin-top: 600px;
+        margin-left: 20px;
+    }
+
+    .home-container img {
+        max-width: 390px;
+        margin-left: 20px;
+    }
+
+    .home-container pre {
+        font-family: Arial;
+        font-size: 10px;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .container2-h img {
+        max-width: 390px;
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+
+    .text2-h h2 {
+        font-size: 14px;
+        margin-top: 330px;
+        margin-left: 20px;
+        margin-bottom: -610px;
+    }
+
+    .text2-h pre {
+        font-size: 9px;
+        font-size: 11px;
+        font-family: Arial;
+        border: 3px solid transparent;
+        margin-top: 600px;
         margin-left: 20px;
     }
 
     .container3-h img {
-        max-width: 300px;
-        margin-top: 385px;
         max-width: 390px;
-        margin-top: 355px;
+        margin-top: 405px;
         margin-left: 20px;
     }
 
@@ -650,13 +682,10 @@ nav ul li a:hover {
         width: 200px;
         float: left;
         border: 3px solid transparent;
-        margin-top: -300px;
-        margin-right: 65px;
-        margin-left: 20px;
         align-self: left;
         max-width: 100%;
         height: auto;
-        margin-top: -500px;
+        margin-top: -300px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -665,13 +694,11 @@ nav ul li a:hover {
         font-size: 13px;
         font-family: Arial;
         margin-top: 300px;
-        margin-right: 5cm;
-        margin-left: 20px;
         align-self: left;
         white-space: pre-wrap;
         word-wrap: break-word;
         max-width: 100%;
-        margin-top: 500px;
+        margin-top: 300px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -799,9 +826,7 @@ nav ul li a:hover {
         max-width: 300px;
         float: left;
         border: 3px solid transparent;
-        margin-top: 0px;
-        margin-right: 65px;
-        margin-left: 20px;
+        margin-top: -60px;
         align-self: left;
         max-width: 100%;
         height: auto;
@@ -811,7 +836,7 @@ nav ul li a:hover {
     .text h2 {
         font-size: 16px;
         font-family: Arial;
-        margin-top: 330px;
+        margin-top: 430px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -821,7 +846,7 @@ nav ul li a:hover {
         font-family: Arial;
         margin-top: -40px;
         margin-right: 65px;
-        margin-left: 20px;
+        margin-left: 0;
         align-self: left;
     }
     
