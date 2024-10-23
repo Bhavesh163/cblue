@@ -455,6 +455,8 @@ nav ul li a:hover {
 
 @media screen and (max-width: 768px) {
 
+    
+
     .middle-menu {
         display: block;
         margin-top: -20px;
@@ -572,7 +574,7 @@ nav ul li a:hover {
     }
 
     .text4-h h2 {
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 0px;
         margin-left: 20px;
     }
@@ -778,7 +780,7 @@ nav ul li a:hover {
 
     .container2 img {
         border: 3px solid transparent;
-        margin-top: -540px;
+        margin-top: -480px;
         margin-left: 20px;
         margin-right: 130px;
     }
