@@ -529,7 +529,7 @@ nav ul li a:hover {
 
     .container2-h img {
         max-width: 300px;
-        margin-top: -40px;
+        margin-top: -10px;
         margin-left: 20px;
     }
 
@@ -537,14 +537,14 @@ nav ul li a:hover {
         font-size: 14px;
         margin-top: 290px;
         margin-left: 20px;
-        margin-bottom: -270px;
+        margin-bottom: -230px;
     }
 
     .text2-h pre {
         font-size: 9px;
         font-family: Arial;
         border: 3px solid transparent;
-        margin-top: 270px;
+        margin-top: 230px;
         margin-left: 20px;
     }
 
