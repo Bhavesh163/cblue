@@ -521,14 +521,14 @@ nav ul li a:hover {
 
     .home-container img {
         max-width: 300px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .home-container pre {
         font-family: Arial;
         font-size: 10px;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .container2-h, .text2-h {
@@ -541,13 +541,13 @@ nav ul li a:hover {
     .container2-h img {
         max-width: 300px;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .text2-h h2 {
         font-size: 14px;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .text2-h pre {
@@ -555,7 +555,7 @@ nav ul li a:hover {
         font-family: Arial;
         border: 3px solid transparent;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .container3-h, .text3-h {
@@ -568,19 +568,19 @@ nav ul li a:hover {
     .container3-h img {
         max-width: 300px;
         margin-top: 385px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .text3-h h2 {
         font-size: 14px;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .text3-h pre {
         font-size: 9px;
         font-family: Arial;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: -20px;
     }
 
@@ -594,19 +594,19 @@ nav ul li a:hover {
     .container4-h img {
         max-width: 300px;
         margin-top: 80px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .text4-h h2 {
         font-size: 13px;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .text4-h pre {
         font-family: Arial;
         font-size: 8px;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: -20px;
     }
 
@@ -620,13 +620,13 @@ nav ul li a:hover {
     .container5-h img {
         max-width: 300px;
         margin-top: 70px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .text5-h h2 {
         font-size: 14px;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-bottom: -20px;
     }
 
@@ -634,7 +634,7 @@ nav ul li a:hover {
         font-size: 10px;
         font-family: Arial;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 10px;
         align-self: left;
     }
 
