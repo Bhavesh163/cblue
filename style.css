@@ -563,6 +563,13 @@ nav ul li a:hover {
         margin-left: 20px;
     }
 
+    .container3-h, .text3-h {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 90%;
+    }
+
     .container3-h img {
         max-width: 300px;
         margin-top: 385px;
@@ -582,6 +589,13 @@ nav ul li a:hover {
         margin-top: -20px;
     }
 
+    .container4-h, .text4-h {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 90%;
+    }
+
     .container4-h img {
         max-width: 300px;
         margin-top: 80px;
@@ -599,6 +613,13 @@ nav ul li a:hover {
         font-size: 8px;
         margin-left: 20px;
         margin-top: -20px;
+    }
+
+    .container5-h, .text5-h {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 90%;
     }
 
     .container5-h img {
