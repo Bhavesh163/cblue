@@ -1,9 +1,9 @@
-body, html {
+html, body {
     margin: 0;
     padding: 0;
-    font-family: Arial;
-    background: linear-gradient(135deg, #e6f3ff 35%, #ffffff 35% 85%, #d0f0c0 85%);
     height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 .middle-menu {
@@ -33,7 +33,7 @@ body, html {
 }
 
 .text2-h h2 {
-    margin-top: 300px;
+    margin-top: -350px;
     margin-left: 160px;
 }
 
@@ -455,8 +455,6 @@ nav ul li a:hover {
 
 @media screen and (max-width: 768px) {
 
-    
-
     .middle-menu {
         display: block;
         margin-top: -20px;
@@ -515,6 +513,17 @@ nav ul li a:hover {
         margin: 5px 0;
     }
 
+    .no-right-margin {
+        margin-right: 10px;
+    }
+
+    .home-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 90%;
+    }
+
     .home-container img {
         max-width: 300px;
         margin-left: 20px;
@@ -527,6 +536,13 @@ nav ul li a:hover {
         margin-top: 0px;
     }
 
+    .container2-h, .text2-h {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 90%;
+    }
+
     .container2-h img {
         max-width: 300px;
         margin-top: 20px;
@@ -535,16 +551,15 @@ nav ul li a:hover {
 
     .text2-h h2 {
         font-size: 14px;
-        margin-top: 290px;
+        margin-top: 0px;
         margin-left: 20px;
-        margin-bottom: -230px;
     }
 
     .text2-h pre {
         font-size: 9px;
         font-family: Arial;
         border: 3px solid transparent;
-        margin-top: 230px;
+        margin-top: 0px;
         margin-left: 20px;
     }
 
