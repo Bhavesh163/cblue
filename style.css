@@ -28,12 +28,12 @@ html, body {
 
 .container2-h img {
     max-width: 500px;
-    margin-top: 280px;
+    margin-top: 380px;
     margin-left: 780px;
 }
 
 .text2-h h2 {
-    margin-top: -350px;
+    margin-top: -450px;
     margin-left: 160px;
 }
 
@@ -47,31 +47,31 @@ html, body {
 }
 
 .container3-h img {
-    max-width: 500px;
-    margin-top: 300px;
+    max-width: 550px;
+    margin-top: 400px;
     margin-left: 130px;
 }
 
 .text3-h h2 {
-    margin-top: -400px;
-    margin-left: 700px;
+    margin-top: -450px;
+    margin-left: 740px;
 }
 
 .text3-h pre {
     font-size: 17px;
     font-family: Arial;
-    margin-left: 700px;
+    margin-left: 740px;
     margin-top: -20px;
 }
 
 .container4-h img {
     max-width: 400px;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: 840px;
 }
 
 .text4-h h2 {
-    margin-top: -400px;
+    margin-top: -450px;
     margin-left: 130px;
 }
 
@@ -83,12 +83,12 @@ html, body {
 
 .container5-h img {
     max-width: 500px;
-    margin-top: 300px;
+    margin-top: 350px;
     margin-left: 130px;
 }
 
 .text5-h h2 {
-    margin-top: -350px;
+    margin-top: -400px;
     margin-left: 780px;
     margin-bottom: -380px;
 }
