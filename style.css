@@ -30,7 +30,7 @@ html, body {
 .container2-h img {
     max-width: 500px;
     margin-top: 380px;
-    margin-left: 780px;
+    margin-left: 880px;
 }
 
 .text2-h h2 {
@@ -70,7 +70,7 @@ html, body {
 .container4-h img {
     max-width: 400px;
     margin-top: 250px;
-    margin-left: 840px;
+    margin-left: 980px;
 }
 
 .text4-h h2 {
@@ -195,7 +195,7 @@ html, body {
 .text pre {
     font-size: 17px;
     font-family: Arial;
-    margin-top: -60px;
+    margin-top: -70px;
     margin-right: 65px;
     margin-left: 160px;
     align-self: left;
@@ -203,7 +203,7 @@ html, body {
 
 .text h2 {
     font-size: 33px;
-    margin-top: -30px;
+    margin-top: -60px;
     margin-right: 65px;
     margin-left: 160px;
     align-self: left;
@@ -761,7 +761,7 @@ nav ul li a:hover {
     }
 
     .text pre {
-        font-size: 12px;
+        font-size: 17px;
         font-family: Arial;
         margin-top: -40px;
         margin-right: 65px;
@@ -770,7 +770,7 @@ nav ul li a:hover {
     }
 
     .text h2 {
-        font-size: 18px;
+        font-size: 23px;
         margin-top: 310px;
         margin-right: 65px;
         margin-left: 20px;
@@ -794,7 +794,7 @@ nav ul li a:hover {
     }
 
     .text2 pre {
-        font-size: 11px;
+        font-size: 17px;
         font-family: Arial;
         float: left;
         border: 3px solid transparent;
