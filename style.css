@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background: linear-gradient(135deg, #e6f3ff 35%, #ffffff 35% 85%, #d0f0c0 85%);
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
@@ -110,6 +111,7 @@ html, body {
 .contact pre {
     font-size: 17px;
     font-family: Arial;
+    line-height: 23px;
     margin-top: 0px;
     margin-right: 130px;
     align-self: left;
@@ -165,6 +167,7 @@ html, body {
 }
 
 .OFC pre {
+    display: none;
     font-size: 35px;
     color: white;
     border-top: 3px solid green;
@@ -192,12 +195,17 @@ html, body {
     align-self: left;
 }
 
+.text {
+    margin-left: 230px;
+}
+
 .text pre {
     font-size: 17px;
     font-family: Arial;
+    line-height: 23px;
     margin-top: -70px;
     margin-right: 65px;
-    margin-left: 160px;
+    margin-left: 565px;
     align-self: left;
 }
 
@@ -205,10 +213,9 @@ html, body {
     font-size: 33px;
     margin-top: -60px;
     margin-right: 65px;
-    margin-left: 160px;
+    margin-left: 100px;
     align-self: left;
     margin-right: 0;
-    margin-left: 0;
 }
 
 .container2 {
@@ -230,6 +237,7 @@ html, body {
     font-family: Arial;
     float: left;
     border: 3px solid transparent;
+    line-height: 23px;
     margin-top: -400px;
     margin-right: 0px;
     margin-left: 160px;
@@ -265,6 +273,7 @@ html, body {
 .text-first pre {
     font-size: 17px;
     font-family: Arial;
+    line-height: 23px;
     margin-top: 30px;
     margin-right: 5cm;
     margin-left: 160px;
@@ -274,6 +283,7 @@ html, body {
 .Fountain-hatyai pre {
     font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
+    line-height: 23px;
     margin-top: 30px;
     margin-right: 5cm;
     margin-left: 160px;
@@ -293,6 +303,7 @@ html, body {
 .text-second pre {
     font-size: 17px;
     font-family: Arial;
+    line-height: 23px;
     margin-top: -450px;
     margin-right: 300px;
     margin-left: 300px;
@@ -303,6 +314,7 @@ html, body {
 .loft-71 pre {
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
+    line-height: 23px;
     margin-top: -290px;
     margin-right: 300px;
     margin-left: 300px;
@@ -323,6 +335,7 @@ html, body {
 .text-third pre {
     font-size: 17px;
     font-family: Arial;
+    line-height: 23px;
     margin-top: 1600px;
     margin-right: 65px;
     margin-left: 160px;
@@ -330,7 +343,7 @@ html, body {
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255 , 255, 255, 0.8);
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -760,6 +773,10 @@ nav ul li a:hover {
         align-self: left;
     }
 
+    .text {
+        margin-left: 0px;
+    }
+
     .text pre {
         font-size: 17px;
         font-family: Arial;
@@ -790,6 +807,7 @@ nav ul li a:hover {
         margin-top: 20px;
         margin-right: 100px;
         margin-left: 20px;
+        margin-bottom: -100px;
         top: 100px;
     }
 
@@ -801,6 +819,7 @@ nav ul li a:hover {
         margin-top: 20px;
         margin-right: 65px;
         margin-left: 20px;
+        margin-bottom: 0px;
         align-self: left;
     }
 
@@ -815,7 +834,7 @@ nav ul li a:hover {
 
     .contact h2{
         font-size: 18px;
-        margin-top: 400px;
+        margin-top: 500px;
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
@@ -823,7 +842,6 @@ nav ul li a:hover {
 
     .container-contact img {
         margin-top: 50px;
-        margin-bottom: 30px;
         max-width: 340px;
         float: left;
         border: 3px solid transparent;
