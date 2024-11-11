@@ -547,7 +547,7 @@ nav ul li a:hover {
     }
 
     .text2-h h2 {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: -30px;
         margin-left: 10px;
     }
@@ -600,7 +600,7 @@ nav ul li a:hover {
     }
 
     .text4-h h2 {
-        font-size: 13px;
+        font-size: 16px;
         margin-top: -20px;
         margin-left: 10px;
     }
@@ -626,7 +626,7 @@ nav ul li a:hover {
     }
 
     .text5-h h2 {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: -20px;
         margin-left: 10px;
         margin-bottom: -20px;
@@ -737,7 +737,7 @@ nav ul li a:hover {
     }
 
     .contact-s pre {
-        font-size: 13px;
+        font-size: 17px;
         font-family: Arial;
         margin-top: 0px;
         margin-left: 20px;
@@ -852,7 +852,7 @@ nav ul li a:hover {
 
     .home-page-container pre {
         font-family: Arial;
-        font-size: 10px;
+        font-size: 17px;
     }
 }
 .page {
