@@ -16,7 +16,7 @@ html, body {
 }
 
 .home-container img {
-    max-width: 500px;
+    max-width: 600px;
     margin-left: 130px;
 }
 
@@ -29,9 +29,9 @@ html, body {
 }
 
 .container2-h img {
-    max-width: 500px;
+    max-width: 600px;
     margin-top: 380px;
-    margin-left: 880px;
+    margin-left: 780px;
 }
 
 .text2-h h2 {
@@ -50,7 +50,7 @@ html, body {
 }
 
 .container3-h img {
-    max-width: 550px;
+    max-width: 600px;
     margin-top: 400px;
     margin-left: 130px;
 }
@@ -69,9 +69,9 @@ html, body {
 }
 
 .container4-h img {
-    max-width: 400px;
+    max-width: 480px;
     margin-top: 250px;
-    margin-left: 980px;
+    margin-left: 830px;
 }
 
 .text4-h h2 {
@@ -88,7 +88,7 @@ html, body {
 }
 
 .container5-h img {
-    max-width: 500px;
+    max-width: 600px;
     margin-top: 350px;
     margin-left: 130px;
 }
@@ -113,22 +113,20 @@ html, body {
     font-family: Arial;
     line-height: 23px;
     margin-top: 0px;
-    margin-right: 130px;
+    margin-left: 780px;
     align-self: left;
 }
 
 .contact h2{
     font-size: 33px;
-    margin-top: 1000px;
+    margin-top: 600px;
     margin-right: 65px;
-    margin-left: 160px;
+    margin-left: 780px;
     align-self: left;
-    margin-right: 0;
-    margin-left: 0;
 }
 
 .container-contact img {
-    margin-top: -100px;
+    margin-top: 300px;
     max-width: 600px;
     float: left;
     border: 3px solid transparent;
