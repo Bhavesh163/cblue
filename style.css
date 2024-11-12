@@ -540,7 +540,6 @@ nav ul li a:hover {
     .home-container pre {
         font-family: Arial;
         font-size: 17px;
-        font-size: 13px;
         margin-top: 0px;
         margin-left: 10px;
     }
@@ -560,14 +559,12 @@ nav ul li a:hover {
 
     .text2-h h2 {
         font-size: 16px;
-        font-size: 14px;
         margin-top: -30px;
         margin-left: 10px;
     }
 
     .text2-h pre {
         font-size: 17px;
-        font-size: 13px;
         font-family: Arial;
         border: 3px solid transparent;
         margin-top: -20px;
@@ -595,7 +592,6 @@ nav ul li a:hover {
 
     .text3-h pre {
         font-size: 17px;
-        font-size: 13px;
         font-family: Arial;
         margin-left: 11px;
         margin-top: -20px;        
@@ -616,7 +612,6 @@ nav ul li a:hover {
 
     .text4-h h2 {
         font-size: 16px;
-        font-size: 13px;
         margin-top: -20px;
         margin-left: 10px;
     }
@@ -624,7 +619,6 @@ nav ul li a:hover {
     .text4-h pre {
         font-family: Arial;
         font-size: 17px;
-        font-size: 13px;
         margin-left: 10px;
         margin-top: -20px;
     }
@@ -644,7 +638,6 @@ nav ul li a:hover {
 
     .text5-h h2 {
         font-size: 16px;
-        font-size: 14px;
         margin-top: -20px;
         margin-left: 10px;
         margin-bottom: -20px;
@@ -652,7 +645,6 @@ nav ul li a:hover {
 
     .text5-h pre {
         font-size: 17px;
-        font-size: 13px;
         font-family: Arial;
         margin-top: 20px;
         margin-left: 10px;
