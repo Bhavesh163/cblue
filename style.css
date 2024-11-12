@@ -198,13 +198,13 @@ html, body {
 .text {
     margin-left: 230px;
 }
-
 .text pre {
     font-size: 17px;
     font-family: Arial;
     line-height: 23px;
     margin-top: -70px;
     margin-right: 65px;
+    margin-left: 160px;
     margin-left: 565px;
     align-self: left;
 }
@@ -213,9 +213,11 @@ html, body {
     font-size: 33px;
     margin-top: -60px;
     margin-right: 65px;
+    margin-left: 160px;
     margin-left: 100px;
     align-self: left;
     margin-right: 0;
+    margin-left: 0;
 }
 
 .container2 {
@@ -343,6 +345,7 @@ html, body {
 }
 
 header {
+    background-color: rgba(255, 255, 255, 0.8);
     background-color: rgb(255 , 255, 255, 0.8);
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -514,6 +517,14 @@ nav ul li a:hover {
         margin: 5px 0;
     }
 
+    .wrapper {
+        min-height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .home-container {
         max-width: 1200px;
         margin: 0 auto;
@@ -529,6 +540,7 @@ nav ul li a:hover {
     .home-container pre {
         font-family: Arial;
         font-size: 17px;
+        font-size: 13px;
         margin-top: 0px;
         margin-left: 10px;
     }
@@ -548,12 +560,14 @@ nav ul li a:hover {
 
     .text2-h h2 {
         font-size: 16px;
+        font-size: 14px;
         margin-top: -30px;
         margin-left: 10px;
     }
 
     .text2-h pre {
         font-size: 17px;
+        font-size: 13px;
         font-family: Arial;
         border: 3px solid transparent;
         margin-top: -20px;
@@ -561,10 +575,10 @@ nav ul li a:hover {
     }
 
     .container3-h, .text3-h {
-        max-width: 1200px;
+        max-width: 2000px;
         margin: 0 auto;
         padding: 20px;
-        width: 90%;
+        width: 200%;
     }
 
     .container3-h img {
@@ -581,6 +595,7 @@ nav ul li a:hover {
 
     .text3-h pre {
         font-size: 17px;
+        font-size: 13px;
         font-family: Arial;
         margin-left: 11px;
         margin-top: -20px;        
@@ -601,6 +616,7 @@ nav ul li a:hover {
 
     .text4-h h2 {
         font-size: 16px;
+        font-size: 13px;
         margin-top: -20px;
         margin-left: 10px;
     }
@@ -608,6 +624,7 @@ nav ul li a:hover {
     .text4-h pre {
         font-family: Arial;
         font-size: 17px;
+        font-size: 13px;
         margin-left: 10px;
         margin-top: -20px;
     }
@@ -627,6 +644,7 @@ nav ul li a:hover {
 
     .text5-h h2 {
         font-size: 16px;
+        font-size: 14px;
         margin-top: -20px;
         margin-left: 10px;
         margin-bottom: -20px;
@@ -634,6 +652,7 @@ nav ul li a:hover {
 
     .text5-h pre {
         font-size: 17px;
+        font-size: 13px;
         font-family: Arial;
         margin-top: 20px;
         margin-left: 10px;
@@ -738,6 +757,7 @@ nav ul li a:hover {
 
     .contact-s pre {
         font-size: 17px;
+        font-size: 13px;
         font-family: Arial;
         margin-top: 0px;
         margin-left: 20px;
@@ -776,7 +796,6 @@ nav ul li a:hover {
     .text {
         margin-left: 0px;
     }
-
     .text pre {
         font-size: 17px;
         font-family: Arial;
@@ -834,6 +853,7 @@ nav ul li a:hover {
 
     .contact h2{
         font-size: 18px;
+        margin-top: 400px;
         margin-top: 500px;
         margin-right: 65px;
         margin-left: 20px;
@@ -842,6 +862,7 @@ nav ul li a:hover {
 
     .container-contact img {
         margin-top: 50px;
+        margin-bottom: 30px;
         max-width: 340px;
         float: left;
         border: 3px solid transparent;
@@ -853,6 +874,7 @@ nav ul li a:hover {
     .home-page-container pre {
         font-family: Arial;
         font-size: 17px;
+        font-size: 10px;
     }
 }
 .page {
