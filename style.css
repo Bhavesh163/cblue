@@ -24,8 +24,8 @@ html, body {
     font-family: Arial;
     font-size: 17px;
     line-height: 23px;
-    margin-left: 780px;
-    margin-top: -250px;
+    margin-left: 850px;
+    margin-top: -350px;
 }
 
 .container2-h img {
@@ -35,7 +35,7 @@ html, body {
 }
 
 .text2-h h2 {
-    margin-top: -450px;
+    margin-top: -500px;
     margin-left: 160px;
 }
 
@@ -44,9 +44,9 @@ html, body {
     font-family: Arial;
     border: 3px solid transparent;
     line-height: 23px;
-    margin-top: 0px;
+    margin-top: -20px;
     margin-right: 0px;
-    margin-left: 160px;
+    margin-left: 260px;
 }
 
 .container3-h img {
@@ -56,15 +56,15 @@ html, body {
 }
 
 .text3-h h2 {
-    margin-top: -450px;
-    margin-left: 780px;
+    margin-top: -650px;
+    margin-left: 880px;
 }
 
 .text3-h pre {
     font-size: 17px;
     font-family: Arial;
     line-height: 23px;
-    margin-left: 780px;
+    margin-left: 880px;
     margin-top: -20px;
 }
 
@@ -75,7 +75,7 @@ html, body {
 }
 
 .text4-h h2 {
-    margin-top: -450px;
+    margin-top: -600px;
     margin-left: 160px;
 }
 
@@ -83,8 +83,8 @@ html, body {
     font-family: Arial;
     font-size: 17px;
     line-height: 23px;
-    margin-left: 160px;
-    margin-top: 0px;
+    margin-left: 260px;
+    margin-top: -20px;
 }
 
 .container5-h img {
@@ -94,8 +94,8 @@ html, body {
 }
 
 .text5-h h2 {
-    margin-top: -400px;
-    margin-left: 780px;
+    margin-top: -550px;
+    margin-left: 880px;
     margin-bottom: -380px;
 }
 
@@ -104,7 +104,7 @@ html, body {
     font-family: Arial;
     line-height: 23px;
     margin-top: 370px;
-    margin-left: 780px;
+    margin-left: 880px;
     align-self: left;
 }
 
@@ -112,21 +112,21 @@ html, body {
     font-size: 17px;
     font-family: Arial;
     line-height: 23px;
-    margin-top: 0px;
+    margin-top: -40px;
     margin-left: 780px;
     align-self: left;
 }
 
 .contact h2{
     font-size: 33px;
-    margin-top: 600px;
+    margin-top: 900px;
     margin-right: 65px;
     margin-left: 780px;
     align-self: left;
 }
 
 .container-contact img {
-    margin-top: 300px;
+    margin-top: -220px;
     max-width: 600px;
     float: left;
     border: 3px solid transparent;
@@ -138,7 +138,7 @@ html, body {
 .container-s-contact pre {
     font-size: 17px;
     font-family: Arial;
-    margin-top: 0px;
+    margin-top: -40px;
     margin-right: 130px;
     align-self: left;
 }
@@ -158,7 +158,7 @@ html, body {
     max-width: 600px;
     float: left;
     border: 3px solid transparent;
-    margin-top: -80px;
+    margin-top: -100px;
     margin-right: 65px;
     margin-left: 160px;
     align-self: left;
@@ -193,17 +193,13 @@ html, body {
     align-self: left;
 }
 
-.text {
-    margin-left: 230px;
-}
 .text pre {
     font-size: 17px;
     font-family: Arial;
     line-height: 23px;
     margin-top: -70px;
     margin-right: 65px;
-    margin-left: 160px;
-    margin-left: 565px;
+    margin-left: 865px;
     align-self: left;
 }
 
@@ -211,8 +207,7 @@ html, body {
     font-size: 33px;
     margin-top: -60px;
     margin-right: 65px;
-    margin-left: 160px;
-    margin-left: 100px;
+    margin-left: 200px;
     align-self: left;
     margin-right: 0;
     margin-left: 0;
@@ -226,10 +221,10 @@ html, body {
 .text2 h2 {
     font-size: 33px;
     float: left;
-    margin-top: -450px;
+    margin-top: -500px;
     margin-right: 100px;
     margin-left: 160px;
-    top: 100px;
+
 }
 
 .text2 pre {
@@ -238,9 +233,9 @@ html, body {
     float: left;
     border: 3px solid transparent;
     line-height: 23px;
-    margin-top: -400px;
+    margin-top: -470px;
     margin-right: 0px;
-    margin-left: 160px;
+    margin-left: 230px;
     align-self: left;
 }
 
@@ -556,7 +551,7 @@ nav ul li a:hover {
     }
 
     .text2-h h2 {
-        font-size: 16px;
+        font-size: 17px;
         margin-top: -30px;
         margin-left: 10px;
     }
@@ -583,7 +578,7 @@ nav ul li a:hover {
     }
 
     .text3-h h2 {
-        font-size: 16px;
+        font-size: 17px;
         margin-top: -20px;
         margin-left: 10px;
     }
@@ -609,7 +604,7 @@ nav ul li a:hover {
     }
 
     .text4-h h2 {
-        font-size: 16px;
+        font-size: 17px;
         margin-top: -20px;
         margin-left: 10px;
     }
@@ -635,7 +630,7 @@ nav ul li a:hover {
     }
 
     .text5-h h2 {
-        font-size: 16px;
+        font-size: 17px;
         margin-top: -20px;
         margin-left: 10px;
         margin-bottom: -20px;
@@ -782,9 +777,6 @@ nav ul li a:hover {
         align-self: left;
     }
 
-    .text {
-        margin-left: 0px;
-    }
     .text pre {
         font-size: 17px;
         font-family: Arial;
@@ -858,12 +850,6 @@ nav ul li a:hover {
         margin-right: 65px;
         margin-left: 20px;
         align-self: left;
-    }
-
-    .home-page-container pre {
-        font-family: Arial;
-        font-size: 17px;
-        font-size: 10px;
     }
 }
 .page {
