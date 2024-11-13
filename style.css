@@ -17,7 +17,7 @@ html, body {
 
 .home-container img {
     max-width: 600px;
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 .home-container pre {
@@ -52,7 +52,7 @@ html, body {
 .container3-h img {
     max-width: 600px;
     margin-top: 400px;
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 .text3-h h2 {
@@ -76,21 +76,21 @@ html, body {
 
 .text4-h h2 {
     margin-top: -450px;
-    margin-left: 120px;
+    margin-left: 160px;
 }
 
 .text4-h pre {
     font-family: Arial;
     font-size: 17px;
     line-height: 23px;
-    margin-left: 120px;
+    margin-left: 160px;
     margin-top: 0px;
 }
 
 .container5-h img {
     max-width: 600px;
     margin-top: 350px;
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 .text5-h h2 {
