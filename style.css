@@ -321,7 +321,7 @@ html, body {
     width: 500px;
     float: left;
     border: 3px solid transparent;
-    margin-top: -125px;
+    margin-top: -155px;
     margin-right: 65px;
     margin-left: 200px;
     align-self: left;
@@ -331,9 +331,9 @@ html, body {
     font-size: 17px;
     font-family: Arial;
     line-height: 23px;
-    margin-top: 1600px;
+    margin-top: 1200px;
     margin-right: 65px;
-    margin-left: 160px;
+    margin-left: 800px;
     align-self: left;
 }
 
@@ -639,7 +639,7 @@ nav ul li a:hover {
     .text5-h pre {
         font-size: 17px;
         font-family: Arial;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 10px;
         align-self: left;
     }
