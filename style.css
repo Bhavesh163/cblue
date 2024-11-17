@@ -17,6 +17,7 @@ html, body {
 
 .home-container img {
     max-width: 600px;
+    margin-top: 1cm;
     margin-left: 160px;
 }
 
@@ -338,16 +339,17 @@ html, body {
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.8);
-    background-color: rgb(255 , 255, 255, 0.8);
-    padding: 20px 0;
+    background-color: rgb(234, 252, 246);
+    padding: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 nav ul li a {
     text-decoration: none;
@@ -357,7 +359,7 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: #4CAF50;
-}
+} 
 .hero {
     background-image: url('/api/placeholder/1200/600');
     background-size: cover;
@@ -446,26 +448,23 @@ nav ul li a:hover {
     transition: 0.4s;
 }
 
-.mobile-only {
-    display: none;
-}
-
 @media screen and (max-width: 768px) {
 
     .middle-menu {
         display: block;
-        margin-top: -20px;
+        position: sticky;
+        margin-top: 15px;
         margin-left: 120px;
     }
 
     .hamburger-menu {
         display: block;
-        margin-top: -20px;
+        margin-top: -23px;
     }
 
     .lang-hamburger {
         display: block;
-        margin-top: -13px;
+        margin-top: -20px;
     }
 
     nav ul {
