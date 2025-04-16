@@ -38,3 +38,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "C Blue",
+  "url": "https://cblue.co.th",
+  "logo": "https://cblue.co.th/logo.jng",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+66-869909631",
+    "contactType": "customer service",
+    "availableLanguage": ["Thai", "English", "Chinese"]
+  }
+}
+```
+
